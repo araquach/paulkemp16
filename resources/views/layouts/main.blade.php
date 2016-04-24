@@ -24,7 +24,7 @@
 	<script type="text/javascript" src="{{ URL::asset('scripts/modernizr.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('scripts/selectivizr-min.js') }}"></script>
 @section('title')
-	<title>Jakata Salon - Hairdressers in Warrington</title>
+	<title>Paul Kemp Hairdressing - Hairdressers in Warrington</title>
 @show
 </head>
 
@@ -34,7 +34,7 @@
 
 		<header class="group">
 			<div id="logo" class="logo"></div>
-			<h1>Jakata Salon</h1>
+			<h1>Paul Kemp Hairdressing</h1>
 			<h2>Hairdressers in Warrington</h2>
 
 			<nav class="group">
@@ -90,7 +90,7 @@
 
 			<section id="aboutus" class="group">
 				<ul class="tinytext">
-					<li><strong>Jakata Salon</strong></li>
+					<li><strong>Paul Kemp Hairdressing</strong></li>
 					<li>Hairdressers in Warrington</li>
 					<li>Hairdressers in Cheshire</li>
 					<li>Cutting</li>

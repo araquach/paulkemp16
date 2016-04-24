@@ -6,7 +6,7 @@
 @stop
 
 @section('title')
-	<title>Jakata Salon - Hairdressing News</title>
+	<title>Paul Kemp Hairdressing - Hairdressing News</title>
 @stop
 
 @section('content')

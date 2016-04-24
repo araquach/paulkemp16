@@ -4,7 +4,7 @@
 
 @section('title')
 
-	<title>Jakata Salon - Hairdressers in Warrington</title>
+	<title>Paul Kemp Hairdressing - Hairdressers in Warrington</title>
 
 @stop
 

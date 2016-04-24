@@ -7,7 +7,7 @@
 
 @section('title')
 
-	<title>Jakata Salon - Hairdressing Prices</title>
+	<title>Paul Kemp Hairdressing - Hairdressing Prices</title>
 
 @stop
 

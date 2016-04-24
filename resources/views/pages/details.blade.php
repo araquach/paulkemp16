@@ -8,7 +8,7 @@
 @stop
 
 @section('title')
-	<title>Jakata Salon - ContactInformation</title>
+	<title>Paul Kemp Hairdressing - Contact Information</title>
 @stop
 
 <section id="details">
