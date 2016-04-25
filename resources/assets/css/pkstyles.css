@@ -173,7 +173,7 @@ strong {
 	
 #error {
 	height: 800px;
-	background-image: url(../images/glam_chic.jpg);
+	background-image: url(/images/glam_chic.jpg);
 }
 
 #error_copy {
@@ -193,7 +193,7 @@ strong {
 /*-----------------Header ------------------------*/
 
 header {
-	background-image: url(../images/header_image.png);
+	background-image: url(/images/header_image.png);
 	background-repeat: no-repeat;
 	background-color: rgb(55, 34, 24);
 	height: 180px;
@@ -295,7 +295,7 @@ li.active a {
 #homeimage {
 	width: 950px;
 	height: 1350px;
-	background-image: url(../images/home/katharina.jpg);
+	background-image: url(/images/home/katharina.jpg);
 	background-repeat: no-repeat;
 	background-color:#FFF;
 	float: left;
@@ -374,14 +374,14 @@ li.active a {
 #news1 {
 	left: 20px;
 	top: 1100px;
-	background: url(../images/home_news/pk_starters.jpg) no-repeat, rgb(55,34,24);
+	background: url(/images/home_news/pk_starters.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news1 {
-	background: url(../images/home_news/pk_starters.jpg) no-repeat rgb(55,34,24);
+	background: url(/images/home_news/pk_starters.jpg) no-repeat rgb(55,34,24);
 }
 
 #news1:hover {
@@ -394,14 +394,14 @@ li.active a {
 #news2 {
 	left: 257px;
 	top: 1100px;
-	background: url(../images/home_news/kebelo_new.jpg) no-repeat, rgb(55,34,24);
+	background: url(/images/home_news/kebelo_new.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news2 {
-	background: url(../images/home_news/kebelo_new.jpg) no-repeat rgb(55,34,24);
+	background: url(/images/home_news/kebelo_new.jpg) no-repeat rgb(55,34,24);
 }
 
 #news2:hover {
@@ -415,14 +415,14 @@ li.active a {
 #news3 {
 	left: 492px;
 	top: 1100px;
-	background: url(../images/home_news/fibreplex.jpg) no-repeat, rgb(55,34,24);
+	background: url(/images/home_news/fibreplex.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news3 {
-	background: url(../images/home_news/fibreplex.jpg) no-repeat rgb(55,34,24);
+	background: url(/images/home_news/fibreplex.jpg) no-repeat rgb(55,34,24);
 }
 
 #news3:hover {
@@ -435,14 +435,14 @@ li.active a {
 #news4 {
 	left: 725px;
 	top: 1100px;
-	background: url(../images/home_news/recruitment.jpg) no-repeat, rgb(55,34,24);
+	background: url(/images/home_news/recruitment.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news4 {
-	background: url(../images/home_news/recruitment.jpg) no-repeat rgb(55,34,24);
+	background: url(/images/home_news/recruitment.jpg) no-repeat rgb(55,34,24);
 }
 
 #news4:hover {
@@ -542,7 +542,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #salon {
 	width: 950px;
 	height: 1150px;
-	background-image: url(../images/salon/salon_main.jpg);
+	background-image: url(/images/salon/salon_main.jpg);
 	background-repeat: no-repeat;
 }
 
@@ -586,7 +586,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #men {
 	width: 950px;
 	height: 1150px;
-	background-image: url(../images/men/men-group.jpg);
+	background-image: url(/images/men/men-group.jpg);
 	background-repeat: no-repeat;
 }
 
@@ -633,7 +633,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	position: relative;
 	width: 950px;
 	height: 2200px;
-	background: url(../images/pk_team_2015.jpg) center top no-repeat;
+	background: url(/images/pk_team_2015.jpg) center top no-repeat;
 }
 
 #team ul {
@@ -987,47 +987,47 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #team_ashley {
-	background-image: url('../images/staff/ashley_og.jpg');
+	background-image: url('/images/staff/ashley_og.jpg');
 }
 
 #team_izzy {
-	background-image: url('../images/staff/izzy_og.jpg');
+	background-image: url('/images/staff/izzy_og.jpg');
 }
 
 #team_jack {
-	background-image: url('../images/staff/jack_og.jpg');
+	background-image: url('/images/staff/jack_og.jpg');
 }
 
 #team_jo {
-	background-image: url('../images/staff/jo_og.jpg');
+	background-image: url('/images/staff/jo_og.jpg');
 }
 
 #team_kate {
-	background-image: url('../images/staff/kate_og.jpg');
+	background-image: url('/images/staff/kate_og.jpg');
 }
 
 #team_kel {
-	background-image: url('../images/staff/kel_og.jpg');
+	background-image: url('/images/staff/kel_og.jpg');
 }
 
 #team_leon {
-	background-image: url('../images/staff/leon_og.jpg');
+	background-image: url('/images/staff/leon_og.jpg');
 }
 
 #team_caleb {
-	background-image: url('../images/staff/caleb_og.jpg');
+	background-image: url('/images/staff/caleb_og.jpg');
 }
 
 #team_michelle {
-	background-image: url('../images/staff/michelle_og.jpg');
+	background-image: url('/images/staff/michelle_og.jpg');
 }
 
 #team_tash {
-	background-image: url('../images/staff/tash_og.jpg');
+	background-image: url('/images/staff/tash_og.jpg');
 }
 
 #team_leanne {
-	background-image: url('../images/staff/leanne_og.jpg');
+	background-image: url('/images/staff/leanne_og.jpg');
 }
 
 .team_ind_price {
@@ -1263,7 +1263,7 @@ section#newspage a p:hover {
 
 /*#offersMain {
 	height: 500px;
-	background: #f5f5f5 url('../images/offer/aveda_red.jpg') no-repeat right top;
+	background: #f5f5f5 url('/images/offer/aveda_red.jpg') no-repeat right top;
 	margin: 50px;
 	padding: 50px;
 	border-radius: 20px;
@@ -1290,7 +1290,7 @@ section#newspage a p:hover {
 #no_offer {
 	width: 950px;
 	height: 1100px;
-	background-image: url(../images/hair_reborn.jpg);
+	background-image: url(/images/hair_reborn.jpg);
 	background-repeat: no-repeat;
 	background-color:#FFF;
 	float: left;
@@ -1402,7 +1402,7 @@ section#newspage a p:hover {
 
 #offerlist #offer1 {
 	padding: 30px;
-	background-image: url(../images/offer/Justyna_146.jpg);
+	background-image: url(/images/offer/Justyna_146.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1421,7 +1421,7 @@ section#newspage a p:hover {
 
 #offerlist #offer2 {
 	padding: 30px;
-	background-image: url(../images/offer/Katharina_091.jpg);
+	background-image: url(/images/offer/Katharina_091.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1436,7 +1436,7 @@ section#newspage a p:hover {
 
 #offerlist #offer3 {
 	padding: 30px;
-	background-image: url(../images/offer/last_min_man.jpg);
+	background-image: url(/images/offer/last_min_man.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1451,7 +1451,7 @@ section#newspage a p:hover {
 
 #offerlist #offer4 {
 	padding: 30px;
-	background-image: url(../images/offer/Isabelle_HS_153.jpg);
+	background-image: url(/images/offer/Isabelle_HS_153.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1467,7 +1467,7 @@ section#newspage a p:hover {
 
 
 #offers {
-	background-image:url(../images/offer/katynathleon.png);
+	background-image:url(/images/offer/katynathleon.png);
 	background-position: top right;
 	background-repeat: no-repeat;
 	height: 1200px;
@@ -1498,7 +1498,7 @@ section#newspage a p:hover {
 #no_offer {
 	width: 950px;
 	height: 1100px;
-	background-image: url(../images/hair_reborn.jpg);
+	background-image: url(/images/hair_reborn.jpg);
 	background-repeat: no-repeat;
 	background-color:#FFF;
 	float: left;
@@ -1567,7 +1567,7 @@ p#book_button {
 #reborn_bground {
 	width: 950px;
 	height: 1100px;
-	background-image: url(../images/reborn/reborn_3.jpg);
+	background-image: url(/images/reborn/reborn_3.jpg);
 	background-repeat: no-repeat;
 	background-color:#FFF;
 	float: left;
@@ -1774,17 +1774,17 @@ table h4 {
 
 td.number1 {
 	width: 20px;
-	background: url('../images/prices/numbers-01.png') no-repeat 10px 5px;
+	background: url('/images/prices/numbers-01.png') no-repeat 10px 5px;
 }
 
 td.number2 {
 	width: 20px;
-	background: url('../images/prices/numbers-02.png') no-repeat 10px 5px;
+	background: url('/images/prices/numbers-02.png') no-repeat 10px 5px;
 }
 
 td.number3 {
 	width: 20px;
-	background: url('../images/prices/numbers-03.png') no-repeat 10px 5px;
+	background: url('/images/prices/numbers-03.png') no-repeat 10px 5px;
 }
 
 .key td+td {
@@ -1820,7 +1820,7 @@ td.number3 {
 #contact {
 	width: 950px;
 	height: 600px;
-	background: url(../images/pk_shop2.jpg) no-repeat left top;
+	background: url(/images/pk_shop2.jpg) no-repeat left top;
 	float: left;
 	margin-bottom: 20px;
 }
@@ -1851,7 +1851,7 @@ td.number3 {
 #map {
 	width: 353px;
 	height: 216px;
-	background: #f5f5f5 url('../images/streetmap.gif') no-repeat center center;
+	background: #f5f5f5 url('/images/streetmap.gif') no-repeat center center;
 	margin: 20px 0;
 }
 
@@ -1956,7 +1956,7 @@ span.error {
 	display: block;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	background-image: url(../contact/images/x.png);
+	background-image: url(/contact/images/x.png);
 	background-repeat: no-repeat;
 	background-position: left 6px;
 	padding-left: 25px;
@@ -1973,7 +1973,7 @@ span.error {
 /* @group Company Offer */
 
 #company {
-	background-image: url(../images/archive/emily_side.jpg);
+	background-image: url(/images/archive/emily_side.jpg);
 	width: 950px;
 	height: 100%;
 	background-repeat: no-repeat;
@@ -2182,7 +2182,7 @@ span.error {
 
 #recruitment {
 	width: 100%;
-	background: url('../images/recruitment.jpg') no-repeat right top;
+	background: url('/images/recruitment.jpg') no-repeat right top;
 	min-height: 900px;
 }
 
@@ -2317,7 +2317,7 @@ section#recruitment h1 {
 /* @group Application Form */
 
 #application {
-	background: #fff url('../images/recruitment.jpg') no-repeat left top;
+	background: #fff url('/images/recruitment.jpg') no-repeat left top;
 	background-size: cover;
 }
 
@@ -2331,7 +2331,7 @@ section#recruitment h1 {
 	padding-left: 40px;
 	margin-bottom: 20px;
 	font-size: 1.5em;
-	background: url('../images/brown_fade.png') repeat-y left top;
+	background: url('/images/brown_fade.png') repeat-y left top;
 	color: #FFF;
 	
 }
@@ -2339,7 +2339,7 @@ section#recruitment h1 {
 .accordion h2:hover {
 	color: #FFF;
 	text-shadow: 0 0 4px rgba(249, 249, 249, 0.7);
-	background: url('../images/dark_fade.png') repeat-y left top;
+	background: url('/images/dark_fade.png') repeat-y left top;
 }
 
 #content h1 {
@@ -2437,7 +2437,7 @@ span.kebelo_italic {
 
 #kebelo {
 	width: 100%;
-	background: url('../images/kebelo/kebelo_cover.jpg') no-repeat left top #e9e0d7;
+	background: url('/images/kebelo/kebelo_cover.jpg') no-repeat left top #e9e0d7;
 	height: 1250px;
 	position: relative;
 }
@@ -2487,7 +2487,7 @@ span.kebelo_italic {
 
 
 #silk {
-	background: #f5f5f5 url('../images/kebelo/silk-bikini.jpg') no-repeat right top;
+	background: #f5f5f5 url('/images/kebelo/silk-bikini.jpg') no-repeat right top;
 }
 
 #silk p strong {
@@ -2543,7 +2543,7 @@ span.kebelo_italic {
 
 
 #advantage {
-	background: #f5f5f5 url('../images/kebelo/kebelo_new.jpg') no-repeat right top;
+	background: #f5f5f5 url('/images/kebelo/kebelo_new.jpg') no-repeat right top;
 }
 
 #advantage_copy p:first-of-type {
@@ -2704,7 +2704,7 @@ span.kebelo_italic {
 }
 
 #questions {
-	background: #f5f5f5 url('../images/kebelo/red-2.png') no-repeat right top;
+	background: #f5f5f5 url('/images/kebelo/red-2.png') no-repeat right top;
 }
 
 #questions p:first-of-type {
@@ -2784,7 +2784,7 @@ span.kebelo_italic {
 	width: 890px;
 	margin-bottom: 50px;
 	float: left;
-	background: url('../images/competition/christmas_raffle_15.jpg') no-repeat left -350px;
+	background: url('/images/competition/christmas_raffle_15.jpg') no-repeat left -350px;
 }
 
 #competition_copy {
@@ -2843,7 +2843,7 @@ span.kebelo_italic {
 }
 
 #overlay {
-	background: url('../images/competition/overlay.png') left top no-repeat;
+	background: url('/images/competition/overlay.png') left top no-repeat;
 	width: 950px;
 	height: 1000px;
 	position: absolute;
@@ -2974,13 +2974,13 @@ iframe#f345250fd8.fb_ltr {
 
 #limited {
 	width: auto;
-	background: url('../images/limitedoffer/Katharina_104.jpg') no-repeat right 0px #f5f5f5;
+	background: url('/images/limitedoffer/Katharina_104.jpg') no-repeat right 0px #f5f5f5;
 	height: 800px;
 }
 
 #limitedmale {
 	width: auto;
-	background: url('../images/limitedoffer/White_Hot_Male.jpg') no-repeat right 50px #f5f5f5;
+	background: url('/images/limitedoffer/White_Hot_Male.jpg') no-repeat right 50px #f5f5f5;
 	height: 800px;
 }
 
@@ -3079,7 +3079,7 @@ div.form .errorSummary ul li {
 /* @group Leaver */
 
 #leaver {
-	background: url('../images/leaver/meg_replacers.jpg') no-repeat 490px 80px #f5f5f5;
+	background: url('/images/leaver/meg_replacers.jpg') no-repeat 490px 80px #f5f5f5;
 	height: 1300px;
 }
 
@@ -3104,7 +3104,7 @@ div.form .errorSummary ul li {
 
 #lisa_comp {
 	height: 100%;
-	background: #f5f5f5 url('../images/aveda.jpg') no-repeat left top;
+	background: #f5f5f5 url('/images/aveda.jpg') no-repeat left top;
 	padding: 40px;
 }
 
@@ -3156,7 +3156,7 @@ div.form .errorSummary ul li {
 /* @group New Page */
 
 #new {
-	background: url('../images/newstaff/caleb_leanne.jpg') no-repeat 590px 30px #f5f5f5;
+	background: url('/images/newstaff/caleb_leanne.jpg') no-repeat 590px 30px #f5f5f5;
 	width: 950px;
 	height: 100%;
 	float: left;
@@ -3219,7 +3219,7 @@ div.form .errorSummary ul li {
 /* @group Graduate */
 
 #graduate {
-	background: url('../images/graduate/ashley_offer.jpg') no-repeat 450px 155px #f5f5f5;
+	background: url('/images/graduate/ashley_offer.jpg') no-repeat 450px 155px #f5f5f5;
 	width: 950px;
 	height: 100%;
 	float: left;
@@ -3306,7 +3306,7 @@ div.form .errorSummary ul li {
 
 #feedback_back {
 	width: 950px;
-	background: #FFF url('../images/feedback/bedhead.jpg') no-repeat 500px 130px;
+	background: #FFF url('/images/feedback/bedhead.jpg') no-repeat 500px 130px;
 }
 
 #feedback {
@@ -3489,7 +3489,7 @@ border-top: 3.5px solid #FFF;
 }
 
 #facebook {
-	background: url('../images/footer/fb_logo.png') no-repeat left top;
+	background: url('/images/footer/fb_logo.png') no-repeat left top;
 	width: 37px;
 	height: 37px;
 	position: absolute;
@@ -3503,7 +3503,7 @@ border-top: 3.5px solid #FFF;
 }
 
 #twitter {
-	background: url('../images/footer/twitter_logo.png') no-repeat left top;
+	background: url('/images/footer/twitter_logo.png') no-repeat left top;
 	width: 37px;
 	height: 37px;
 	position: absolute;
@@ -3517,7 +3517,7 @@ border-top: 3.5px solid #FFF;
 }
 
 #google {
-	background: url('../images/footer/google_plus_logo.png') no-repeat left top;
+	background: url('/images/footer/google_plus_logo.png') no-repeat left top;
 	width: 37px;
 	height: 37px;
 	position: absolute;

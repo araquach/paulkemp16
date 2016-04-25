@@ -15,33 +15,30 @@
 
 {{-- Need FB meta --}}
 
-<section id="offers">
+<section id="offersMain">
 
-	<section id="offer1">
-	  <h2>Colour &amp; Cut Package</h2>
-	  <p>for just &pound;60<br>with any of our Stylists</p>
-	    <small><time datetime="2014-06-27">extended until 27/06/14</time><br>
-	    For New Clients - not with any other offer. Excludes Saturday<br>Skin test required 48hrs before any colour service</small>
-	</section>
-	
-	<section id="offer2">
-	  <h2>30% off Men's Cut &amp; Style</h2>
-	  <p>for new clients<br>throughout June</p>
-	    <small><time datetime="2014-06-27">extended until 27/06/14</time><br>
-	    For New Clients - not with any other offer. Excludes Saturday</small>
-	</section>
-	
-	
-	<section id="offer3">
-	  <h2>FREE Cut Dry &amp; Style <br>with every<br>Kebelo Advantage Treatment</h2>
-	  <p>Throughout the month of June</p>
-	    <small>extended until <time datetime="2014-06-27">27/06/14</time><br>
-	    Not with any other offer. Excludes Saturday<br></small>
-	</section>
+<h2>Offers</h2>
 
-	
-	{{-- create link --}}
-	<p id="book_button">Online enquiry and booking form</p>
+<section id="offerlist">
+
+<div id="offer1" class="offer">
+<h3>FREE Colour <br>with every<br>Cut, Dry &amp; Style</h3>
+<p>For new clients<br>until the end of May</p>
+<p class="small">offer until <time datetime="2014-05-30">30/05/14</time><br>
+  For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
+</div>
+  
+<div id="offer4" class="offer">
+  <h3>FREE Cut, Dry &amp; Style</h3>
+  <p>with every Kebelo System Treatment</p><p class="small">until <time datetime="2014-05-30">30/05/14</time><br>
+    not with any other offer<br>Excludes Saturday</p>
+</div>
+ 
+</section> <!--end offerlist-->
+ 
+</section> <!--end offersMain-->
+
+{!! link_to('contact', 'Online Booking &amp; Enqiory form') !!}
 
 </section> <!--end #offers-->
 
