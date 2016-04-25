@@ -492,6 +492,11 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	font-weight: bold;
 }
 
+.newslink {
+	margin-left: 200px;
+	font-size: 1.6em
+}
+
 .paraend {
 	font-size: 1em;
 	font-weight: bold;
@@ -1253,6 +1258,13 @@ section#newspage a:hover {
 
 section#newspage a p:hover {
 	opacity: .6;
+}
+
+#accordion article.article section.hidden img.news-image {
+	float: left;
+	clear: left;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 /* @end */

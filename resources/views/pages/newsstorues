@@ -1,115 +1,7 @@
-@extends('layouts.main')
-
-@section('head')
-	<meta name="description" content="For all the latest JAKATA hair news">
-	<meta name="keywords" content="Hair news, hairdressing news">
-@stop
-
-@section('title')
-	<title>Paul Kemp Hairdressing - Hairdressing News</title>
-@stop
-
-@section('content')
-
-<script type="text/javascript">
-window.addEvent('domready', function(){
-	  new Fx.Accordion($('accordion'), '#accordion .reveal', '#accordion .hidden');
-	  });
-</script>
-
-<section id="newspage">
-<h2>News</h2>
-
-<section id="accordion">
-	
-<article class="article">
-<a id="EssentialLooksComp" class="anchor"></a>
-<section class="visible">
-{{ Html::image('images/news_images/el/groupshot.jpg', 'Essential Looks Entries') }}
-<h3>Essential Looks Competition</h3>
-<p><strong>A couple of weeks ago we had our 3rd in-salon ‘Essential Looks’ competition - stylists from the Jakata and PK teams paired up to create a look inspired by the latest Schwarzkopf collections. In the previous competitions the stylists carried out the looks on training heads. We thought we’d mix it up a bit this time and have members of the public as models for the teams!</strong></p>
-<p>After a morning session running through the looks with Steve Ward (Schwarzkopf educator) the stylists paired off into 5 teams and came up with a look taking influence from the latest collections - plus choosing something that would suit their models lifestyle.</p>
-<p class="reveal">Read more &gt;</p>
-</section> <!--end .visible-->
-<section class="hidden">
-<p>The looks had to be completed within a certain timescale after which each team presented their model and explained the techniques they had used and where they took their inspiration from.</p>
-<h4>Leon (PK) &amp; Tash (PK)</h4>
-<p>Leon &amp; Tash took their colour inspiration from the <strong>'Urban Sport'</strong> collection, using pre-lightened diamond shaped panels, they used a variety of the new <em>Schwarzkopf 'ColorWorx'</em> colours to create a bold, high impact look.</p>
-<p>Their cut &amp; style was taken from the <strong>'FreeCreation'</strong> collection. A bold, structured fringe creates maximum impact. The look was styled and finished using <em>Schwarzkopf Osis 'Blow &amp; Go', 'Sparkler' and 'Elastic' finishing spray.</em></p>
-{{ Html::image('images/news_images/el/leon_tash.jpg', 'Leon & Tash', array('class' => 'news-image')) }}
-<h4>Nat (JAKATA) &amp; Ashley (PK)</h4>
-<p>Nat &amp; Ashley sectioned the hair into panels under a veil and pre-lightened prior to applying <em>Schwarzkopf 'ColorWorx'</em>  teal fading into blue, and pink fading into purple. The colour was inspired by a look from the <strong>'Urban Sports'</strong> collection.</p>
-<p>The cut and style was heavily influenced by the '<strong>Future Wave</strong>' trend. Triangular sections were taken to create a textured cut. A curling wand was used to create soft textured curls. <em>Schwarzkopf Osis 'Undercoat', 'Dust it' and 'Elastic'</em> were used to create the finished look.</p>
-{{ Html::image('images/news_images/el/nat_ash.jpg', 'Nat & Ashley', array('class' => 'news-image')) }}
-<h4>Kellie (PK) &amp; Maisie (JAKATA)</h4>
-<p>Kellie &amp; Maisie took their colour inspiration from the <strong>'Urban Sports'</strong> collection. Using a diamond shaped sectioning pattern they created a purple ombre with the new <em>'ColorWorx'</em> colours.</p>
-<p>Their cut and style was taken from the <strong>'FreeCreation'</strong> collection- a blunt, bold fringe sets the style off. The hair was styled smooth and shiny using <em>Osis 'Tame Wild' and 'Blow &amp; Go'.</em></p>
-{{ Html::image('images/news_images/el/maisie_kel.jpg', 'Maisie & Kellie', array('class' => 'news-image')) }}
-<h4>Caleb (PK) &amp; Laura (JAKATA)</h4>
-<p>Caleb &amp; Laura were also heavily influenced by the <strong>'Urban Sports'</strong> collection. Laura used a graduating colour technique shifting colour from green to blue to purple with the <em>'ColorWorx'</em> palette.</p>
-<p>Caleb's haircut was inspired from the <strong>'FreeCreation'</strong> collection - a bold undercut style, with the top dressed in an upward fashion with a wavy texture. <em>Schwarzkopf Osis 'Flex Wax', 'Dust It' and 'Session'</em> were applied to finish the striking look.</p>
-{{ Html::image('images/news_images/el/caleb_laura.jpg', 'Caleb & Laura', array('class' => 'news-image')) }}
-<h4>Shell (PK) &amp; Matt (JAKATA)</h4>
-<p>Shell &amp; Matt pre-lightened their models hair prior to applying shades of blue and green from the <em>'ColorWorx'</em> range for their <strong>'Urban Sport'</strong> inspired colour.</p>
-<p>The cut and style had influences from 2 different looks from within the <strong>'FreeCreation'</strong> collection. <em>Osis 'Blow &amp; Go', 'Upload', 'Dust It' and 'Mighty Matte'</em> were all used to style the hair.</p>
-{{ Html::image('images/news_images/el/matt_shell.jpg', 'Matt & Shell', array('class' => 'news-image')) }}
-<h4>The Final Looks</h4>
-{{ Html::image('images/news_images/el/groupshot_large.jpg', 'The Final Looks', array('class' => 'news-image')) }}
-<h4>The Judging</h4>
-<p>The Judges (Adam, Jimmi, Steve and Natalie) inspected each models hair style and awarded points on creativity, application, cutting &amp; styling skills and presentation skills.</p>
-<p><strong>It was a tough call as all the models looked fantastic but the top 3 were chosen…</strong></p>
-{{ Html::image('images/news_images/el/winners.jpg', 'The Winners', array('class' => 'news-image')) }}
-<p><strong>1st Place: Laura &amp; Caleb</strong></p>
-<p><strong>2nd Place: Matt &amp; Shell</strong></p>
-<p><strong>3rd place: Kellie &amp; Maisie</strong></p>
-<p>Laura said <em>"I was totally shocked that I won! I was pleased to win a free day's holiday too!"</em></p>
-<p>Caleb added <em>"It was a huge confidence boost plus it was such a fantastic day - I can't wait for the next one in November!"</em></p>
-<p class="big"><a href="http://www.schwarzkopf-professional.co.uk/skp/uk/en/home/trends/essential-looks.html" target="_blank">Check out the Schwarzkopf Essential Looks here &gt;</a></p>
-</section> <!--end .hidden-->
-<p class="author">Published by Adam</p>
-<time datetime="2016-04-15">15<sup>th</sup> April 2016</time>
-</article> <!--end #article-->
-
-<article class="article">
-<a id="RickAstley" class="anchor"></a>
-<section class="visible">
-{{ Html::image('images/news_images/leon_rick.jpg', 'Leon meets Rick Astley') }}
-<h3>PK Stylist Drafted in to cut pop legends hair</h3>
-<p><strong>After growing up in the 80’s it’s hard to forget pop icon Rick Astley. His mega hit “Never Gonna Give You Up” was number 1 in 25 countries!</strong></p>
-<p>You can imagine the excitement when we received a call asking if one of our stylists could come over to the Parr Hall to cut and style his hair ready for his performance later that evening.</p>
-<p class="reveal">Read more &gt;</p>
-</section> <!--end .visible-->
-<section class="hidden">
-<p>PK Senior Stylist Leon Pritchard volunteered and headed over to the Parr Hall to meet the pop idol.</p>
-<p>Leon said ”I was so excited to do the hair of such a pop legend! He was a really nice guy, I’m really glad I got the opportunity”.</p>
-</section> <!--end .hidden-->
-<p class="author">Published by Adam</p>
-<time datetime="2016-04-14">14<sup>th</sup> April 2016</time>
-</article> <!--end #article-->
-
-<article class="article">
-<a id="ColourMasters" class="anchor"></a>
-<section class="visible">
-{{ Html::image('images/news_images/pk_colour_masters.jpg', 'Colour Masters') }}
-<h3>Colour Masters</h3>
-<p><strong>Last year was a big movement in our education department. Our focus was on putting our stylist through their paces. We have always had a strong focus on eduction and developing our team’s skill sets, but to further this we put all of our senior team members in both salons through a colour master class.</strong></p>
-<p>The Schwarzkopf Professional Colour Master Class represents a gold standard in colour education with an innovative delivery method. The learning units are dedicated to all aspects of colour, from the philosophy of colour, interpretation, selection and application. The focus of this course is not only on theory of colour but also a practical hands-on experience.</p>
-<p class="reveal">Read more &gt;</p>
-</section> <!--end .visible-->
-<section class="hidden">
-<p>Colour isn’t just a trend-led creative process, it’s a technical speciality which requires years of training and constant education to keep you ahead of the game and up to speed on trends, techniques and product updates. A fantastic colourist also needs to have an advanced understanding of the technical aspects of colour and the processes involved, including how best to implement those techniques for each individual client.</p>
-<p>Izzy &amp; Kelly travelled to London on a regular basis throughout the year to train with Schwarzkopf’s National technical specialists. Completing a final exam at the end of the year all of our team passed with flying colours… no pun intended! Now qualified colour masters they have brought the education back to the rest of the team. We have really seen a massive step up in our teams colour knowledge.</p>
-<p>Leon was recently promoted to Senior Stylist level and as part of his movement up the ranks he's completing the course over the next 12 months to bring him in line with the other senior team members.</p>
-<p class="offerHeading">You can be always be confident in the knowledge that all the team here at Paul Kemp Hairdressing are trained to the highest levels in hairdressing.</p>
-</section> <!--end .hidden-->
-<p class="author">Published by Adam</p>
-<time datetime="2016-03-18">18<sup>th</sup> March 2016</time>
-</article> <!--end #article-->
-
 <article class="article">
 <a id="FibrePlex" class="anchor"></a>
 <section class="visible">
-{{ Html::image('images/news_images/fibreplex_passion.jpg', 'Fibre Plex') }}
+{{ Html::image('images/news_images/fibreplex_p.jpg', 'Fibre Plex') }}
 <h3>Sorry, your hair won’t take it…</h3>
 <p><strong>Well now it will!<br>Introducing FibrePlex, a revolutionary new product just launched by Schwarzkopf professional. Proven to reduce damage from tints and bleach by up to 94% - your colour just got better!</strong></p>
 <p>By sacrificing itself opposed to your hair, FibrePlex has made even complex dark to lights a no-fear service.</p>
@@ -381,6 +273,8 @@ He’s looking forward to joining a new vibrant team where he can push his skill
 </dl>
 
 <p>Thank you to Ashley for sharing that - don't forget to take advantage of her fantastic offer!</p>
+
+
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
 <time datetime="2015-03-19">19<sup>th</sup> March 2015</time>
@@ -418,7 +312,7 @@ He’s looking forward to joining a new vibrant team where he can push his skill
 {{ Html::image('images/news_images/heath.jpg', 'Baby Heath') }}
 <p>Jo is going to be on maternity leave for a fair few months but we’ll keep you updated as to when she’s ready to start back.</p>
 <p>If Jo is your regular stylist just give us a call and we’ll recommend another suitable stylist for your needs while she’s off.</p>
-<p>{{ Html::link('team', "Visit our team page to see a profile of all our stylists &gt;", array('class' => 'offer')) }}</p>
+{{ Html::link('team', "Visit our team page to see a profile of all our stylists &gt;", array('class' => 'offer')) }}
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
 <time datetime="205-03-04">4<sup>th</sup> March 2015</time>
@@ -488,6 +382,7 @@ In previous years the designers have gone on to work with the likes of Alexander
 <p>The new range has now arrived in the salon and I've got to say that so far we're all really impressed. The packaging looks a lot fresher and modern (would look great in any bathroom) and after using a variety of the products on our clients the results have been great. The newly formulated products definitely have the edge and the range is now a lot more comprehensive.</p>
 <p>Schwarzkopf claim the products outperform the market leaders and that they bring your hair closer than ever to natural perfection! If your looking for flawless smoothness, superior colour shine, ultimate body, excellent hydration, stunning rejuvenation, outstanding activation or unmatched replenishment then these could be the products for you!</p>
 <p><strong>Here's an overview of the products:</strong></p>
+
 <h4>BC REPAIR RESCUE<br>for Damaged &amp; Distressed Hair</h4>
 {{ Html::image('images/news_images/repair-rescue.jpg', 'Repair Rescue') }}
 <ul class="prodlist">
@@ -648,7 +543,7 @@ For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
 <p>Nineteen year old Ashley is continuing our quest for home grown talent, she's on a fast track intensive training plan with the aim to be a graduate stylist within 6 months. Before she chose hairdressing as a career Ashley studied for her A Levels after which she decided to opt for a more vocational qualification. Her training covers all aspects of hairdressing from cutting &amp; colouring to specialist services along with all the other important stuff like customer service and reception skills. Working alongside the other members of the PK team ensures she's getting the best experience available.</p>
 <p><em>Ashley said "I've really settled into the team now, it's a great learning environment. Training leader Jack is working closely with me to ensure my hairdressing skills and knowledge are progressing fast. I just can't wait to be on the shop floor and have my own clients like Meg &amp; Tash!"</em></p>
 <p class="offer">Ashley is looking for colour &amp; cut models to progress her training.</p> 
-<p>{{ Html::link('apprentice.create', "If you\'re interested in being a model click here and fill in your details or call the salon on 01925 444488 &gt;", array('class' => '')) }}</p>
+{{ Html::link('apprentice.create', "If you\'re interested in being a model click here and fill in your details or call the salon on 01925 444488 &gt;", array('class' => '')) }}
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
 <time datetime="2014-05-15">15<sup>th</sup> May 2014</time>
@@ -676,6 +571,38 @@ For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
 <time datetime="2013-08-01">25<sup>th</sup> April 2013</time>
 </article> <!--end #article-->
 
+
+<article class="article">
+<a id="springLooks" class="anchor"></a>
+<section class="visible">
+{{ Html::image('images/news_images/trends.jpg', '') }}
+<h3>Spring into a new look</h3>
+<p><strong>Winter is officially over and we're all ready for a Spring makeover. If you're getting bored of the same style you've had over the winter months, why not think about having a big change!</strong></p>
+<p>If you're stuck for ideas we've put together a selection of recent celebrity looks to inspire you. Whether you want it lighter, darker or shorter just ask one of our stylists for some advice on a look that will suit you!</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+{{ Html::image('images/news_images/kate_mara.jpg', 'Kate Mara') }}
+<h4>KATE MARA'S BLONDE BOB</h4>
+<p>Whether you’re looking to chop it all off or lighten things up, allow Kate Mara's new shoulder-skimming bob and vibrant blonde colour serve as inspiration for your next hair makeover.</p>
+<p><img class="bigPic" src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/olivia_wilde.jpg" width="250" height="300"></p>
+<h4>OLIVIA WILDE'S OMBRE WAVES</h4>
+<p>It looks like the ombre is here to stay this spring! Olivia Wilde shows off her dip-dyed look with loose, effortless waves.</p>
+<p><img class="bigPic" src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/taylor_swift.jpg" width="250" height="300"></p>
+<h4>TAYLOR SWIFT'S LONG BOB</h4>
+<p>Famous for its versatility, a chin-skimming bob is universally flattering. Glam the look up with a long, sweeping fringe like Taylor Swift.</p>
+<p><img class="bigPic" src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/reese_witherspoon.jpg" width="250" height="300"></p>
+<h4>REESE WITHERSPOON'S SOFT FRINGE</h4>
+<p>Reese Witherspoon's new wispy fringe is low-maintenance enough for beginners. The brow-skimming length leaves room for versatility.</p>
+<p><img class="bigPic" src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/michelle_williams.jpg" width="250" height="300"></p>
+<h4>MICHELLE WILLIAMS' GROWN-OUT PIXIE</h4>
+<p>Michelle Williams' long, side-parted layers not only offer a chic solution to the tricky growing-out phase of 2013's pixie craze, but the length also could become one of spring's top hair trends to try.</p>
+<p class="offer">If you've got a new style in mind, go ahead and tell us about it - you know you're in safe hands with the PK team!</p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2014-04-04">4<sup>th</sup> April 2014</time>
+</article> <!--end #article-->
+
 <article class="article">
 <a id="teamParty" class="anchor"></a>
 <section class="visible">
@@ -690,8 +617,52 @@ For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
 </article> <!--end #article-->
 
 <article class="article">
-<a id="paulNoMore" class="anchor"></a>
+<a id="AvedaChristmas" class="anchor"></a>
 <section class="visible">
+{{ Html::image('images/news_images/aveda_christmas.jpg', 'Aveda at Christmas') }}
+<h3>Give something a little different this Christmas</h3>
+<p><strong>Here at Paul Kemp Hairdressing we stock a wide range of products from Schwarzkopf, Tigi, GHD and Aveda. During this festive season each product company bring out their own Christmas gift sets. If you're looking for something a little different as a gift this Christmas then check out our Aveda packs.</strong></p>
+<p>Each set contains limited edition, miniature versions of your favourite Aveda products, giving the opportunity for your friends and family to try them out for themselves. The limited-edition gift sets feature certain products that are available only during the Christmas season.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p class="offer">Choose from the following:</p>
+{{ Html::image('images/news_images/.jpg', 'Aveda') }}
+<h4>Give Warmth</h4>
+<p><strong>Features holiday Soy Wax candle with a certified organic ginger, ginger lilly &amp; clove aroma</strong></p>
+<p>The wonderful Christmassy aroma from this candle will brighten anyones day.<br><br></p>
+{{ Html::image('images/news_images/aveda5.jpg', 'Aveda') }}
+<h4>Give Soothing</h4>
+<p><strong>Features Shampure Hand &amp; Body wash &amp; Body Lotion</strong></p>
+<p>The perfect stress reliever.<br><br></p>
+{{ Html::image('images/news_images/aveda7.jpg', 'Aveda') }}
+<h4>Give Refresh-Mint</h4>
+<p><strong>Features Rosemary Mint Shampoo, Conditioner &amp; Body Lotion</strong></p>
+<p>Ideal gift for anyone who likes an invigorating shower.<br><br></p>
+{{ Html::image('images/news_images/aveda2.jpg', '') }}
+<h4>Give Soft Hands</h4>
+<p><strong>Features Hand Relief in Original, Rosemary Mint &amp; holiday aromas </strong></p>
+<p>The perfect gift to replenish those dry hands.<br><br></p>
+{{ Html::image('images/news_images/aveda8.jpg', '') }}
+<h4>Give Smiles</h4>
+<p><strong>Features Nourish-Mint Rehydrating Mini Lip glazes in Winterberry &amp; Himalayan Snow</strong></p>
+<p>For the perfect kiss under the mistletoe.<br><br></p>
+{{ Html::image('images/news_images/aveda10.jpg', '') }}
+<h4>Give Baths of Beauty</h4>
+<p><strong>Features Beautifying Composition, Body Cleanser &amp; Body Moisturiser</strong></p>
+<p>A great gift for your mum<br><br></p>
+<p>What makes the Aveda gift sets extra special is that the packaging is made with handmade paper from Nepal. Aveda’s purchase of this beautiful paper helps families living there to buy food and clothing, repair their homes and send their children to school.</p>
+<p>This is just a selection of the packs available - <em>plus your own custom gift selection can be made up for a more personalised present.</em></p>
+
+<p class="offer"></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-11-30">30<sup>th</sup> November 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
+<a id="paulNoMore" class="anchor"></a>
+<section class="visible"></section>
 {{ Html::image('images/news_images/paul_exit.jpg', '') }}
 <h3>Paul Kemp no longer at the salon</h3>
 <p><strong>At the end of September <em>Paul Kemp</em> decided to leave the salon. He resigned and has gone on to pursue something else.</strong></p>
@@ -707,6 +678,32 @@ For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
 <time datetime="2013-08-01">16<sup>th</sup> October 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
+<a id="ghdEclipse" class="anchor"></a>
+<section class="visible">
+{{ Html::image('images/news_images/eclipse.jpg', 'GHD Eclipse') }}
+<h3>A New Styler for a New Era</h3>
+<p><strong>Ghd have always come up with the goods when it comes to producing the best styling irons on the market. The PK team were eager to get their hands on the new <em>Eclipse</em> iron which claims to revolutionise styling on hard-to-tame hair.</strong></p>
+<p>The irons arrived in the salon last month and we've had chance to have a good play with them and put them to the test.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>When the irons first arrived it was clear to see <em>ghd</em> had opted for a new look to differentiate them from the other irons. They look more streamlined and almost futuristic in their style. We plugged them in and and went to switch them on. The power button is located on the top rather than near the plates which I guess is safer and less likely to snag in the hair.</p>
+<p><iframe width="400" height="300" src="//www.youtube.com/embed/342WUWxK1rY" class="right" frameborder="0" allowfullscreen></iframe></p>
+<p>When you turn them on they make a noise similar to booting up a Wii, and the power button glows to indicate they are warming up. The button wasn't too responsive (you had to press and hold it) and it was difficult to tell wether you had switched them on or not.</p>
+<p>Once they had heated up we tried them out. The casing is a little bulkier, with a bigger gap between the plates, this makes them better for taking larger sections. The casing is also more insulated and provides cooler handling. They flex quite a bit and almost feel a little wobbly but they're designed to have a fair bit of movement to allow for smoother gliding over courser textured hair. They felt really smooth through the hair, I know new <em>ghd's</em> always feel pretty smooth, but these definitely had the edge.</p>
+<p>The main thing that differentiates them from the previous models is in how the plates heat. Patented <em>Tri-Zone technology</em> uses six quick thinking sensors (three on each plate) to ensure no heat loss during styling.</p>
+<p>First impressions of the new <em>ghd Eclipse</em> are good, I always go out of my way to pick these up when I'm styling my clients hair - especially on thick, course hair. The difference isn't massive but definitely noticeable. If I was looking to buy a new set of irons I would definitely go for these. At &pound;200 they're pricey, but worth every penny. Of course if the price puts you off, the <em>gold series (mark 5)</em> is still available at &pound;125 and the budget <em>mark 4 styler</em> is just &pound;99.</p>
+
+<p><strong>News Update: The Eclipse irons are now available for &pound;145 for a limited time! (Updated: 03/12/13)</strong></p>
+
+<p class="offer_heading">All varieties of ghd's are available in the salon - just ask your stylist.</p>
+<p class="offer"></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
 </article> <!--end #article-->
 
 <article class="article">
@@ -856,8 +853,21 @@ For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
 <time datetime="2013-08-02">2<sup>nd</sup> August 2013</time>
 </article> <!--end #article-->
 
-</section> <!--end #accoordion-->
-<p class="newslink">{{ Html::link('oldnews', "Click here for older news stories&hellip;") }}</p>
-</section> <!--newspage-->
-
-@stop
+<article class="article">
+<a id="grad2" class="anchor"></a>
+<section class="visible">
+{{ Html::image('images/news_images/meg.jpg', '') }}
+<h3>The Graduate</h3>
+<p><strong>Training to be a hairdresser is no walk in the park! Years of intensive training, blood, sweat and tears, plus being bottom of the pecking order isn't much fun either! But it all becomes worthwhile when you get handed your certificate and you're promoted to the next level. Washing a hundred heads of hair a day soon becomes a distant memory!</strong></p>
+<p>Megan Mullaney (image left) know's how this feels as she recently got promoted to Graduate stylist here in the salon.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+{{ Html::image('images/news_images/tash_new.jpg', '') }}
+<p>Meg follows in the footsteps of Natasha Bailey (see pic on left) (who qualified about a year ago and has now built a well established client base). It's always great to produce home grown talent, to see someone start out, barely able to hold their scissors and  comb properly, to becoming a talented, skilful stylist.</p>
+<p>Megan said <em>"My time training in the salon was really rewarding, it went so fast and I can't believe I'm on the shop floor now. I'm really eager to build up my client's and get busier and busier. You never stop learning as a hairdresser, I'm looking forward to learning more advanced techniques and skills."</em></p>
+<p>Our latest apprentice, Ben Morris, recently started full time after helping out a few days a week whilst still at school. The standards set by Meg and Tash are high but we're confident he'll produce the goods too!</p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">1<sup>st</sup> August 2013</time>
+</article> <!--end #article-->
