@@ -58,7 +58,12 @@ class PagesController extends Controller {
 	
 	public function prices()
 	{
-		return view('pages.prices');
+		return view('pages.prices_stylist');
+	}
+	
+	public function apprenticePrices()
+	{
+		return view('pages.prices_apprentice');
 	}
 	
 	public function recruitment()
