@@ -5,16 +5,14 @@
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 @section('head')
-	<meta name="description" content="Jakata is a fashion forward, award winning hair salon in Warrington, Cheshire. With a team of twelve talented hairdressers looking after you, you know you're in good hands. Based on Bridge street in Warrington Town Centre the salon is located perfectly to serve Lymm, Stockton Heath, Culcheth, Great Sankey, Widnes and Runcorn. If you're looking for the most fashion forward hairdressing then look no further. Our hairdressing services will far outweigh your expectations plus you'll be blown away by our friendly, approachable staff. Jakata, 90/92 Bridge Street, Warrington, WA1 2RF, 01925 242960">
-	<meta name="keywords" content="hair, hairdressers, hairdressing, hairdressers in Warrington, men's hairdresing, fashion colour, brazilian blowdry, wedding hair, Daniel Anderson, Warrington, Lymm, Stockton Heath, Culcheth, Great Sankey, Widnes and Runcorn">
+	<meta name="description" content="Paul Kemp Hairdressing is a luxurious hair salon right in the heart of Warrington town centre. Sister salon to the award winning Jakata Hair and Beauty team, the stunning new hairdressers opened back in June 2011 with the aim to offer an ultra relaxing atmosphere, first class customer service, alongside the highest level of hairdressing expertise. The salons talented hairdressers are all trained to the highest level in cutting, colouring and styling hair, with specialists in technical colour, hair straightening, wedding hair and hair extensions. The team has a wealth of experience in all aspects of hairdressing by highly qualified hairdressers.">
+	<meta name="keywords" content="hairdressers, hairdressing, hair salons Warrington, salon, salons, salon Warrington, salons warrington, hairdressing jobs warrington, fashion colour, mens hairdressing, brazilian blowdry, Warrington, Lymm, Stockton Heath, Culcheth, Great Sankey, Widnes and Runcorn">
+	<meta name="author" content="Paul Kemp Hairdressing Ltd">
+	<meta name="viewport" content="width=device-width" /> <!--mobile fixed width-->
+	
+	<!--Google analytics required-->
 
-	<meta name="author" content="Contra Design">
-	<meta name="viewport" content="width=device-width" />
-
-	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/fonts/fonts.css') }}" />
-	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/normalize.css') }}" />
-	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/jakstyles.css') }}" />
-	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/form.css') }}" />
+	<link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}" />
 	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ URL::asset('css/mobile.css') }}"
 	/>
 
@@ -32,19 +30,22 @@
 
 	<div class="container" id="page">
 
-		<header class="group">
+		<header class>
 			<div id="logo" class="logo"></div>
 			<h1>Paul Kemp Hairdressing</h1>
 			<h2>Hairdressers in Warrington</h2>
 
-			<nav class="group">
+			<nav>
 				<ul>
 					<li>{!! link_to('/', 'Home') !!}</li>
 					<li>{!! link_to('offers', 'Offers') !!}</li>
+					<li>{!! link_to('salon', 'The Salon') !!}</li>
 					<li>{!! link_to('team', 'Team') !!}</li>
-					<li>{!! link_to('prices', 'Prices') !!}</li>
 					<li>{!! link_to('news', 'News') !!}</li>
-					<li>{!! link_to('details', 'Contact') !!}</li>
+					<li>{!! link_to('recruitment', 'Recruitment') !!}</li>
+					<li>{!! link_to('men', 'Men') !!}</li>
+					<li>{!! link_to('prices', 'Prices') !!}</li>
+					<li>{!! link_to('contact', 'Contact') !!}</li>
 				</ul>
 			</nav>
 		</header>
@@ -53,70 +54,56 @@
 			@yield('content')
 		</div>
 
-		<div class="clear group"></div>
+		<div class="clear"></div>
 
 		<footer>
-
-			<section id="prodlogos">
-				<ul id="prodcomps">
-					<li>
-						<a href="http://www.schwarzkopf-professional.com"><img src={{ asset( 'images/footer/footer-01.png') }} alt="One"></a>
-					</li>
-					<li>
-						<a href="http://www.schwarzkopf-professional.com"><img src={{ asset( 'images/footer/footer-02.png') }} alt="jkhhk"></a>
-					</li>
-					<li>
-						<a href="http://www.schwarzkopf-professional.com"><img src={{ asset( 'images/footer/footer-03.png') }} alt="Schwarzkopf Osis"></a>
-					</li>
-					<li>
-						<a href="http://www.kebelo.com"><img src={{ asset( 'images/footer/footer-04.png') }} alt="Kebelo"></a>
-					</li>
-					<li>
-						<a href="http://www.tigihaircare.com/consumer/en-UK/bedhead"><img src={{ asset( 'images/footer/footer-05.png') }} alt="Tigi Bedhead - The Hairdressers Choice"></a>
-					</li>
-					<li>
-						<a href="http://www.catwalkbytigi.com"><img src={{ asset( 'images/footer/footer-06.png') }} alt="Tigi Catwalk - hair styling from the runways"></a>
-					</li>
-					<li>
-						<a href="http://www.tigihaircare.com"><img src={{ asset( 'images/footer/footer-07.png') }} alt="Tigi B for Men"></a>
-					</li>
-
-					<li>
-						<a href="http://www.ghdhair.com"><img src={{ asset( 'images/footer/footer-08.png') }} alt="One"></a>
-					</li>
-
-				</ul>
-			</section>
-
-			<section id="aboutus" class="group">
-				<ul class="tinytext">
-					<li><strong>Paul Kemp Hairdressing</strong></li>
-					<li>Hairdressers in Warrington</li>
-					<li>Hairdressers in Cheshire</li>
-					<li>Cutting</li>
-					<li>Colouring</li>
-					<li>Opti-Smooth Straightening</li>
-					<li>Hair Extensions</li>
-					<li>Wedding Hair</li>
-					<li>Hairdressing Gift Vouchers</li>
-					<li>GHD</li>
-					<li>Daniel Anderson Hairdressing</li>
-					<li>Warrington Hairdressers</li>
-					<li>Warrington Hairdressing</li>
-					<li>Cheshire Hairdressers</li>
-					<li>plus lots more!</li>
-					<li>All in our Warrington Hairdressing Salon</li>
-				</ul>
-			</section>
-
-		</footer>
-		<div id="facebook">
-			<a href="http://www.facebook.com/JakataSalon"><img src={{ asset( 'images/home/facebook_logo.png') }} alt="Facebook"></a>
-		</div>
-
-		<div id="twitter">
-			<a href="https://twitter.com/JakataSalon"><img src={{ asset( 'images/home/twitter_logo.png') }} alt="Twitter"></a>
-		</div>
+	<ul id="footer_images">
+	<li><a href="http://www.schwarzkopf-professional.com/" target="_blank">{{ Html::image('images/footer/schwarzkopf.png', 'Schwarzkopf - The Hairdressers choice') }}</a></li>
+	<li><a href="http://www.tigihaircare.com/consumer/en-UK/bedhead/" target="_blank">{{ Html::image('images/footer/bedhead.png', 'Bedhead - Proffessional Hairdressing') }}</a></li>
+	<li><a href="http://www.catwalkbytigi.com" target="_blank">{{ Html::image('images/footer/catwalk.png', 'Tigi Catwalk') }}</a></li>
+	<li><a href="http://www.tigihaircare.com/consumer/en-UK/b4men/default.asp" target="_blank">{{ Html::image('images/footer/bformen.png', 'B for Men - mens products for hairdressers') }}</a></li>
+	<li><a href="http://www.ghdhair.com/" target="_blank">{{ Html::image('images/footer/ghd.png', 'ghd - for hairdressers') }}</a></li>
+	<li><a href="http://www.tigihaircare.com/consumer/en-UK/sfactor/default.asp" target="_blank">{{ Html::image('images/footer/sfactor.png', 'S Factor - quality brand for hairdressers') }}</a></li>
+	</ul>
+	
+	<section id="smallabout">
+	<h2><strong>Paul Kemp Hairdressing</strong></h2>
+	<ul>
+	<li>Paul Kemp Warrington</li>
+	<li>Hairdressers Warrington</li> 
+	<li>Hair Salon Warrington</li> 
+	<li>Salons Warrington</li>
+	<li>Hairdressing Warrington</li>
+	<li>Hairdressers Cheshire</li> 
+	<li>Salons Cheshire</li>
+	<li>Hair Salon Cheshire</li> 
+	<li>Hairdressing Cheshire</li>
+	<li>Hair cutting Warrington</li> 
+	<li>Hair colouring Warrington</li>
+	<li>Mens Hairdressing Warrington</li>
+	<li>Mens Hairdressers Warrington</li> 
+	<li>Technical hairdressing</li> 
+	<li>Kebelo Warrington</li> 
+	<li>Brazilian Blowdry Warrington</li> 
+	<li>Opti-Smooth Warrington</li> 
+	<li>Fashion styling Warrington</li> 
+	<li>Mens cutting Warrington</li> 
+	<li>Schwarzkopf Warrington</li> 
+	<li>Tigi Warrington</li> 
+	<li>Bedhead Warrington</li>
+	<li>Osis Warrington</li>
+	<li>Aveda Warrington</li>
+	<li>Catwalk Warrington</li>
+	<li>Bonacure Warrington</li>
+	<li>Warrington Hairdressers</li>
+	<li>Cheshire Hairdressers</li>
+	</ul>
+	</section>
+	<a href="https://www.facebook.com/PaulKempHairdressing" target="_blank"><div id="facebook"></div></a>
+	<a href="https://twitter.com/paulkemphair" target="_blank"><div id="twitter"></div></a>
+	<a href="https://plus.google.com/+PaulKempHairdressingWarrington/posts?hl=en" target="_blank"><div id="google"></div></a>
+	</footer>
+		
 	</div>
 
 </body>
