@@ -61,14 +61,59 @@ class PagesController extends Controller {
 		return view('pages.recruitment');
 	}
 	
+	public function salon()
+	{
+		return view('pages.salon');
+	}
+	
 	public function team()
 	{
 		return view('pages.team');
 	}
 	
-	public function salon()
+	public function ashley()
 	{
-		return view('pages.salon');
+		return view('pages.team.ashley');
+	}
+	
+	public function kel()
+	{
+		return view('pages.team.kel');
+	}
+	
+	public function kate()
+	{
+		return view('pages.team.kate');
+	}
+	
+	public function izzy()
+	{
+		return view('pages.team.izzy');
+	}
+	
+	public function leon()
+	{
+		return view('pages.team.leon');
+	}
+	
+	public function jo()
+	{
+		return view('pages.team.jo');
+	}
+	
+	public function caleb()
+	{
+		return view('pages.team.caleb');
+	}
+	
+	public function shell()
+	{
+		return view('pages.team.shell');
+	}
+	
+	public function tash()
+	{
+		return view('pages.team.tash');
 	}
 
 }

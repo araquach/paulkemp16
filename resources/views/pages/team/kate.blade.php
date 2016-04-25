@@ -13,5 +13,23 @@
 
 @section('content') 
 
+<section id="team_ind">
+	<div id="team_kate" class="team_pic"></div>
+	
+	<section id="team_ind_copy">
+	<h2>Kate O'Halloran</h2>
+	<p>Kate has the ability to put you instantly at ease and with her many years of experience she'll find a look that's perfect for you.</p>
+	<p>Colouring, cutting and long hair styling are her specialities.</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Kate : &pound;96*</p>
+	
+	<a href="{{ URL::to('team') }}#kate">Click here to see the full team &gt;</a>
+	
+	{{-- FB Like --}}
+		
+	</section> <!--team_ind_copy-->
+	<section id="teambottom">
+    <p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
+	</section>
+</section> <!--team_ind-->
 
 @stop

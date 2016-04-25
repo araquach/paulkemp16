@@ -763,7 +763,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	margin-top: 0px;
 }
 
-#michelle_r {
+#shell {
 	position:absolute;
 	left: 40px;
 	top: 1300px;
@@ -772,16 +772,16 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	border-bottom: solid 3px #CCC;
 }
 
-#michelle_r img {
+#shell img {
 	float: left;
 	margin: 10px 20px 0 10px;
 }
 
-#michelle_r p {
+#shell p {
 	font-size: 0.8em;
 }
 
-#michelle_r h3 img {
+#shell h3 img {
 	margin-top: 0px;
 }
 
