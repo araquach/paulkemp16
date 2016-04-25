@@ -65,5 +65,10 @@ class PagesController extends Controller {
 	{
 		return view('pages.team');
 	}
+	
+	public function salon()
+	{
+		return view('pages.salon');
+	}
 
 }

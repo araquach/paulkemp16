@@ -55,7 +55,7 @@
 
 		<div class="clear"></div>
 
-		<footer>
+	<footer>
 	<ul id="footer_images">
 	<li><a href="http://www.schwarzkopf-professional.com/" target="_blank">{{ Html::image('images/footer/schwarzkopf.png', 'Schwarzkopf - The Hairdressers choice') }}</a></li>
 	<li><a href="http://www.tigihaircare.com/consumer/en-UK/bedhead/" target="_blank">{{ Html::image('images/footer/bedhead.png', 'Bedhead - Proffessional Hairdressing') }}</a></li>
@@ -102,7 +102,6 @@
 	<a href="https://twitter.com/paulkemphair" target="_blank"><div id="twitter"></div></a>
 	<a href="https://plus.google.com/+PaulKempHairdressingWarrington/posts?hl=en" target="_blank"><div id="google"></div></a>
 	</footer>
-		
 	</div>
 
 </body>

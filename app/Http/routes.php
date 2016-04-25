@@ -8,7 +8,7 @@ Route::get('/recruitment', 'PagesController@recruitment');
 Route::get('/offers', 'PagesController@offers');
 Route::get('/prices', 'PagesController@prices');
 Route::get('/team', 'PagesController@team');
-
+Route::get('/salon', 'PagesController@salon');
 
 Route::get('contact', 
   ['as' => 'contact', 'uses' => 'ContactController@create']);
