@@ -51,6 +51,11 @@ class PagesController extends Controller {
 		return view('pages.offers');
 	}
 	
+	public function men()
+	{
+		return view('pages.men');
+	}
+	
 	public function prices()
 	{
 		return view('pages.prices');

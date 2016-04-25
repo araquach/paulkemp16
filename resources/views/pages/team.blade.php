@@ -1,10 +1,16 @@
-@extends('layouts.main') @section('head')
-<meta name="description" content="Meet the JAKATA team. Select from one of our talented stylists">
-<meta name="keywords" content="Hair team, hairdressing team, Jakata team, Jakata stylists"> @stop @section('title')
+@extends('layouts.main') 
+
+@section('head')
+<meta name="description" content="Meet the Paul Kemp HAirdressing team. Select from one of our talented stylists">
+<meta name="keywords" content="Hair team, hairdressing team, Paul Kemp Hairdressing team, Paul Kemp Hairdressing stylists"> 
+
+@stop @section('title')
 
 <title>Paul Kemp Hairdressing - Meet the Team</title>
 
-@stop @section('content')
+@stop 
+
+@section('content')
 
 <section id="team">
 	<ul>
