@@ -1,149 +1,117 @@
-@extends('layouts.main') 
+@extends('layouts.main') @section('head')
+<meta name="description" content="Meet the JAKATA team. Select from one of our talented stylists">
+<meta name="keywords" content="Hair team, hairdressing team, Jakata team, Jakata stylists"> @stop @section('title')
 
-@section('head')
-	<meta name="description" content="Meet the JAKATA team. Select from one of our talented stylists">
-	<meta name="keywords" content="Hair team, hairdressing team, Jakata team, Jakata stylists">
-@stop
+<title>Paul Kemp Hairdressing - Meet the Team</title>
 
-@section('title')
+@stop @section('content')
 
-	<title>Paul Kemp Hairdressing - Meet the Team</title>
-
-@stop
-
-@section('content') 
-
-{{-- FB meta tags --}}
-
-<script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
-<script type="text/javascript" src="{{ URL::asset('scripts/team.js') }}"></script>
-
-<div id="team_shot"></div>
 <section id="team">
-	<section id="team_overview">
-		<h1>The Team</h1>
-		<p>The Jakata team comprises of eight skilled stylists, all from different hairdressing backgrounds, all displaying a diverse range of skills.</p>
-		<p>Over the years Jakata has trained and developed a number of people to exceptional standards, whilst taking on already established stylists. This mix of talent creates a dynamic team with stylists well suited to anyone with a desire for a fashion forward
-			look.</p>
-		<p>A year ago the team divided into two when we opened our sister salon <a href="http://www.paulkemphairdressing.com" target="_blank">Paul Kemp Hairdressing</a> due to outgrowing our Bridge Street premises. Both teams continue to grow both in number and
-			skill.</p>
-		<p><em>It's difficult to find a stylist well suited to your needs, take the time to read each staff members profile to find the right fit for you. Prices for each stylist vary dependant on a number of factors (experience, specialised skills, high demand etc.)</em></p>
-		<p><strong>Please call to arrange for a complimentary consultation with any of our team members.</strong></p>
-	</section>
-	<!--team_overview-->
-
-	<div id="team_members">
-		<section class="team_member" id="jimmy">
-			<div class="team_button">
-				<p>About
-					<br>Jimmy</p>
-			</div>
-			<a id="Jimmy" class="anchor"></a>
-			<h2>Jimmy Sharpe</h2>
-			<section class="team_member_copy">
-				<img src={{asset( 'images/team/closebutton.png')}} width="25" height="25" alt="Jimmy Sharpe">
-				<p><strong>Salon manager Jimmy joined Jakata in October 2007 as an apprentice and quickly worked his way up through the ranks.</strong></p>
-				<p>His passion for hairdressing is infectious. His experimental approach ensures he's always pushing the boundaries in cutting, colouring &amp; styling hair.</p>
-				<p>Jimmy was recently a member of the Schwarzkopf Young Artistic Team</p>
-				<p><strong>Favourite Style: </strong>Short hair cuts</p>
-				<p><strong>Favourite Product: </strong>Schwarzkopf Flex Wax</p>
-				<p class="price">Average Cut &amp; Colour
-					<br>with Jimmy: &pound;106</p>
-			</section>
-			<!--team_member_copy -->
+	<ul>
+		<li>
+			<p class="up">Shell</p>
+		</li>
+		<li>
+			<p>Kel</p>
+		</li>
+		<li>
+			<p class="up">Jo</p>
+		</li>
+		<li>
+			<p>Izzy</p>
+		</li>
+		<li>
+			<p class="up">Kate</p>
+		</li>
+		<li>
+			<p>Tash</p>
+		</li>
+		<li>
+			<p class="up">Leon</p>
+		</li>
+	</ul>
+	
+	<a href="{{ URL::to('team.kel') }}">
+		<section id="kel">
+			<h3>{{ Html::image('images/staff/kel.jpg', 'Kellie Reedy') }} Kellie Reedy - Senior Stylist</h3>
+			<p>Salon manager Kelly has 14 years experience working in Warrington town centre. She is the team leader of the salon. She specialises in long hair styliny and is also one of the extension experts within the salon.</p>
+			<p class="teamprice">Average Cut &amp; Colour price with Kelly : &pound;114*</p>
 		</section>
-		<!--team member jimmy-->
+	</a>
 
-		<section class="team_member" id="vicky">
-			<div class="team_button">
-				<p>About
-					<br>Vikki</p>
-			</div>
-			<a id="Vicky" class="anchor"></a>
-			<h2>Vicky Rowland</h2>
-			<section class="team_member_copy">
-				<img src={{asset( 'images/team/closebutton.png')}} width="25" height="25" alt="Vicky Rowland">
-				<p><strong>Team leader Vicky is a highly experienced stylist with a passion for all things vintage.</strong></p>
-				<p>Her time with the Hair Cuttery gave her a strong customer service focus. After joining Jakata in 2011 she's worked her way up to salon team leader.</p>
-				<p>Vicky's unique personal style definitely reflects in her innovative creations in the salon. </p>
-				<p><strong>Favourite Style: </strong> Anything Vintage</p>
-				<p><strong>Favourite Product: </strong>Catwalk Weightless Shine Spray</p>
-				<p class="price">Average Cut &amp; Colour
-					<br>with Vicky: &pound;89</p>
-			</section>
-			<!--team_member_copy -->
+	<a href="{{ URL::to('team.jo') }}">
+		<section id="jo">
+			<h3>{{ Html::image('images/staff/jo.jpg', 'Jo Mahoney') }} Jo Mahoney - Senior Stylist</h3>
+			<p>Jo is a fantastic stylist with many years experience, she\'s a real long standing asset to the team. Her down to earth nature instantly puts you at ease and her hairdressing skills really shine. She loves doing men and women\'s hair. Book well in advance
+				- she's a very busy stylist. </p>
+			<p class="teamprice">Average Cut &amp; Colour price with Jo : &pound;114*</p>
 		</section>
-		<!--team member vicky-->
+	</a>
 
-
-		<section class="team_member" id="maisie">
-			<div class="team_button">
-				<p>About
-					<br>Maisie</p>
-			</div>
-			<a id="Maisie" class="anchor"></a>
-			<h2>Maisie Thompson</h2>
-			<section class="team_member_copy">
-				<img src={{asset( 'images/team/closebutton.png')}} width="25" height="25" alt="Maisie Thompson">
-				<p><strong>Maisie is Jakata's latest addition to the team. She's a senior stylist and has over 8 years experience.</strong></p>
-				<p>She loves big, messy, tousled styles with loads of bounce and attitude.</p>
-				<p>Precision, creativity and a strong understanding of an individuals hair are Maisie's focus.</p>
-				<p>She has an advanced diploma in Colour Correction through La Biostetique</p>
-				<p><strong>Favourite Style: </strong>Big, tousled hair</p>
-				<p><strong>Favourite Product: </strong>Tigi 'Totally Baked'</p>
-				<p class="price">Average Cut &amp; Colour
-					<br>with Maisie: &pound;97</p>
-			</section>
-			<!--team_member_copy -->
+	<a href="{{ URL::to('team.izzy') }}">
+		<section id="iz">
+			<h3>{{ Html::image('images/staff/izzy.jpg', 'Izzy Lamb') }} Isobelle Lamb - Senior Stylist</h3>
+			<p>Izzy has quickly established herself as an extremely sought after stylist. Her natural flair with creating beautiful, wearable styles has built her a strong following. Izzy recently won the National <em>Redken Style Innovator</em> award. She is also
+				a specialist in extensions.</p>
+			<p class="teamprice">Average Cut &amp; Colour price with Izzy : &pound;114*</p>
 		</section>
-		<!--team member maisie-->
+	</a>
 
-		<section class="team_member" id="laura">
-			<div class="team_button">
-				<p>About
-					<br>Laura</p>
-			</div>
-			<a id="Laura" class="anchor"></a>
-			<h2>Laura Hall</h2>
-			<section class="team_member_copy">
-				<img src={{asset( 'images/team/closebutton.png')}} width="25" height="25" alt="Laura Hall">
-				<p><strong>Laura has been hairdressing for 8 years and joined Jakata in 2005. That makes her the longest serving team member (apart from Adam).</strong></p>
-				<p>Laura loves classic styling plus technical services like Opti-Smooth and Kebelo.</p>
-				<p>Laura strongly believes using the right products is the key to maintaining a new hairstyle.</p>
-				<p><strong>Favourite Style: </strong>Any kind of hair-up</p>
-				<p><strong>Favourite Product:</strong> Any of the Tigi Candy Fixations Range</p>
-				<p class="price">Average Cut &amp; Colour
-					<br>with Laura: &pound;89</p>
-			</section>
-			<!--team_member_copy -->
+	<a href="{{ URL::to('team.leon') }}">
+		<section id="leon">
+			<h3>{{ Html::image('images/staff/leon.jpg', 'Leon Pritchard') }} Leon Pritchard - Senior Stylist</h3>
+			<p>Leon has quickly built up a strong reputation for his skills in cutting, colouring &amp; styling hair. He\'s a big hit in the salon due to his friendly personality. He has grown to be a pivotal member of the team and is fast expanding his ever growing
+				client base. </p>
+			<p class="teamprice">Average Cut &amp; Colour price with Leon : &pound;114*</p>
 		</section>
-		<!--team member laura-->
+	</a>
 
-		<section class="team_member" id="nat">
-			<div class="team_button">
-				<p>About
-					<br>Nat</p>
-			</div>
-			<a id="Natalie" class="anchor"></a>
-			<h2>Natalie Doxey</h2>
-			<section class="team_member_copy">
-				<img src={{asset( 'images/team/closebutton.png')}} width="25" height="25" alt="Natalie Doxey">
-				<p><strong>Natalie completed her apprenticeship with Jakata in 2008. She's now a fully fledged stylist, exhibiting some incredible creative talent.</strong></p>
-				<p>A key player in the winning team at the Redken NYC Awards, Natalie picked up the Style Innovator Trophy.</p>
-				<p>She loves men's hair cutting, creative colouring, extensions and hair up.</p>
-				<p><strong>Favourite Style: </strong> Frankie from the Saturdays</p>
-				<p><strong>Favourite Product: </strong>Session Series Dry Shampoo</p>
-				<p class="price">Average Cut &amp; Colour
-					<br>with Natalie: &pound;89</p>
-			</section>
-			<!--team_member_copy -->
+	<a href="{{ URL::to('team.shell') }}">
+		<section id="michelle_r">
+			<h3>{{ Html::image('images/staff/michelle_r.jpg', 'Michelle Railton') }} Michelle Railton - Senior Stylist</h3>
+			<p>Michelle is a highly skilled hairdresser with loads of experience. She is rapidly becoming a very highly sought after stylist in the salon. She especially loves soft, natural styles and men\'s indie/mod cutting.</p>
+			<p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;114*</p>
 		</section>
-		<!--team member nat-->
+	</a>
 
+	<a href="{{ URL::to('team.kate') }}">
+		<section id="kate">
+			<h3>{{ Html::image('images/staff/kate.jpg', 'Kate O\'halloran') }} Kate O'halloran - Stylist</h3>
+			<p>Kate has the ability to put you instantly at ease and with her many years of experience she\'ll find a look that\'s perfect for you. Colouring, cutting and long hair styling are her specialities.</p>
+			<p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;96*</p>
+		</section>
+	</a>
 
-	</div>
-	<!--team_members	-->
+	<a href="{{ URL::to('team.caleb') }}">
+		<section id="caleb">
+			<h3>{{ Html::image('images/staff/caleb.jpg', 'Caleb Barrie') }} Caleb Barrie - Stylist</h3>
+			<p>Caleb is a diverse stylist with a real passion for hairdressing. He\'s a recent addition to the team. He’s highly skilled in all aspects of hairdressing but loves high-fashion colouring and big, bouncy blow dry’s.</p>
+			<p class="teamprice">Average Cut &amp; Colour price with Caleb : &pound;96*</p>
+		</section>
+	</a>
+
+	<a href="{{ URL::to('team.tash') }}">
+		<section id="tash">
+			<h3>{{ Html::image('images/staff/tash.jpg', 'Tash Bailey') }} Tash Bailey - Stylist</h3>
+			<p>Tash's passion for hairdressing is apparent from the minute you meet her. She loves creative colouring and cutting plus she\'s highly skilled in styling hair.</p>
+			<p class="teamprice">Average Cut &amp; Colour price with Tash : &pound;76*</p>
+		</section>
+	</a>
+
+	<a href="{{ URL::to('team.ashley') }}">
+		<section id="ashley">
+			<h3>{{ Html::image('images/staff/ashley.jpg', 'Ashley Tennant') }} Ashley Tennant - Graduate Stylist</h3>
+			<p>Ashley recently qualified and is now a Gradutae stylist within the team. She is developing at an extremely fast rate and will be moving up the ranks quickly.</p>
+			<p class="teamprice">Average Cut &amp; Colour price with Ashley : &pound;55*</p>
+		</section>
+	</a>
+
 </section>
-<!--team-->
+
+</section>
+
+<section id="teambottom">
+	<p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
+</section>
 
 @stop
