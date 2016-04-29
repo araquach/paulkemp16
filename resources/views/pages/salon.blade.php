@@ -3,12 +3,12 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
-	'title' => 'Paul Kemp Hairdressing - '
+	'description' => 'With a prime position right on the corner of Sankey Street and Springfield street the salon premises is an early 1900\'s building that was once home to the Picturedrome and Cameo cinemas! It\'s taken on many guises since, but when we got hold of it we knew we wanted it to be the warmest, friendliest most relaxing salon in the area.',
+	'keywords' => 'Paul Kemp Hairdressing, salon, premises, springfield street, sankey street, town centre',
+	'ogtitle' => 'The Salon',
+	'ogdescription' => 'With a prime position right on the corner of Sankey Street and Springfield street the salon premises is an early 1900\'s building that was once home to the Picturedrome and Cameo cinemas! It\'s taken on many guises since, but when we got hold of it we knew we wanted it to be the warmest, friendliest most relaxing salon in the area.',
+	'ogimage' => url('/') . '/images/ogimage/myimage.png',
+	'title' => 'Paul Kemp Hairdressing - The Salon - Hairdressers in Warrington'
 	])
 	
 @stop

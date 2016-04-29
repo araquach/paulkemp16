@@ -3,12 +3,12 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
-	'title' => 'Paul Kemp Hairdressing - '
+	'description' => 'Check out all the latest offers at Paul Kemp Hairdressing',
+	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
+	'ogtitle' => 'Latest Special Offers',
+	'ogdescription' => 'Check out all the latest offers here at Paul Kemp Hairdressing',
+	'ogimage' => url('/') . '/images/ogimage/myimage.png',
+	'title' => 'Paul Kemp Hairdressing - Latest Offers - Hairdressers in Warrington'
 	])
 	
 @stop

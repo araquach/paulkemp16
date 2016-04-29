@@ -3,12 +3,12 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
-	'title' => 'Paul Kemp Hairdressing - '
+	'description' => 'Paul Kemp Hairdressing Stylist Prices - choose from stylist or senior stylist level. Our Stylists are all highly skilled and qualified.',
+	'keywords' => 'stylist pricing, senior stylist pricing, stylist cost, senior stylist cost',
+	'ogtitle' => 'Stylist Prices',
+	'ogdescription' => 'Choose from a Stylist or Senior Stylist - Our Stylists are all highly skilled and qualified',
+	'ogimage' => url('/') . '/images/ogimage/myimage.png',
+	'title' => 'Paul Kemp Hairdressing - Stylist Prices - Hairdressers in Warrington'
 	])
 	
 @stop

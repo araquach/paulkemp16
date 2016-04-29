@@ -3,12 +3,7 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
-	'title' => 'Paul Kemp Hairdressing - '
+	'title' => 'Paul Kemp Hairdressing - Home - Hairdressers in Warrington'
 	])
 	
 @stop

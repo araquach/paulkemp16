@@ -3,12 +3,12 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
-	'title' => 'Paul Kemp Hairdressing - '
+	'description' => 'The Paul Kemp Hairdressing team comprises of 8 highly skilled stylists in all areas of hairdressing. Cutting, Colouring, Blowdrying plus specialist services like Kebelo and Opti-Smooth. You know you\'re in good hands',
+	'keywords' => 'skilled stylists, talented hairdressers, qualified hairdressers, professional stylists',
+	'ogtitle' => 'Meet the PK Team',
+	'ogdescription' => 'The Paul Kemp Hairdressing team comprises of 8 highly skilled stylists in all areas of hairdressing. Cutting, Colouring, Blowdrying plus specialist services like Kebelo and Opti-Smooth. You know you\'re in good hands',
+	'ogimage' => url('/') . '/images/ogimage/myimage.png',
+	'title' => 'Paul Kemp Hairdressing - Meet the Team - Hairdressers in Warrington'
 	])
 	
 @stop

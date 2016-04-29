@@ -3,12 +3,12 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
-	'title' => 'Paul Kemp Hairdressing - '
+	'description' => 'At Paul Kemp Hairdressing we have a team of experts in men\'s hairdressing on hand. Whatever your fashion tastes and style, we\'ll work your hair exactly how you want it. The team constantly stay up to date with latest cutting & styling techniques through Tigi and Schwarzkopf\'s innovative training courses and inspiration sessions.',
+	'keywords' => 'mens hairdressing, male hairdressing, male grooming, mens cutting, mens colouring, mens styling',
+	'ogtitle' => 'Men\'s Hairdressing',
+	'ogdescription' => 'At Paul Kemp Hairdressing we have a team of experts in men\'s hairdressing on hand. Whatever your fashion tastes and style, we\'ll work your hair exactly how you want it. The team constantly stay up to date with latest cutting & styling techniques through Tigi and Schwarzkopf\'s innovative training courses and inspiration sessions.',
+	'ogimage' => url('/') . '/images/ogimage/myimage.png',
+	'title' => 'Paul Kemp Hairdressing - Men\'s Hairdressing - Hairdressers in Warrington'
 	])
 	
 @stop
