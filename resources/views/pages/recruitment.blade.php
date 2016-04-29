@@ -1,14 +1,16 @@
 @extends('layouts.main')
 
 @section('head')
-	<meta name="description" content="Join the JAKATA team, hairdressing jobs and recruitment">
-	<meta name="keywords" content="Hair jobs, hairdressing jobs, hair recruitment, hairdressing recruitment">
-@stop
 
-@section('title')
-
-	<title>Paul Kemp Hairdressing - Hairdressing Recruitment - Join the team</title>
-
+@include('layouts.partials.head', [
+	'description' => '',
+	'keywords' => '',
+	'ogtitle' => '',
+	'ogdescription' => '',
+	'ogimage' => url('/') . '/images/myimage.png',
+	'title' => 'Paul Kemp Hairdressing - '
+	])
+	
 @stop
 
 @section('content')

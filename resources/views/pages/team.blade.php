@@ -1,14 +1,17 @@
 @extends('layouts.main') 
 
 @section('head')
-<meta name="description" content="Meet the Paul Kemp HAirdressing team. Select from one of our talented stylists">
-<meta name="keywords" content="Hair team, hairdressing team, Paul Kemp Hairdressing team, Paul Kemp Hairdressing stylists"> 
 
-@stop @section('title')
-
-<title>Paul Kemp Hairdressing - Meet the Team</title>
-
-@stop 
+@include('layouts.partials.head', [
+	'description' => '',
+	'keywords' => '',
+	'ogtitle' => '',
+	'ogdescription' => '',
+	'ogimage' => url('/') . '/images/myimage.png',
+	'title' => 'Paul Kemp Hairdressing - '
+	])
+	
+@stop
 
 @section('content')
 

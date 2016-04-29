@@ -3,8 +3,16 @@
 @section('content')
 
 @section('head')
-	<meta name="description" content="Contact the JAKATA Team for information and advice or to book your appointment">
-	<meta name="keywords" content="Hair bookings, hairdressing bookings, book your appointment, Jakata bookings, Jakata information, Jakata advice">
+
+@include('layouts.partials.head', [
+	'description' => '',
+	'keywords' => '',
+	'ogtitle' => '',
+	'ogdescription' => '',
+	'ogimage' => url('/') . '/images/myimage.png',
+	'title' => 'Paul Kemp Hairdressing - '
+	])
+	
 @stop
 
 @section('title')

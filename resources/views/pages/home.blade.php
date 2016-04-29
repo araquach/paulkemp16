@@ -1,12 +1,19 @@
 @extends('layouts.main')
 
-@section('content')
+@section('head')
 
-@section('title')
-
-	<title>Paul Kemp Hairdressing - Hairdressers in Warrington</title>
-
+@include('layouts.partials.head', [
+	'description' => '',
+	'keywords' => '',
+	'ogtitle' => '',
+	'ogdescription' => '',
+	'ogimage' => url('/') . '/images/myimage.png',
+	'title' => 'Paul Kemp Hairdressing - '
+	])
+	
 @stop
+
+@section('content')
 
 <section id="homeimage"></section>
     
