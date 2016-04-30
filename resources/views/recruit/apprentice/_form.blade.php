@@ -23,8 +23,6 @@
 	
 	<h2 class="reveal">1. Contact Information</h2>
 	
-	{!! Form::open(array('route' => 'contact_store', 'class' => 'form')) !!}
-	
 	<div class="elements">
 
 		{!! Form::hidden('id') !!}

@@ -1,4 +1,6 @@
-<?php namespace App\Http\Controllers;
+<?php 
+
+namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -44,7 +46,7 @@ class StylistController extends Controller {
 	{
 		$input = $request->all();
 		
-		Stylist::create($input);
+	    Stylist::create($input);
 
     	return redirect()->back()->with('message', 'Thanks for your application!');
 	}

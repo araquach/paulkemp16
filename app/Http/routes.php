@@ -28,4 +28,3 @@ Route::post('sendEmail',
   
 Route::resource('apprentice', 'ApprenticeController');
 Route::resource('stylist', 'StylistController');
-  

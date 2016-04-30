@@ -35,9 +35,9 @@ window.addEvent('domready', function(){
 
 <div id="application-form">
 <h1>Join the team: Stylist Position</h1>
-<p>{!! link_to('apprentice/create', 'Click here to apply for an apprentice position') !!}</p>
-<p>Please complete ALL sections of the form before submitting your application.</p>
-<p>We will contact you as soon as a position becomes available.</p>
+<p class="applink">{!! link_to('apprentice/create', 'Click here to apply for an apprentice position') !!}</p>
+<p class="application">Please complete ALL sections of the form before submitting your application.</p>
+<p class="application">We will contact you as soon as a position becomes available.</p>
 
 @include('recruit.stylist._form')
 
