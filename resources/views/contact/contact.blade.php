@@ -7,7 +7,7 @@
 	'keywords' => 'Paul Kemp Hairdressing, location, map, contact, book, bookings',
 	'ogtitle' => 'Contact Us',
 	'ogdescription' => 'Paul Kemp Hairdressing is located on the corner of Sankey Street and Springfield Street in Warrington Town Centre (opposite the Golden Gates)',
-	'ogimage' => url('/') . '/images/ogimage/myimage.png',
+	'ogimage' => url('/') . '/images/ogimage/pk_shop_front.jpg',
 	'title' => 'Paul Kemp Hairdressing - Contact Us - Hairdressers in Warrington'
 	])
 	
