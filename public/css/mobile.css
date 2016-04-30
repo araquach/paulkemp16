@@ -1443,14 +1443,14 @@ td.number3 {
 
 /* @group Men */
 
-#men {
+#mens {
 	width: auto;
 	height: 100%;
 	background-image: none;
 	background-repeat: no-repeat;
 }
 
-#meninfo {
+#mensinfo {
 	margin-left: 0;
 	position: relative;
 	float: none;
@@ -1459,7 +1459,7 @@ td.number3 {
 	padding: 30px;
 }
 
-#menimages {
+#mensimages {
 	position: relative;
 	margin: auto;
 	float: none;
@@ -1471,7 +1471,7 @@ td.number3 {
 	padding-top: 20px;
 }
 
-#menimages img {
+#mensimages img {
 	float: none;
 	margin: 20px;
 }

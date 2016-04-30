@@ -588,14 +588,14 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 /* @group Men */
 
-#men {
+#mens {
 	width: 950px;
 	height: 1150px;
 	background-image: url(/images/men/men-group.jpg);
 	background-repeat: no-repeat;
 }
 
-#meninfo {
+#mensinfo {
 
 	margin-left: 20px;
 	position: absolute;
@@ -605,17 +605,17 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	
 }
 
-#meninfo a {
+#mensinfo a {
 	color: rgb(55,34,24);
 }
 
 
-#meninfo a:hover {
+#mensinfo a:hover {
 	border-bottom: dashed 1px #666;
 }
 
 
-#menimages {
+#mensimages {
 	position: absolute;
 	top: 680px;
 	left: 420px;
