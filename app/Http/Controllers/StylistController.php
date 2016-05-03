@@ -24,7 +24,7 @@ class StylistController extends Controller {
 	{
 		$stylists = $this->stylist->get();
 		
-		return view('recruit.stylist.index', compact('stylists'));
+	    return view('recruit.stylist.index', compact('stylists'));
 	}
 
 	/**
@@ -48,7 +48,7 @@ class StylistController extends Controller {
 		
 	    Stylist::create($input);
 
-    	return redirect()->back()->with('message', 'Thanks for your application! If a position is available we will contact you soon.);
+    	return redirect()->back()->with('message', 'Thanks for your application! If a position is available we will contact you soon.');
 	}
 
 	/**
