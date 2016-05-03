@@ -49,7 +49,7 @@ class ApprenticeFormRequest extends Request {
 			'hair_up' => 'required',
 			'about' => 'required',
 			'why_hairdressing' => 'required',
-			'why_jakata' => 'required',
+			'why_pk' => 'required',
 		];
 	}
 

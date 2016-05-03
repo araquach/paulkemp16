@@ -2382,10 +2382,10 @@ p.application {
 
 .applicationSuccess {
 	width: 450px;
-	height: 500px;
-	font-size: 1.4em;
+	height: 300px;
+	font-size: 1.6em;
 	margin-left: 40px;
-	padding: 10px;
+	padding: 100px 0 20px 0;
 	line-height: 1.3em;
 	color: rgb(55,34,24);
 }

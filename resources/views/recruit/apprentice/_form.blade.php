@@ -210,9 +210,9 @@
 	</div>
 
 	<div class="row">
-		{!! Form::label('why_jakata', 'What makes you want to join the Jakata Team?') !!}
-		{!! Form::textarea('why_jakata') !!}
-		{!! $errors->first('why_jakata', '<div class="errorMessage">:message</div>') !!}
+		{!! Form::label('why_pk', 'What makes you want to join the Paul Kemp HAirdressing Team?') !!}
+		{!! Form::textarea('why_pk') !!}
+		{!! $errors->first('why_pk', '<div class="errorMessage">:message</div>') !!}
 	</div>
 
 	<div class="row buttons">

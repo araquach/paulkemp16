@@ -59,7 +59,7 @@ class StylistFormRequest extends Request {
 			'awards' => '',
 			'about_you' => 'required',
 			'why_hairdressing' => 'required',
-			'why_jakata' => 'required',
+			'why_pk' => 'required',
 		];
 	}
 
