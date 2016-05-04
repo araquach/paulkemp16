@@ -34,7 +34,6 @@
 	<li><strong>AFFORDABLE:</strong> You will get shiny, frizz free, easy-to-manage hair from just &pound;99, and that includes over &pound;25 worth of after-care. It amounts to just &pound;1 a day to keep the frizz away!</li>
 	</ol>
 	</div> <!--end 3advantages-->
-	</div> <!--end advantage-->
-</div> <!--end kebeloMain-->
+</div> <!--end advantage-->
 
 @stop
