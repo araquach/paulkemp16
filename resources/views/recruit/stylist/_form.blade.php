@@ -159,7 +159,7 @@
 	</div>
 	
 	<div class="row">
-		{!! Form::label('qualifications', 'Do you have an existing client base?') !!}
+		{!! Form::label('qualifications', 'Hairdressing Qualifications') !!}
 		{!! Form::select('qualifications', array(
 			'NVQ 1' => 'NVQ Level 1',
 			'NVQ 2' => 'NVQ Level 2',
