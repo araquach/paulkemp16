@@ -37,10 +37,10 @@
 </div>
  
 </section> <!--end offerlist-->
+
+{!! link_to('contact', 'Online Booking &amp; Enquiry form', array('class' => 'book_button')) !!}
  
 </section> <!--end offersMain-->
-
-{!! link_to('contact', 'Online Booking &amp; Enqiory form') !!}
 
 </section> <!--end #offers-->
 

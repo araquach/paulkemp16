@@ -1554,23 +1554,32 @@ section#newspage a p:hover {
 	
 }
 
-p#book_button {
-	margin-left: 0;
-	color: rgb(55,34,24);
-	margin-top: 20px;
+.book_button {
+	margin-left: 80px;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	color: #FFF;
+	background-color: rgb(55, 34, 24);
+	padding: 10px;
+	border-radius: 5px;
 	float: left;
+	clear: left;
+	line-height: 1.4em;
 }
 
-#book_button p strong {
-	font-size: .6em;
+.book_button:hover {
+	opacity: .7;
 }
 
-#book_button:hover {
-	border-bottom: 1px dashed rgb(55,34,24);
+.book_button strong {
+	font-size: 1.3em;
 }
 
-
-
+.book_button a {
+	text-decoration: none;
+	color: #FFF;
+}
 
 /* @end */
 
