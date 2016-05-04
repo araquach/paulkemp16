@@ -76,6 +76,11 @@ class PagesController extends Controller {
 		return view('pages.salon');
 	}
 	
+	public function kebelo()
+	{
+		return view('pages.kebelo');
+	}	
+	
 	public function team()
 	{
 		return view('pages.team');
