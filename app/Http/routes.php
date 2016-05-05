@@ -12,15 +12,15 @@ Route::get('/apprenticeprices', 'PagesController@apprenticePrices');
 Route::get('/salon', 'PagesController@salon');
 Route::get('/kebelo', 'PagesController@kebelo');
 Route::get('/team', 'PagesController@team');
-Route::get('/team/ashley', 'PagesController@ashley');
-Route::get('/team/shell', 'PagesController@shell');
-Route::get('/team/leon', 'PagesController@leon');
-Route::get('/team/kel', 'PagesController@kel');
-Route::get('/team/izzy', 'PagesController@izzy');
-Route::get('/team/caleb', 'PagesController@caleb');
-Route::get('/team/tash', 'PagesController@tash');
-Route::get('/team/jo', 'PagesController@jo');
-Route::get('/team/kate', 'PagesController@kate');
+Route::get('/ashley', 'PagesController@ashley');
+Route::get('/michelle', 'PagesController@michelle');
+Route::get('/leon', 'PagesController@leon');
+Route::get('/kel', 'PagesController@kel');
+Route::get('/izzy', 'PagesController@izzy');
+Route::get('/caleb', 'PagesController@caleb');
+Route::get('/tash', 'PagesController@tash');
+Route::get('/jo', 'PagesController@jo');
+Route::get('/kate', 'PagesController@kate');
 
 Route::get('contact', 
   ['as' => 'contact', 'uses' => 'ContactController@create']);

@@ -121,9 +121,9 @@ class PagesController extends Controller {
 		return view('pages.team.caleb');
 	}
 	
-	public function shell()
+	public function michelle()
 	{
-		return view('pages.team.shell');
+		return view('pages.team.michelle');
 	}
 	
 	public function tash()

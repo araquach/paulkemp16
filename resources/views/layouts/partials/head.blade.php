@@ -11,7 +11,9 @@
 	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/ogimage/standard_image.png' }}">
 	<meta property="og:url" content="{{ isset($url) ? $url : str_replace('http://', 'https://', Request::url()) }}">
 	
-	<!--Google analytics required-->
+	<?php $this->widget('ext.widgets.googleAnalytics.EGoogleAnalyticsWidget',
+			array('account'=>'UA-2487518-2','domainName'=>'paulkemphairdressing.com')
+	);?>
 
 	<link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}" />
 	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ URL::asset('css/mobile.css') }}"

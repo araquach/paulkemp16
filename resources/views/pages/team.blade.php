@@ -40,7 +40,7 @@
 		</li>
 	</ul>
 	
-	<a href="{{ URL::to('team/kel') }}">
+	<a href="{{ URL::to('kel') }}">
 		<section id="kel">
 			<h3>{{ Html::image('images/staff/kel.jpg', 'Kellie Reedy') }} Kellie Reedy - Senior Stylist</h3>
 			<p>Salon manager Kelly has 14 years experience working in Warrington town centre. She is the team leader of the salon. She specialises in long hair styliny and is also one of the extension experts within the salon.</p>
@@ -48,7 +48,7 @@
 		</section>
 	</a>
 
-	<a href="{{ URL::to('team/jo') }}">
+	<a href="{{ URL::to('jo') }}">
 		<section id="jo">
 			<h3>{{ Html::image('images/staff/jo.jpg', 'Jo Mahoney') }} Jo Mahoney - Senior Stylist</h3>
 			<p>Jo is a fantastic stylist with many years experience, she\'s a real long standing asset to the team. Her down to earth nature instantly puts you at ease and her hairdressing skills really shine. She loves doing men and women\'s hair. Book well in advance
@@ -57,7 +57,7 @@
 		</section>
 	</a>
 
-	<a href="{{ URL::to('team/izzy') }}">
+	<a href="{{ URL::to('izzy') }}">
 		<section id="iz">
 			<h3>{{ Html::image('images/staff/izzy.jpg', 'Izzy Lamb') }} Isobelle Lamb - Senior Stylist</h3>
 			<p>Izzy has quickly established herself as an extremely sought after stylist. Her natural flair with creating beautiful, wearable styles has built her a strong following. Izzy recently won the National <em>Redken Style Innovator</em> award. She is also
@@ -66,7 +66,7 @@
 		</section>
 	</a>
 
-	<a href="{{ URL::to('team/leon') }}">
+	<a href="{{ URL::to('leon') }}">
 		<section id="leon">
 			<h3>{{ Html::image('images/staff/leon.jpg', 'Leon Pritchard') }} Leon Pritchard - Senior Stylist</h3>
 			<p>Leon has quickly built up a strong reputation for his skills in cutting, colouring &amp; styling hair. He\'s a big hit in the salon due to his friendly personality. He has grown to be a pivotal member of the team and is fast expanding his ever growing
@@ -75,7 +75,7 @@
 		</section>
 	</a>
 
-	<a href="{{ URL::to('team/shell') }}">
+	<a href="{{ URL::to('michelle') }}">
 		<section id="shell">
 			<h3>{{ Html::image('images/staff/michelle_r.jpg', 'Michelle Railton') }} Michelle Railton - Senior Stylist</h3>
 			<p>Michelle is a highly skilled hairdresser with loads of experience. She is rapidly becoming a very highly sought after stylist in the salon. She especially loves soft, natural styles and men\'s indie/mod cutting.</p>
@@ -83,7 +83,7 @@
 		</section>
 	</a>
 
-	<a href="{{ URL::to('team/kate') }}">
+	<a href="{{ URL::to('kate') }}">
 		<section id="kate">
 			<h3>{{ Html::image('images/staff/kate.jpg', 'Kate O\'halloran') }} Kate O'halloran - Stylist</h3>
 			<p>Kate has the ability to put you instantly at ease and with her many years of experience she\'ll find a look that\'s perfect for you. Colouring, cutting and long hair styling are her specialities.</p>
@@ -91,7 +91,7 @@
 		</section>
 	</a>
 
-	<a href="{{ URL::to('team/caleb') }}">
+	<a href="{{ URL::to('caleb') }}">
 		<section id="caleb">
 			<h3>{{ Html::image('images/staff/caleb.jpg', 'Caleb Barrie') }} Caleb Barrie - Stylist</h3>
 			<p>Caleb is a diverse stylist with a real passion for hairdressing. He\'s a recent addition to the team. He’s highly skilled in all aspects of hairdressing but loves high-fashion colouring and big, bouncy blow dry’s.</p>
@@ -99,7 +99,7 @@
 		</section>
 	</a>
 
-	<a href="{{ URL::to('team/tash') }}">
+	<a href="{{ URL::to('tash') }}">
 		<section id="tash">
 			<h3>{{ Html::image('images/staff/tash.jpg', 'Tash Bailey') }} Tash Bailey - Stylist</h3>
 			<p>Tash's passion for hairdressing is apparent from the minute you meet her. She loves creative colouring and cutting plus she\'s highly skilled in styling hair.</p>
@@ -107,7 +107,7 @@
 		</section>
 	</a>
 
-	<a href="{{ URL::to('team/ashley') }}">
+	<a href="{{ URL::to('ashley') }}">
 		<section id="ashley">
 			<h3>{{ Html::image('images/staff/ashley.jpg', 'Ashley Tennant') }} Ashley Tennant - Graduate Stylist</h3>
 			<p>Ashley recently qualified and is now a Gradutae stylist within the team. She is developing at an extremely fast rate and will be moving up the ranks quickly.</p>
