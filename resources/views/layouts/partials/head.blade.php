@@ -11,9 +11,16 @@
 	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/ogimage/standard_image.png' }}">
 	<meta property="og:url" content="{{ isset($url) ? $url : str_replace('http://', 'https://', Request::url()) }}">
 	
-	<?php $this->widget('ext.widgets.googleAnalytics.EGoogleAnalyticsWidget',
-			array('account'=>'UA-2487518-2','domainName'=>'paulkemphairdressing.com')
-	);?>
+	<!--Google analytics -->
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-2487518-1', 'auto');
+  		ga('send', 'pageview');
+	</script>
 
 	<link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}" />
 	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ URL::asset('css/mobile.css') }}"
