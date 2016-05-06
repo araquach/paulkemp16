@@ -13,7 +13,9 @@
 	
 @stop
 
-@section('content') 
+@section('content')
+
+@include('layouts.partials.fb_like')
 
 <section id="team_ind">
 <div id="team_tash" class="team_pic"></div>
@@ -26,7 +28,7 @@
 	
 		<a href="{{ URL::to('team') }}#tash">Click here to see the full team &gt;</a>
 	
-	{{-- FB Like --}}
+	<div class="fb-like" data-href="http://www.paulkemphairdressing.com/tash" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 	
 	</section> <!--team_ind_copy-->
 
