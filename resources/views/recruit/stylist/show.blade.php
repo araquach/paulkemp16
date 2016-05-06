@@ -58,7 +58,7 @@
     <li><strong>Any Hair awards?</strong><br> {{ $stylist->awards }}</li>
     <li><strong>About You</strong> {{ $stylist->about_you }}</li>
     <li><strong>Why did you choose hairdressing?</strong><br> {{ $stylist->why_hairdressing }}</li>
-    <li><strong>Why did you choose Jakata?</strong><br> {{ $stylist->why_jakata }}</li>
+    <li><strong>Why did you choose PK?</strong><br> {{ $stylist->why_pk }}</li>
 </ul>
 
 </div>

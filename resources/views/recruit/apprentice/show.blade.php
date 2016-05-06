@@ -45,7 +45,7 @@
     <br>
     <li><strong>About You:</strong><br>{{ $apprentice->about }}</li>
     <li><strong>Why did you choose hairdressing?:</strong><br>{{ $apprentice->why_hairdressing }}</li>
-    <li><strong>Why Jakata?:</strong><br>{{ $apprentice->why_jakata }}</li>
+    <li><strong>Why PK?:</strong><br>{{ $apprentice->why_pk }}</li>
 </ul>
 
 </div>

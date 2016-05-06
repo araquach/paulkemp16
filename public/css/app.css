@@ -2849,6 +2849,15 @@ section#recruitment h1 {
 	background-size: cover;
 }
 
+#application ul {
+	margin-left: 70px;
+	display: block;
+}
+
+#application ul li {
+	display:block;
+}
+
 .no-rgba #application {
 	background: #fff;
 }
