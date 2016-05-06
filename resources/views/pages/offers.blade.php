@@ -19,12 +19,10 @@
 
 <section id="offersMain">
 
-<h2>Offers</h2>
+{{-- <h2>Offers</h2>  Remove for No Offers --}}
 
-@include('partials.offers.no_offer')
+@include('layouts.partials.offers.no_offer')
 
-@stop
- 
 </section> <!--end offersMain-->
 
 </section> <!--end #offers-->
