@@ -19,15 +19,15 @@
     <p><em>The salon has built up a strong reputation for creating stunning, fashionable looks tailored to suit you, and your lifestyle, so if you're looking for a new <strong class="paraend">hairdressers in Warrington</strong> then look no further!</em></p>
 </section>
 
-<a href="{{ URL::to('new') }}">	
+<a href="{{ URL::to('news') }}#RickAstley">	
 <aside id="news1">
-<h3 class="newsheader">Welcoming Leanne &amp; Caleb</h3>
-<p class="newspara">Two talented new stylists join the team</p>
+<h3 class="newsheader">Leon styles pop legend</h3>
+<p class="newspara">PK were drafted in to Cut and style Rick Astleys hair</p>
 <p class="newscenter"><strong>Find out more here &gt;</strong></p>
 </aside>
 </a>
 
-<a href="{{ URL::to('kebelo.index') }}#ColorMasters">
+<a href="{{ URL::to('kebelo') }}">
 <aside id="news2">
 <h3 class="newsheader">Introducing <br>Kebelo</h3>
 <p class="newspara">Smoother, shinier, more manageable hair can be yours</p>
