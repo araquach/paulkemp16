@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Apprentice;
 use App\Http\Requests\ApprenticeFormRequest;
 use Illuminate\Http\Request;
+use Mail;
 
 class ApprenticeController extends Controller {
 
@@ -48,6 +49,15 @@ class ApprenticeController extends Controller {
 		$input = $request->all();
 		
 		Apprentice::create($input);
+		
+		Mail::send('emails.recruit', $input, function($message)
+   		{
+       		$message->from('adam@jakatasalon.co.uk', 'Jakata');
+       		
+       		$message->subject('New Apprentice Application');
+
+       		$message->to('adam@jakatasalon.co.uk');
+   		});
 
     	return redirect()->back()->with('message', 'Thanks for your application! If a position is available we will contact you soon.');
 	}
