@@ -12,6 +12,8 @@
 	<meta property="og:url" content="{{ isset($url) ? $url : str_replace('http://', 'https://', Request::url()) }}">
 	
 	<!--Google analytics -->
+	
+	{{-- Commented out for now
 	<script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -21,6 +23,7 @@
   		ga('create', 'UA-2487518-1', 'auto');
   		ga('send', 'pageview');
 	</script>
+	--}}
 
 	<link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}" />
 	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ URL::asset('css/mobile.css') }}"
