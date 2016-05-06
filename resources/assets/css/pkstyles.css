@@ -1482,7 +1482,14 @@ section#newspage a p:hover {
 	background-image:url(/images/offer/katynathleon.png);
 	background-position: top right;
 	background-repeat: no-repeat;
-	height: 1200px;
+}
+
+#offersMain div.fb-like  {
+    margin-top: 60px;
+    float: left;
+    clear: left;
+    margin-left: 80px;
+    margin-bottom: 40px;
 }
 
 #offerscopy {

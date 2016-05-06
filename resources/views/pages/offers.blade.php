@@ -15,13 +15,15 @@
 
 @section('content')
 
-{{-- Need FB meta --}}
+@include('layouts.partials.fb_like')
 
 <section id="offersMain">
 
-{{-- <h2>Offers</h2>  Remove for No Offers --}}
+<h2>Offers</h2>
 
-@include('layouts.partials.offers.no_offer')
+@include('layouts.partials.offers.cut_col')
+
+<div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="600" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
 </section> <!--end offersMain-->
 
