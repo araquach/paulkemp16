@@ -158,7 +158,7 @@
 
 
 </section>
-
+<script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('scripts/prices.js') }}"></script>
 
 @stop
