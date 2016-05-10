@@ -455,6 +455,17 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	padding-bottom: 20px;
 }
 
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 2) { 
+    
+    #team section {
+	margin: 40px 0;
+}
+}
+
 #kel {
 	position: relative;
 	left: 0;
@@ -664,32 +675,6 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	margin-top: 0px;
 	float: left;
 }
-
-
-#leanne {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#leanne img {
-	float: none;
-}
-
-#leanne p {
-	font-size: 0.8em;
-}
-
-#leanne h3 img {
-	margin-top: 0px;
-	float: left;
-}
-
-
 
 .csstransitions .teamprice, .csstransitions .pteamprice {
 	-o-opacity: 1;
@@ -3374,6 +3359,11 @@ footer {
 	bottom: 10px;
 	right: 120px;
 	opacity: 1;
+}
+
+#fb-like {
+	height: 50px;
+	margin-top: 40px
 }
 
 /* @end */

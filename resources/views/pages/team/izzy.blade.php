@@ -8,7 +8,7 @@
 	'ogtitle' => '',
 	'ogdescription' => '',
 	'ogimage' => url('/') . '/images/myimage.png',
-	'title' => 'Paul Kemp Hairdressing - '
+	'title' => 'Paul Kemp Hairdressing - Izzy'
 	])
 	
 @stop
@@ -29,7 +29,9 @@
 	
 	<a href="{{ URL::to('team') }}#iz">Click here to see the full team &gt;</a>
 	
-	<div class="fb-like" data-href="http://www.paulkemphairdressing.com/izzy" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+	<div id="fb-like">
+		<div class="fb-like" data-href="http://www.paulkemphairdressing.com/izzy" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+	</div>
 	
 </section> <!--team_ind_copy-->
 <section id="teambottom">
