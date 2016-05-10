@@ -23,7 +23,7 @@
 
 @include('layouts.partials.offers.cut_col')
 
-<div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="600" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+<div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
 </section> <!--end offersMain-->
 

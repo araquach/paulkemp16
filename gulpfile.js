@@ -20,3 +20,11 @@ elixir(function(mix) {
     
     mix.version('public/css/app.css');
 });
+
+elixir(function(mix) {
+    mix.styles([
+        'mobile.css'
+     ], 'public/css/mob.css');
+    
+    mix.version('public/css/mob.css');
+});
