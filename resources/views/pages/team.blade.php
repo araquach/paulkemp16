@@ -51,7 +51,7 @@
 	<a href="{{ URL::to('jo') }}">
 		<section id="jo">
 			<h3>{{ Html::image('images/staff/jo.jpg', 'Jo Mahoney') }} Jo Mahoney - Senior Stylist</h3>
-			<p>Jo is a fantastic stylist with many years experience, she\'s a real long standing asset to the team. Her down to earth nature instantly puts you at ease and her hairdressing skills really shine. She loves doing men and women\'s hair. Book well in advance
+			<p>Jo is a fantastic stylist with many years experience, she's a real long standing asset to the team. Her down to earth nature instantly puts you at ease and her hairdressing skills really shine. She loves doing men and women's hair. Book well in advance
 				- she's a very busy stylist. </p>
 			<p class="teamprice">Average Cut &amp; Colour price with Jo : &pound;114*</p>
 		</section>
@@ -69,7 +69,7 @@
 	<a href="{{ URL::to('leon') }}">
 		<section id="leon">
 			<h3>{{ Html::image('images/staff/leon.jpg', 'Leon Pritchard') }} Leon Pritchard - Senior Stylist</h3>
-			<p>Leon has quickly built up a strong reputation for his skills in cutting, colouring &amp; styling hair. He\'s a big hit in the salon due to his friendly personality. He has grown to be a pivotal member of the team and is fast expanding his ever growing
+			<p>Leon has quickly built up a strong reputation for his skills in cutting, colouring &amp; styling hair. He's a big hit in the salon due to his friendly personality. He has grown to be a pivotal member of the team and is fast expanding his ever growing
 				client base. </p>
 			<p class="teamprice">Average Cut &amp; Colour price with Leon : &pound;114*</p>
 		</section>
@@ -78,15 +78,15 @@
 	<a href="{{ URL::to('michelle') }}">
 		<section id="shell">
 			<h3>{{ Html::image('images/staff/michelle_r.jpg', 'Michelle Railton') }} Michelle Railton - Senior Stylist</h3>
-			<p>Michelle is a highly skilled hairdresser with loads of experience. She is rapidly becoming a very highly sought after stylist in the salon. She especially loves soft, natural styles and men\'s indie/mod cutting.</p>
+			<p>Michelle is a highly skilled hairdresser with loads of experience. She is rapidly becoming a very highly sought after stylist in the salon. She especially loves soft, natural styles and men's indie/mod cutting.</p>
 			<p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;114*</p>
 		</section>
 	</a>
 
 	<a href="{{ URL::to('kate') }}">
 		<section id="kate">
-			<h3>{{ Html::image('images/staff/kate.jpg', 'Kate O\'halloran') }} Kate O'halloran - Stylist</h3>
-			<p>Kate has the ability to put you instantly at ease and with her many years of experience she\'ll find a look that\'s perfect for you. Colouring, cutting and long hair styling are her specialities.</p>
+			<h3>{{ Html::image('images/staff/kate.jpg', 'Kate O'halloran') }} Kate O'halloran - Stylist</h3>
+			<p>Kate has the ability to put you instantly at ease and with her many years of experience she'll find a look that's perfect for you. Colouring, cutting and long hair styling are her specialities.</p>
 			<p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;96*</p>
 		</section>
 	</a>
@@ -94,7 +94,7 @@
 	<a href="{{ URL::to('caleb') }}">
 		<section id="caleb">
 			<h3>{{ Html::image('images/staff/caleb.jpg', 'Caleb Barrie') }} Caleb Barrie - Stylist</h3>
-			<p>Caleb is a diverse stylist with a real passion for hairdressing. He\'s a recent addition to the team. He’s highly skilled in all aspects of hairdressing but loves high-fashion colouring and big, bouncy blow dry’s.</p>
+			<p>Caleb is a diverse stylist with a real passion for hairdressing. He's a recent addition to the team. He’s highly skilled in all aspects of hairdressing but loves high-fashion colouring and big, bouncy blow dry’s.</p>
 			<p class="teamprice">Average Cut &amp; Colour price with Caleb : &pound;96*</p>
 		</section>
 	</a>
@@ -102,7 +102,7 @@
 	<a href="{{ URL::to('tash') }}">
 		<section id="tash">
 			<h3>{{ Html::image('images/staff/tash.jpg', 'Tash Bailey') }} Tash Bailey - Stylist</h3>
-			<p>Tash's passion for hairdressing is apparent from the minute you meet her. She loves creative colouring and cutting plus she\'s highly skilled in styling hair.</p>
+			<p>Tash's passion for hairdressing is apparent from the minute you meet her. She loves creative colouring and cutting plus she's highly skilled in styling hair.</p>
 			<p class="teamprice">Average Cut &amp; Colour price with Tash : &pound;76*</p>
 		</section>
 	</a>
