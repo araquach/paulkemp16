@@ -18,13 +18,12 @@ elixir(function(mix) {
         'form.css'
      ], 'public/css/app.css');
     
-    mix.version('public/css/app.css');
-});
-
-elixir(function(mix) {
     mix.styles([
         'mobile.css'
      ], 'public/css/mob.css');
     
-    mix.version('public/css/mob.css');
+    mix.version([
+        'public/css/app.css',
+        'public/css/mob.css'
+    ]);
 });
