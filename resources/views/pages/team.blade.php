@@ -85,7 +85,7 @@
 
 	<a href="{{ URL::to('kate') }}">
 		<section id="kate">
-			<h3>{{ Html::image('images/staff/kate.jpg', 'Kate O'halloran') }} Kate O'halloran - Stylist</h3>
+			<h3>{{ Html::image('images/staff/kate.jpg', 'Kate O\'halloran') }} Kate O'halloran - Stylist</h3>
 			<p>Kate has the ability to put you instantly at ease and with her many years of experience she'll find a look that's perfect for you. Colouring, cutting and long hair styling are her specialities.</p>
 			<p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;96*</p>
 		</section>

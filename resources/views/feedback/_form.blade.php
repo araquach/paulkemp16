@@ -20,12 +20,6 @@
 <div class="row">
 		{!! Form::hidden('client_id') !!}
 </div>
-
-<div class="row">
-		{!! Form::label('first_name', 'First Name') !!}
-		{!! Form::text('first_name') !!}
-		{!! $errors->first('first_name', '<div class="errorMessage">:message</div>') !!}
-</div>
 	
 <div class="row question">
         {!! Form::label('intro', '1. How was the introduction to your stylist? Did they make you feel welcome and comfortable?') !!}
