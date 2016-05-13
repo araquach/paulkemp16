@@ -3938,7 +3938,7 @@ div.form .errorSummary ul li {
 	margin-right: 20px;
 }
 
-#feedback .mktBox label.required {
+#feedback .mktBox label {
 	font-size: .8em;
 	display: inline;
 }

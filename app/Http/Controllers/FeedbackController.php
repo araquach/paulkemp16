@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Feedback;
+use App\FeedbackClient;
+use App\FeedbackRequest;
+use Mail;
 use App\Http\Requests;
 
 class FeedbackController extends Controller
@@ -25,7 +28,10 @@ class FeedbackController extends Controller
      */
     public function create()
     {
-        return view('feedback.create');
+        $client = 'Mary';
+        $stylist = 'Adam Carter';
+        
+        return view('feedback.create', compact('client', 'stylist'));
     }
 
     /**

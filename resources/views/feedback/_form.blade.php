@@ -112,9 +112,9 @@
 </div>
 
 <div class="row question group">
-        <p>7. We have 3 schemes in place to save you money on your visits to the salon. Which of these were you informed about?</p>
-        <div class="mktBox">
-        {!! Form::label('mkt1', 'Recommend a friend') !!}
+        {!! Form::label('marketing', '7. We have 3 schemes in place to save you money on your visits to the salon. Which of these were you informed about?') !!}
+                <div class="mktBox">
+                {!! Form::label('mkt1', 'Recommend a friend') !!}
 		{!! Form::checkbox('mkt1') !!}
 		</div>
 		<div class="mktBox">
@@ -174,7 +174,7 @@
 
 <div class="row question">
         {!! Form::label('extra', 'Do you have any extra comments you would like to make?') !!}
-        {!! Form::text('extra') !!}
+        {!! Form::textArea('extra') !!}
 		{!! $errors->first('extra', '<div class="errorMessage">:message</div>') !!}
 </div>
 
