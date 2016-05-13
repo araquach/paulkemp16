@@ -21,7 +21,7 @@
 <div id="feedback">
 
 <div id="feedback_copy">
-	<h1>Hi {{ $client }} - get a <br>FREE &pound;10 <br>Product Voucher</h1>
+	<h1>Hi {{ $client }} {{ $id }} - get a <br>FREE &pound;10 <br>Product Voucher</h1>
 	<h2>We want your feedback</h2>
 	<p>You recently had your hair done by <strong>{{ $stylist }}</strong> and we would love to find out how your experience was in the salon.</p>
 	<p>We strive to offer the best possible service, plus give you a hairstyle that you're 100% happy with!</p>

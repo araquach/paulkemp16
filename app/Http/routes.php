@@ -29,4 +29,8 @@ Route::post('sendEmail',
   
 Route::resource('apprentice', 'ApprenticeController');
 Route::resource('stylist', 'StylistController');
-Route::resource('feedback', 'FeedbackController');
+
+Route::get('feedback/{id}',
+  ['as' => 'feedbackCreate', 'uses' => 'FeedbackController@create']);
+Route::post('feedback/store',
+  ['uses' => 'FeedbackController@store']);
