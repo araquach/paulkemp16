@@ -18,7 +18,7 @@
 @endif
 
 <div class="row">
-		{!! Form::hidden('client_id') !!}
+        {{ Form::hidden('client_id', $client->id) }}
 </div>
 	
 <div class="row question">
@@ -182,6 +182,10 @@
         {!! Form::label('allow', 'Please tick the box if you allow us to use your feedback on our testimonials page') !!}
         {!! Form::checkbox('allow') !!}
 		{!! $errors->first('allow', '<div class="errorMessage">:message</div>') !!}
+</div>
+
+<div class="row buttons">
+	{!! Form::submit('Send') !!}
 </div>
 
 

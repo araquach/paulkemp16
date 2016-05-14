@@ -11,6 +11,13 @@ use App\Http\Requests;
 
 class FeedbackController extends Controller
 {
+    
+    public function __construct(Feedback $feedback)
+	{
+		$this->feedback = $feedback;
+	}
+	
+	
     /**
      * Display a listing of the resource.
      *
@@ -39,7 +46,11 @@ class FeedbackController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $input = $request->all();
+        
+		Feedback::create($input);
+	    
+	    return redirect()->back()->with('message', 'Thank you for your feedback, it\'s really appreciated. Your voucher is on it\'s way plus you have been entered into our next prize draw for the chance to win some great prizes. See you in the salon soon!');
     }
 
     /**
