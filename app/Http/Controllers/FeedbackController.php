@@ -26,12 +26,9 @@ class FeedbackController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create($id)
+    public function create(FeedbackClient $client)
     {
-        $client = 'Mary';
-        $stylist = 'Adam Carter';
-        
-        return view('feedback.create', compact('client', 'stylist', 'id'));
+        return view('feedback.create', compact('client'));
     }
 
     /**
