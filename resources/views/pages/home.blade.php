@@ -10,7 +10,10 @@
 
 @section('content')
 
-<section id="homeimage"></section>
+<script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('scripts/feedback-feed.js') }}"></script>
+
+<section id="homeimage"></section>3
     
 <section id="homecopy">
     <h2>A New Standard of Hairdressing</h2>
@@ -52,9 +55,14 @@
 </a>
 
 <div id="feedback_feed">
-	<ul>
+  	<ul>
+  	@foreach($feedbacks as $feed)
+  	    <li>Hello!&quot;{{ $feed->extra }}&quot;<br><span class="client">{{-- $feed->feedbackClient->first_name --}} {{-- $feed->client->last_name --}} - hair by {{-- $feed->$client->stylist --}} </span></li>
+  	@endforeach
+  	</ul>
+</div> <!--#feedback_feed-->
 
-	</ul>
-</div>
+
+
 
 @stop

@@ -23,5 +23,3 @@ jQuery.noConflict();
 		});
 })(jQuery);
 
-
-
