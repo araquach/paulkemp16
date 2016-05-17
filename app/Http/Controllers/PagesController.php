@@ -20,7 +20,7 @@ class PagesController extends Controller {
 	 */
 	public function __construct()
 	{
-		$this->middleware('guest', 'auth');
+		$this->middleware('guest');
 	}
 
 	/**
