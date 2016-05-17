@@ -10,6 +10,6 @@ class Feedback extends Model
     
     public function client()
     {
-        return $this->belongsTo('App\FeedbackClient');
+        return $this->hasOne('App\FeedbackClient', 'id');
     }
 }

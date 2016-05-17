@@ -30,9 +30,11 @@ class PagesController extends Controller {
 	 */
 	public function index()
 	{
-		$feedbacks = Feedback::all();
+		$feedbacks = Feedback::with('client')->get();
+		//$books = App\Book::with('author')->get();
 		
 		return view('pages.home', compact('feedbacks'));
+		// return dd($feedbacks);
 	}
 	
 	public function details()
