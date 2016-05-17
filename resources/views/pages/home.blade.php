@@ -13,7 +13,7 @@
 <script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('scripts/feedback-feed.js') }}"></script>
 
-<section id="homeimage"></section>3
+<section id="homeimage"></section>
     
 <section id="homecopy">
     <h2>A New Standard of Hairdressing</h2>
