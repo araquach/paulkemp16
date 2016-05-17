@@ -57,7 +57,7 @@
 <div id="feedback_feed">
   	<ul>
   	@foreach($feedbacks as $feed)
-  	    <li>&quot;{{ $feed->extra }}&quot;<br><span class="client">{{ $feed->client->first_name }} {{ $feed->client->last_name }} - hair by {{ $feed->client->stylist }} </span></li>
+  	    <li>&quot;{{ $feed->extra_edit }}&quot;<br><span class="client">{{ $feed->client->first_name }} {{ $feed->client->last_name }} - hair by {{ $feed->client->stylist }} </span></li>
   	@endforeach
   	</ul>
 </div> <!--#feedback_feed-->
