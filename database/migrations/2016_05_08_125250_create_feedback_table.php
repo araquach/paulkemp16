@@ -29,7 +29,7 @@ class CreateFeedbackTable extends Migration
             $table->integer('end_result');
             $table->string('extra');
             $table->string('extra_edit');
-            $table->string('client_id');
+            $table->integer('client_id');
             $table->boolean('allow');
             $table->boolean('publish');
             $table->timestamps();
