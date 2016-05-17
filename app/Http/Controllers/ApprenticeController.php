@@ -13,9 +13,9 @@ class ApprenticeController extends Controller {
 
 	public function __construct(Apprentice $apprentice)
 	{
-		$this->apprentice = $apprentice;
-		
 		$this->middleware('auth', ['except' => ['create','store']]);
+		
+		$this->apprentice = $apprentice;
 	}
 
 	
