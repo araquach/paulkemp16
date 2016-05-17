@@ -33,7 +33,7 @@ class PagesController extends Controller {
 		$feedbacks = Feedback::with('client')->where('publish', '=', '1')->get();
 	
 		// return view('pages.home', compact('feedbacks'));
-		return(dd $feedbacks);
+		return dd($feedbacks);
 	}
 	
 	public function details()
