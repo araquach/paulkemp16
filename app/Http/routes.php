@@ -1,6 +1,6 @@
 <?php
 
-Route::auth();
+
 
 Route::get('/', 'PagesController@index');
 Route::get('/details', 'PagesController@details');
@@ -36,3 +36,5 @@ Route::get('feedback/{client}',
   ['as' => 'feedbackCreate', 'uses' => 'FeedbackController@create']);
 Route::post('feedback/store',
   ['uses' => 'FeedbackController@store']);
+  
+Route::auth();
