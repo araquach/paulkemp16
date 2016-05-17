@@ -1,5 +1,7 @@
 <?php
 
+Route::auth();
+
 Route::get('/', 'PagesController@index');
 Route::get('/details', 'PagesController@details');
 Route::get('/news', 'PagesController@news');

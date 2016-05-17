@@ -14,6 +14,8 @@ class StylistController extends Controller {
 	public function __construct(Stylist $stylist)
 	{
 		$this->stylist = $stylist;
+		
+		$this->middleware('auth', ['except' => ['create','store']]);
 	}
 
 	/**
