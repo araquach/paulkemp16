@@ -36,6 +36,7 @@ class FeedbackClientsTableSeeder extends Seeder
         ]);
         
         DB::table('feedback_clients')->insert([
+            'id' => '1456',
             'iris_id' => '4',
             'stylist' => 'Laura Hall',
             'first_name' => 'Ryan',

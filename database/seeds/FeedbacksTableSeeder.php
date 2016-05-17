@@ -86,7 +86,7 @@ class FeedbacksTableSeeder extends Seeder
             'end_result' => '2',
             'extra' => 'Not the best haircut but the staff were ok',
             'extra_edit' => '',
-            'client_id' => '4',
+            'client_id' => '1456',
             'allow' => '1',
             'publish' => '1',
         ]);
