@@ -15,8 +15,6 @@ class FeedbackController extends Controller
     public function __construct(Feedback $feedback)
 	{
 		$this->feedback = $feedback;
-		
-		$this->middleware('auth', ['except' => ['create','store']]);
 	}
 
 	
