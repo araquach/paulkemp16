@@ -27,6 +27,51 @@ window.addEvent('domready', function(){
 <section id="accordion">
 	
 <article class="article">
+<a id="EliteSymposium" class="anchor"></a>
+<section class="visible">
+{{ Html::image('images/news_images/symposium1.jpg', 'Elite Symposium') }}
+{{ Html::image('images/news_images/symposium2.jpg', 'Elite Symposium') }}
+<h3>Schwarzkopf Professional Elite Symposium</h3>
+<p><strong>The PK team members often get the opportunity to go to hairdressing events that take place throughout the year. <em>Schwarzkopf</em> organises a few annual events and as they are one of our major suppliers we like to get involved.</strong></p>
+<p>This year they organised a new one - the <strong>Schwarzkopf Professional Elite Symposium</strong> - a day of seminars, competitions, product launches complete with a sit down meal and party in the evening. We thought it would be good to get as many of the team going that we could.</p>
+<p>We ran an incentive in the salon and 10 of the guys from across both salons won tickets to join the 300+ hairdressers invited to the event.</p>
+<p>I asked PK stylist <strong>Ashley Tennant</strong> to write up her experience of the event&hellip;</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+{{ Html::image('images/news_images/symposium3.jpg', 'Elite Symposium entrance') }}
+<p>Our day started with an early morning drive down to Birmingham where we arrived at the Belfry hotel at 11am to start our day at the all day hair event held by <em>Schwarzkopf</em>.</p>
+<p>We were greeted by <em>Schwarzkopf</em> account managers who gave us information about the day’s events and we checked into the hotel. Whilst helping ourselves to the complimentary teas and coffee we got a chance to meet the other stylists who had come from all over the country to be at this Schwarzkopf event.</p>
+<p>Whilst waiting to go into the first presentation at around 12am we were provided with a lunch buffet. </p>
+{{ Html::image('images/news_images/symposium4.jpg', 'Steven McDowell') }}
+{{ Html::image('images/news_images/symposium5.jpg', 'Osis') }}
+<p>The show was hosted by Stephen McDowle who welcomed us to the event and started the day off with the '<strong>Osis: Made to Create</strong>' re-launch. Introducing 8 new “hero” products and the repackaging of the entire range they taught us all about these new products whilst using them to create upcoming trends.</p>
+<p><strong>Undercoat </strong>- A primer for hair which creates a seamless look and feel, this revolutionary prepping product is one were all excited about.</p>
+<p><strong>Big Blast </strong>- A light weight volumising gel used in a way that hasn’t been used before, blow drying the gel into damp hair to create moveable volume that isn’t crisp to the touch like gels we’ve known in the past.</p>
+<p><strong>Curl Honey </strong>- A honey scented curl cream which when diffused into coarse curly hair creates the perfect natural curls, smooth and frizz free.</p>
+<p><strong>Bouncy Curls </strong>- This oil based lightweight gel has strong curl definition. Blow dry in to damp hair to give a soft bounce to normal/fine curls.</p>
+<p><strong>Tame Wild </strong>- A strong control smoothing cream which defies frizz and humidity for up to 7 days. Work in o damp hair and style as desired for soft touch, shiny and smooth hair.</p>
+<p>As well as drying products, three new styling products were introduced for defining texture in an out of the box way:</p>
+<p><strong>Play tough </strong>- An ultra strong waterproof gel which can be used on wet or dry hair.</p>
+<p><strong>Mighty Matte </strong>- This strong control mattifying wax is perfect for a groomed yet rough look.</p>
+<p><strong>Damped </strong>- Finally, a product that dries in to the hair but remains “wet-look”. Perfect for sleek, polished styles.</p>
+{{ Html::image('images/news_images/symposium6.jpg', 'Essential Looks') }}
+<p>After the product re-launch, the <em>Essential Looks</em> show started. Essential looks is Schwarzkopf’s predictions for the upcoming trends in the world of hair, picking ideas from fashion catwalks and matching it to the clothes and styles on the runways.</p>
+<p><em>Essential Looks</em> is always something we look forward to as we take a lot from it and use it to inspire new ideas back at the salon.</p>
+{{ Html::image('images/news_images/symposium7.jpg', 'Inspire UK') }}
+<p>Once the Essential Looks finished, the <em>Inspire Live UK</em> competition entries took to the stage with their models. Each salon presented their creations and explained what they took from this year’s Essential Looks when creating their colour, cut and styles. It was exciting to watch and something we were all interested in taking part in next year.</p>
+<p>We then checked in to our lavish hotel rooms and got ready for the night in black tie and cocktail dresses, everyone looked amazing! We were then seated back into the presentation hall where the <em>Inspire Live UK</em> competition winner was announced. The celebrations commenced with a three course meal and complimentary wine for the table before heading over to the hotels night club 'Bel Air' to party for the rest of the night.</p>
+{{ Html::image('images/news_images/symposium_group.jpg', 'Group Shot', array('class' => 'news-image')) }}
+{{ Html::image('images/news_images/symposium8.jpg', 'Meal Time') }}
+<p><strong>The whole day was great fun and very inspiring so thank you to Schwarzkopf and Jakarta/Pk management for giving us that opportunity! We can’t wait for next year!</strong></p>
+<p class="offer_heading"></p>
+<p class="offer"></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Ashley</p>
+<time datetime="2016-04-28">28<sup>th</sup>April 2016</time>
+</article> <!--end #article-->
+	
+<article class="article">
 <a id="EssentialLooksComp" class="anchor"></a>
 <section class="visible">
 {{ Html::image('images/news_images/el/groupshot.jpg', 'Essential Looks Entries') }}
