@@ -26,7 +26,7 @@ class ContactController extends Controller {
 		Mail::send('emails.contact', $input, function($message)
    		{
        		$message->from('bookings@paulkemphairdressing.com', 'PK Bookings');
-
+			$message->subject('PK Booking');
        		$message->to(['adam@jakatasalon.co.uk'], '[bookings@paulkemphairdressing.com']);
    		});
 		
