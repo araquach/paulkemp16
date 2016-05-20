@@ -27,7 +27,7 @@ class ContactController extends Controller {
    		{
        		$message->from('bookings@paulkemphairdressing.com', 'PK Bookings');
 			$message->subject('PK Booking');
-       		$message->to(['adam@jakatasalon.co.uk'], '[bookings@paulkemphairdressing.com']);
+       		$message->to('adam@jakatasalon.co.uk', 'bookings@paulkemphairdressing.com');
    		});
 		
 		return Redirect()->back()->with('message', 'Thanks for contacting us!'); 
