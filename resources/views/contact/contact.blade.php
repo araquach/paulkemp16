@@ -19,6 +19,13 @@
     <section id="locmap">
     <a id="map"></a>
     <h2>Contact Us</h2>
+    
+@if(Session::has('message'))
+    <div id="success">
+    {{{ Session::get('message') }}}
+    </div>
+@endif
+
     <h3>How to find us:</h3>
     <p><strong>Paul Kemp Hairdressing</strong> is located on the corner of <em>Sankey Street</em> and <em>Springfield Street</em> in Warrington Town Centre
     (opposite the Golden Gates).</p>
@@ -54,11 +61,16 @@
 <p>Please fill in as much information as possible in the form below. If you wish to make an appointment state the preferred date and time plus the service you require</p>
 <div class="form">
 
-<ul>
-    @foreach($errors->all() as $error)
-        <li>{{{ $error }}}</li>
-    @endforeach
-</ul>
+@if (count($errors) > 0)
+<div id="contact-form_es_" class="errorSummary">
+		<p>Please fix the following input errors:</p>
+		<ul>
+	   		 @foreach($errors->all() as $error)
+	        <li>{{{ $error }}}</li>
+	    	@endforeach
+		</ul>
+</div>
+@endif
 
 {!! Form::open(array('action' => 'ContactController@sendEmail', 'class' => 'form')) !!}
 
