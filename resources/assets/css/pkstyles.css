@@ -681,7 +681,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #feedback_feed_ind {
-	width: 420px;
+	width: 380px;
 	text-align: left;
 	position: relative;
 	float: left;
@@ -689,7 +689,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	font-size: .8em;
 	line-height: 1.3em;
 	display: none;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 #feedback_feed_ind ul li {
