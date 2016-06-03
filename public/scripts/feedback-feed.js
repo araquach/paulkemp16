@@ -17,7 +17,7 @@ jQuery.noConflict();
 			         );
 			
 			}
-			$('#feedback_feed' . '*').css('display','block');
+			$('#feedback_feed').css('display','block');
 			$('#feedback_feed li').hide();
 			InOut( $('#feedback_feed li:first'));
 		});
