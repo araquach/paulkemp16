@@ -17,6 +17,9 @@
 
 @section('content') 
 
+<script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('scripts/feedback-feed-ind.js') }}"></script>
+
 <section id="team_ind">
 	<div id="team_ashley" class="team_pic"></div>
 	
@@ -25,6 +28,14 @@
 	<p>Ashley recently qualified and is now a Graduate stylist within the team.</p> 
 	<p>She is developing at an extremely fast rate and will be moving up the ranks quickly.</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Ashley : &pound;55*</p>
+	
+	<div id="feedback_feed_ind">
+  	<ul>
+  	@foreach($feedbacks as $feed)
+  	    <li>&quot;{{ $feed->feedback->extra_edit }}&quot;<br><span class="client">{{ $feed->first_name }} {{ $feed->last_name }} - hair by {{ $feed->stylist }} </span></li>
+  	@endforeach
+  	</ul>
+	</div> <!--#feedback_feed-->
 	
 	<a href="{{ URL::to('team') }}#ashley">Click here to see the full team &gt;</a>
 	

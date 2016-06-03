@@ -680,6 +680,29 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	opacity: 1;
 }
 
+#feedback_feed_ind {
+	width: 420px;
+	text-align: left;
+	position: relative;
+	float: left;
+	clear: left;
+	font-size: .8em;
+	line-height: 1.3em;
+	display: none;
+	margin-bottom: 70px;
+}
+
+#feedback_feed_ind ul li {
+	color: rgb(55,34,24);
+	list-style-type: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+#feedback_feed_ind ul li .client {
+	font: .7em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
 #kel {
 	position:absolute;
 	left: 40px;

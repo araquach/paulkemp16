@@ -17,6 +17,9 @@
 
 @include('layouts.partials.fb_like')
 
+<script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('scripts/feedback-feed-ind.js') }}"></script>
+
 <section id="team_ind">
 	<div id="team_kel" class="team_pic"></div>
 
@@ -26,6 +29,14 @@
 	<p>She is the team leader of the salon.</p> 
 	<p>She specialises in long hair styling and is also one of the extension experts within the salon.</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Kelly : &pound;114*</p>
+	
+	<div id="feedback_feed_ind">
+  	<ul>
+  	@foreach($feedbacks as $feed)
+  	    <li>&quot;{{ $feed->feedback->extra_edit }}&quot;<br><span class="client">{{ $feed->first_name }} {{ $feed->last_name }} - hair by {{ $feed->stylist }} </span></li>
+  	@endforeach
+  	</ul>
+	</div> <!--#feedback_feed-->
 	
 	<a href="{{ URL::to('team') }}#kel">Click here to see the full team &gt;</a>
 	

@@ -62,7 +62,4 @@
   	</ul>
 </div> <!--#feedback_feed-->
 
-
-
-
 @stop
