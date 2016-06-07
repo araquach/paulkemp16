@@ -10,7 +10,7 @@
     <meta property="og:description" content="{{ $ogdescription or 'Paul Kemp Hairdressing is a luxurious hair salon right in the heart of Warrington town centre' }}">
 	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/ogimage/standard_image.png' }}">
 	<meta property="og:url" content="{{ url()->current() }}">
-	<meta property="fb:admins" content="{{ $fbadmins or '191283914255309' }}">
+	<meta property="fb:admins" content="{{ $fbadmins or '10154688135992119' }}">
 	
 	
 	<!--Google analytics -->
