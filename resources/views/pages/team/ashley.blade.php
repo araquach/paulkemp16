@@ -13,9 +13,9 @@
 	
 @stop
 
-@include('layouts.partials.fb_like')
-
 @section('content') 
+
+@include('layouts.partials.fb_like')
 
 <script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('scripts/feedback-feed-ind.js') }}"></script>
