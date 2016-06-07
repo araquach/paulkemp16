@@ -3,11 +3,11 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
+	'description' => 'Ashley recently qualified and is now a Graduate stylist within the team. She is developing at an extremely fast rate and will be moving up the ranks quickly.',
+	'keywords' => 'Ashley Tennant, Paul Kemp Hairdressing stylists, hairdressers, PK',
+	'ogtitle' => 'Ashley Tennant',
+	'ogdescription' => 'Ashley recently qualified and is now a Graduate stylist within the team. She is developing at an extremely fast rate and will be moving up the ranks quickly.',
+	'ogimage' => url('/') . '/images/staff/ashley_og.jpg',
 	'title' => 'Paul Kemp Hairdressing - Ashley'
 	])
 	

@@ -3,11 +3,15 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
+	'description' => 'Izzy has quickly established herself as an extremely sought after stylist. 
+	Her natural flair with creating beautiful, wearable styles has built her a strong following. 
+	Izzy recently won the National Redken Style Innovator award. She is also a specialist in extensions.',
+	'keywords' => 'Izzy Lamb, Isobelle Lamb, Paul Kemp Hairdressing stylists, hairdressers, PK',
+	'ogtitle' => 'Izzy Lamb',
+	'ogdescription' => 'Izzy has quickly established herself as an extremely sought after stylist. 
+	Her natural flair with creating beautiful, wearable styles has built her a strong following. 
+	Izzy recently won the National Redken Style Innovator award. She is also a specialist in extensions.',
+	'ogimage' => url('/') . '/images/staff/izzy_og.jpg',
 	'title' => 'Paul Kemp Hairdressing - Izzy'
 	])
 	

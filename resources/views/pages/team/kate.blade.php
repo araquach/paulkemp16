@@ -3,11 +3,13 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
+	'description' => 'Kate has the ability to put you instantly at ease and with her many years of experience she\'ll find a look that\'s perfect for you. 
+	Colouring, cutting and long hair styling are her specialities.',
+	'keywords' => 'Kate O\'Halloran, Paul Kemp Hairdressing stylists, hairdressers, PK',
+	'ogtitle' => 'Kate O\'Halloran',
+	'ogdescription' => 'Kate has the ability to put you instantly at ease and with her many years of experience she\'ll find a look that\'s perfect for you. 
+	Colouring, cutting and long hair styling are her specialities.',
+	'ogimage' => url('/') . '/images/staff/kate_og.jpg',
 	'title' => 'Paul Kemp Hairdressing - Kate'
 	])
 	

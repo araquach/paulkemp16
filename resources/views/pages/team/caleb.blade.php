@@ -3,11 +3,11 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
+	'description' => 'Caleb is a diverse stylist with a real passion for hairdressing. He\'s a recent addition to the team. He\’s highly skilled in all aspects of hairdressing but loves high-fashion colouring and big, bouncy blow dry\’s.',
+	'keywords' => 'Caleb Barrie, Paul Kemp Hairdressing stylists, hairdressers, PK',
+	'ogtitle' => 'Caleb Barrie',
+	'ogdescription' => 'Caleb is a diverse stylist with a real passion for hairdressing. He\'s a recent addition to the team. He\’s highly skilled in all aspects of hairdressing but loves high-fashion colouring and big, bouncy blow dry\’s.',
+	'ogimage' => url('/') . '/images/staff/caleb_og.jpg',
 	'title' => 'Paul Kemp Hairdressing - Caleb'
 	])
 	

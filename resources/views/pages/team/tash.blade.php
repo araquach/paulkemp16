@@ -3,11 +3,13 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
+	'description' => 'Tash\'s passion for hairdressing is apparent from the minute you meet her. 
+	She loves creative colouring and cutting plus she\'s highly skilled in styling hair.',
+	'keywords' => 'Natasha Bailey, Tash Bailey, Paul Kemp Hairdressing stylists, hairdressers, PK',
+	'ogtitle' => 'Tash Bailey',
+	'ogdescription' => 'Tash\'s passion for hairdressing is apparent from the minute you meet her. 
+	She loves creative colouring and cutting plus she\'s highly skilled in styling hair.',
+	'ogimage' => url('/') . '/images/staff/tash_og.jpg',
 	'title' => 'Paul Kemp Hairdressing - Tash'
 	])
 	

@@ -3,11 +3,13 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'ogimage' => url('/') . '/images/myimage.png',
+	'description' => 'Michelle is a highly skilled Senior Stylist with loads of experience. She is rapidly becoming a very highly sought after stylist in the salon. 
+	She especially loves soft, natural styles and men\'s indie/mod cutting.',
+	'keywords' => 'Michelle Railton, Shell Railton, Paul Kemp Hairdressing stylists, hairdressers, PK',
+	'ogtitle' => 'Michelle Railton',
+	'ogdescription' => 'Michelle is a highly skilled Senior Stylist with loads of experience. She is rapidly becoming a very highly sought after stylist in the salon. 
+	She especially loves soft, natural styles and men\'s indie/mod cutting.',
+	'ogimage' => url('/') . '/images/staff/michelle_og.jpg',
 	'title' => 'Paul Kemp Hairdressing - Michelle'
 	])
 	
