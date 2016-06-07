@@ -5,12 +5,12 @@
 @include('layouts.partials.head', [
 	'description' => 'Jo is a fantastic stylist with many years experience, she\'s a real long standing asset to the team. 
 	Her down to earth nature instantly puts you at ease and her hairdressing skills really shine. 
-	She loves doing men and women\'s hair. Book well in advance - she's a very busy stylist.',
+	She loves doing men and women\'s hair. Book well in advance - she\'s a very busy stylist.',
 	'keywords' => 'Jo Mahoney, Joanne Mahoney, Paul Kemp Hairdressing stylists, hairdressers, PK',
 	'ogtitle' => 'Jo Mahoney',
 	'ogdescription' => 'Jo is a fantastic stylist with many years experience, she\'s a real long standing asset to the team. 
 	Her down to earth nature instantly puts you at ease and her hairdressing skills really shine. 
-	She loves doing men and women\'s hair. Book well in advance - she's a very busy stylist.',
+	She loves doing men and women\'s hair. Book well in advance - she\'s a very busy stylist.',
 	'ogimage' => url('/') . '/images/staff/jo_og.jpg',
 	'title' => 'Paul Kemp Hairdressing - Jo'
 	])
