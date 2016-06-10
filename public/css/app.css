@@ -1937,7 +1937,7 @@ section#newspage a p:hover {
 
 #offerlist #offer1 {
 	padding: 30px;
-	background-image: url(/images/offer/Justyna_146.jpg);
+	background-image: url(/images/offer/sch2.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1950,13 +1950,17 @@ section#newspage a p:hover {
 	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 }
 
+#offerlist #offer1 h3, #offerlist #offer1 p, #offerlist #offer1 .small {
+	color: #FFF;
+}
+
 #offerlist #offer2 h3, #offerlist #offer1 h3, #offerlist #offer4 p {
 	margin-top: 0;
 }
 
 #offerlist #offer2 {
 	padding: 30px;
-	background-image: url(/images/offer/Katharina_091.jpg);
+	background-image: url(/images/offer/ola2.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1971,7 +1975,7 @@ section#newspage a p:hover {
 
 #offerlist #offer3 {
 	padding: 30px;
-	background-image: url(/images/offer/last_min_man.jpg);
+	background-image: url(/images/offer/niall.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1982,6 +1986,10 @@ section#newspage a p:hover {
 	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+}
+
+#offerlist #offer3 h3, #offerlist #offer3 p, #offerlist #offer3 .small {
+	color: rgb(55,34,24);
 }
 
 #offerlist #offer4 {
