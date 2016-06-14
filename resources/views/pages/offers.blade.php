@@ -3,12 +3,12 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Check out all the latest offers at Paul Kemp Hairdressing',
+	'description' => 'Summer Cut & Colour Packages - £80 with Senior Stylist, £65 with Stylists for new clients',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
-	'ogtitle' => 'Latest Special Offers',
-	'ogdescription' => 'Check out all the latest offers here at Paul Kemp Hairdressing',
-	'ogimage' => url('/') . '/images/ogimage/myimage.png',
-	'title' => 'Paul Kemp Hairdressing - Latest Offers - Hairdressers in Warrington'
+	'ogtitle' => 'Summer Offers',
+	'ogdescription' => 'Cut and colour packages: £80 with Senior Stylist, £65 with Stylists for new clients',
+	'ogimage' => url('/') . '/images/ogimage/',
+	'title' => 'Paul Kemp Hairdressing - Summer Offers - Hairdressers in Warrington'
 	])
 	
 @stop
@@ -19,7 +19,7 @@
 
 <section id="offersMain">
 
-<h2>Offers</h2>
+<h2>Summer Offers</h2>
 
 @include('pages.offers.cut_col')
 
