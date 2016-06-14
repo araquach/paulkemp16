@@ -13,7 +13,19 @@
 <script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('scripts/feedback-feed.js') }}"></script>
 
-<section id="homeimage"></section>
+<section id="home">
+    
+<div class="proportional aspect1">
+		<div id="home_image"></div>
+</div>
+
+<div id="feedback_feed">
+  	<ul>
+  	@foreach($feedbacks as $feed)
+  	    <li>&quot;{{ $feed->extra_edit }}&quot;<br><span class="client">{{ $feed->client->first_name }} {{ $feed->client->last_name }} - hair by {{ $feed->client->stylist }} </span></li>
+  	@endforeach
+  	</ul>
+</div> <!--#feedback_feed-->
     
 <section id="homecopy">
     <h2>A New Standard of Hairdressing</h2>
@@ -54,12 +66,6 @@
 </aside>
 </a>
 
-<div id="feedback_feed">
-  	<ul>
-  	@foreach($feedbacks as $feed)
-  	    <li>&quot;{{ $feed->extra_edit }}&quot;<br><span class="client">{{ $feed->client->first_name }} {{ $feed->client->last_name }} - hair by {{ $feed->client->stylist }} </span></li>
-  	@endforeach
-  	</ul>
-</div> <!--#feedback_feed-->
+</section> <!--#home-->
 
 @stop

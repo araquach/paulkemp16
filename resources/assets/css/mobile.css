@@ -16,6 +16,24 @@ body {
 	background-color: #f9f5f2;
 }
 
+.proportional {
+	width: 100%;
+	padding-bottom: 100%;
+    position: relative;
+}
+
+.aspect1 {
+	padding-bottom: 120%;
+}
+
+.aspect2 {
+	padding-bottom: 60%;
+}
+
+.aspect3 {
+	padding-bottom: 40%;
+}
+
 table {
 	width: auto;
 	margin: 0;
@@ -146,12 +164,26 @@ li.active a {
 
 /* @group Home */
 
-#homeimage {
+#home {
 	width: auto;
-	height: 400px;
-	background: url(/images/home/katharina.jpg) left top no-repeat #f8f3e8;
-	background-size: cover;
+	height: auto;
+	background: none;
 	float: none;
+	padding: 0;
+}
+
+#home_image {
+	background: url('/images/home/katharina.jpg') 0px 0px no-repeat;
+	background-size: contain;
+	float: none;
+	margin: 0;
+	width: auto;
+	height: auto;
+}
+
+#home .proportional > #home_image {
+	position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
 }
 
 #homecopy {
@@ -184,12 +216,9 @@ li.active a {
 }
 
 #news1 {
-	margin-top: 190px;
-}
-
-#news1 {
 	left: 0;
 	top: 0;
+	margin-top: 0;
 	background-size: 100% auto;
 	-webkit-transition: none;
 	-moz-transition: none;
@@ -322,33 +351,14 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 #feedback_feed {
 	width: auto;
-	height: 170px;
+	height: 100px;
 	text-align: left;
-	position: absolute;
+	position: relative;
 	font-size: .8em;
-	top: 500px;
-	left: 30px;
+	top: 0;
+	left: 0;
 	display: none;
-}
-
-@media screen and (device-aspect-ratio: 9/16) {
-
-	#feedback_feed {
-		top: 500px;
-	}
-
-}
-
-@media only screen 
-    and (min-device-width : 375px) 
-    and (max-device-width : 667px) 
-    and (orientation : portrait) 
-    and (-webkit-min-device-pixel-ratio : 2) { 
-    
-    #feedback_feed {
-    	top: 500px;
-    }
-    
+	padding: 30px;
 }
 
 
