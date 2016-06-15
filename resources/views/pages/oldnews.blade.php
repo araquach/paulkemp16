@@ -7,7 +7,6 @@
 	'keywords' => 'Paul Kemp Hairdressing news, PK news stories, archived news, news archives',
 	'ogtitle' => 'PK News Archives',
 	'ogdescription' => 'All the archived news from the Paul Kemp Hairdressing Team',
-	'ogimage' => url('/') . '/images/ogimage/myimage.png',
 	'title' => 'Paul Kemp Hairdressing - PK News Archives - Hairdressers in Warrington'
 	])
 	

@@ -7,7 +7,6 @@
 	'keywords' => 'stylist pricing, senior stylist pricing, stylist cost, senior stylist cost',
 	'ogtitle' => 'Stylist Prices',
 	'ogdescription' => 'Choose from a Stylist or Senior Stylist - Our Stylists are all highly skilled and qualified',
-	'ogimage' => url('/') . '/images/ogimage/myimage.png',
 	'title' => 'Paul Kemp Hairdressing - Stylist Prices - Hairdressers in Warrington'
 	])
 	

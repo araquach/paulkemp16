@@ -7,7 +7,7 @@
 	'keywords' => 'mens hairdressing, male hairdressing, male grooming, mens cutting, mens colouring, mens styling',
 	'ogtitle' => 'Men\'s Hairdressing',
 	'ogdescription' => 'At Paul Kemp Hairdressing we have a team of experts in men\'s hairdressing on hand. Whatever your fashion tastes and style, we\'ll work your hair exactly how you want it. The team constantly stay up to date with latest cutting & styling techniques through Tigi and Schwarzkopf\'s innovative training courses and inspiration sessions.',
-	'ogimage' => url('/') . '/images/ogimage/myimage.png',
+	'ogimage' => url('/') . '/images/ogimage/men.jpg',
 	'title' => 'Paul Kemp Hairdressing - Men\'s Hairdressing - Hairdressers in Warrington'
 	])
 	

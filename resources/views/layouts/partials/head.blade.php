@@ -8,7 +8,7 @@
 	
 	<meta property="og:title" content="{{ $ogtitle or 'Paul Kemp Hairdressing' }}">
     <meta property="og:description" content="{{ $ogdescription or 'Paul Kemp Hairdressing is a luxurious hair salon right in the heart of Warrington town centre' }}">
-	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/ogimage/standard_image.png' }}">
+	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/ogimage/home.jpg' }}">
 	<meta property="og:url" content="{{ url()->current() }}">
 	
 	

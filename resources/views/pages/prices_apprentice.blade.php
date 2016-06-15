@@ -7,7 +7,6 @@
 	'keywords' => 'apprentice price, junior stylist price, graduate stylist price',
 	'ogtitle' => 'Apprentice Prices',
 	'ogdescription' => 'Our apprentices are trained to the highest standards and are observd by senior stylists. If you\'re looking for a more affordable option then book in with one of our talented apprentices',
-	'ogimage' => url('/') . '/images/ogimage/myimage.png',
 	'title' => 'Paul Kemp Hairdressing - Apprentice Prices - Hairdressers in Warrington'
 	])
 	

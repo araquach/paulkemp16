@@ -7,7 +7,7 @@
 	'keywords' => 'stylist jobs, hairdressing jobs, Paul Kemp Hairdressing jobs, hairdressing recruitment, stylist recruitment, apprentice jobs, apprentice recruitment, trainee jobs',
 	'ogtitle' => 'Join Our Team',
 	'ogdescription' => 'The Paul Kemp Hairdressing team is growing fast. We\'re always looking for new talent to expand our already diverse team of hairdressers. We have positions for stylists of all levels with ongoing internal and external training to help you push the boundaries in your career.',
-	'ogimage' => url('/') . '/images/ogimage/myimage.png',
+	'ogimage' => url('/') . '/images/ogimage/recruitment.jpg',
 	'title' => 'Paul Kemp Hairdressing - Recruitment - Hairdressers in Warrington'
 	])
 	

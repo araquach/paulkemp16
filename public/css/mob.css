@@ -970,6 +970,11 @@ section#newspage a p:hover {
 	opacity: .6;
 }
 
+#accordion article.article section.hidden img.news-image {
+	margin-left: 0;
+	width: 100%;
+}
+
 /* @end */
 
 /* @group Offers */
