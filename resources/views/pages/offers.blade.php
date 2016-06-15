@@ -7,7 +7,7 @@
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'Summer Offers',
 	'ogdescription' => 'Cut and colour packages: £80 with Senior Stylist, £65 with Stylists for new clients',
-	'ogimage' => url('/') . '/images/ogimage/',
+	'ogimage' => url('/') . '/images/offer/june16_meta.jpg',
 	'title' => 'Paul Kemp Hairdressing - Summer Offers - Hairdressers in Warrington'
 	])
 	
