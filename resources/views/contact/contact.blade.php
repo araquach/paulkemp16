@@ -75,17 +75,17 @@
 
 	<div class="row">
 	{!! Form::label('first_name', 'First Name') !!}
-	{!! Form::text('first_name') !!}
+	{!! Form::text('first_name', old('first_name')) !!}
 	</div>
 	
 	<div class="row">
 	{!! Form::label('second_name', 'Second Name') !!}
-	{!! Form::text('second_name') !!}
+	{!! Form::text('second_name', old('second_name')) !!}
 	</div>
 	
 	<div class="row">
 	{!! Form::label('email', 'Email Address') !!}
-	{!! Form::email('email') !!}
+	{!! Form::email('email', old('email')) !!}
 	</div>
 	
 	<div class="row">
@@ -95,12 +95,12 @@
 	
 	<div class="row">
 	{!! Form::label('mobile', 'Contact Number') !!}
-	{!! Form::text('mobile') !!}
+	{!! Form::text('mobile', old('mobile')) !!}
 	</div>
 	
 	<div class="row">
 	{!! Form::label('body', 'Your Message') !!}
-	{!! Form::textarea('body') !!}
+	{!! Form::textarea('body', old('body')) !!}
 	</div>
 	
 	<div class="row buttons">
