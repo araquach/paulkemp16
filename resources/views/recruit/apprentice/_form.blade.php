@@ -89,7 +89,7 @@
 		{!! $errors->first('mobile', '<div class="errorMessage">:message</div>') !!}
 	</div>
 	
-	</div> <!--end elements (basic info)-->
+		</div> <!--end elements (basic info)-->
 	
 	<h2 class="reveal">2. Experience</h2>
 	<div class="elements">
@@ -125,7 +125,7 @@
 	
 	<div class="row">
 		{!! Form::label('qualification_school', 'What qualification did you achieve at school?') !!}
-		{!! Form::select('qualification_school', old('qualification_school'), array(
+		{!! Form::select('qualification_school', array(
 			'Up to 4 GCSE' => 'Up to 4 GCSE\'s',
 			'4 or more GCSE' => '4 or more GCSE\'s',
 			'1 or more A level' => '1 or more A level\'s'
@@ -135,7 +135,7 @@
 	
 	<div class="row">
 		{!! Form::label('qualification_hair', 'Are you currently doing any hairdressing qualifications?') !!}
-		{!! Form::select('qualification_hair', old('qualification_hair'), array(
+		{!! Form::select('qualification_hair', array(
 			'Towards NVQ1' => 'Working towards NVQ level 1',
 			'Towards NVQ2' => 'Working towards NVQ level 2',
 			'Towards NVQ3' => 'Working towards NVQ level 3',
@@ -159,43 +159,43 @@
 
 	<div class="row">
 		{!! Form::label('styling', 'Styling Hair') !!}
-		{!! Form::selectRange('styling',1, 5, old('styling'), ['placeholder' => '-- Please Select --']) !!}
+		{!! Form::selectRange('styling', 1, 5, old('styling'), ['placeholder' => '-- Please Select --']) !!}
 		{!! $errors->first('styling', '<div class="errorMessage">:message</div>') !!}
 	</div>
 
 	<div class="row">
 		{!! Form::label('colouring', 'Colouring Hair') !!}
-		{!! Form::SelectRange('colouring',1, 5, old('colouring'), ['placeholder' => '-- Please Select --']) !!}
+		{!! Form::SelectRange('colouring', 1, 5, old('colouring'), ['placeholder' => '-- Please Select --']) !!}
 		{!! $errors->first('colouring', '<div class="errorMessage">:message</div>') !!}
 	</div>
 	
 	<div class="row">
 		{!! Form::label('men', 'Men\'s Hairdressing') !!}
-		{!! Form::SelectRange('men',1, 5, old('men'), ['placeholder' => '-- Please Select --']) !!}
+		{!! Form::SelectRange('men', 1, 5, old('men'), ['placeholder' => '-- Please Select --']) !!}
 		{!! $errors->first('men', '<div class="errorMessage">:message</div>') !!}
 	</div>
 
 	<div class="row">
 		{!! Form::label('extensions', 'Extensions') !!}
-		{!! Form::SelectRange('extensions',1, 5, old('extensions'), ['placeholder' => '-- Please Select --']) !!}
+		{!! Form::SelectRange('extensions', 1, 5, old('extensions'), ['placeholder' => '-- Please Select --']) !!}
 		{!! $errors->first('extensions', '<div class="errorMessage">:message</div>') !!}
 	</div>
 
 	<div class="row">
 		{!! Form::label('chem_straightening', 'Chemical Straightening') !!}
-		{!! Form::SelectRange('chem_straightening',1, 5, old('chem_straightening'), ['placeholder' => '-- Please Select --']) !!}
+		{!! Form::SelectRange('chem_straightening', 1, 5, old('chem_straightening'), ['placeholder' => '-- Please Select --']) !!}
 		{!! $errors->first('chem_straightening', '<div class="errorMessage">:message</div>') !!}
 	</div>
 
 	<div class="row">
 		{!! Form::label('brazil_blow', 'Brazilian Blowdry\'s') !!}
-		{!! Form::SelectRange('brazil_blow',1, 5, old('brazil_blow'), ['placeholder' => '-- Please Select --']) !!}
+		{!! Form::SelectRange('brazil_blow', 1, 5, old('brazil_blow'), ['placeholder' => '-- Please Select --']) !!}
 		{!! $errors->first('brazil_blow', '<div class="errorMessage">:message</div>') !!}
 	</div>
 
 	<div class="row">
 		{!! Form::label('hair_up', 'Hair Up Styling') !!}
-		{!! Form::SelectRange('hair_up',1, 5, old('hair_up'), ['placeholder' => '-- Please Select --']) !!}
+		{!! Form::SelectRange('hair_up', 1, 5, old('hair_up'), ['placeholder' => '-- Please Select --']) !!}
 		{!! $errors->first('hair_up', '<div class="errorMessage">:message</div>') !!}
 	</div>
 	</div> <!--end elements (hairdressing skills)-->
@@ -220,7 +220,7 @@
 		{!! Form::textarea('why_pk', old('why_pk')) !!}
 		{!! $errors->first('why_pk', '<div class="errorMessage">:message</div>') !!}
 	</div>
-
+	
 	<div class="row buttons">
 	{!! Form::submit('Send') !!}
 	</div>
