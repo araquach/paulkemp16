@@ -2371,12 +2371,13 @@ section#recruitment h1 {
 }
 
 #application ul {
-	margin-left: 70px;
+	margin-left: 0;
 	display: block;
 }
 
 #application ul li {
 	display:block;
+	line-height: 1.3em;
 }
 
 .no-rgba #application {
@@ -3119,9 +3120,13 @@ iframe#f345250fd8.fb_ltr {
 	font-weight: normal;
 }
 
+div.form .errorSummary {
+	width: 350px;
+}
+
 div.form .errorSummary ul li {
   margin: 0;
-  padding: 0;
+  padding: 0;	
 }
 
 #limited_copy .form .errorSummary p {

@@ -3051,6 +3051,17 @@ span.error {
 	margin: 0;
 }
 
+div.form .errorSummary {
+	width: auto;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+div.form .errorSummary ul li {
+  margin: 0;
+  padding: 0;	
+}
+
 #limited .limitedSuccess,
 #limitedmale .limitedSuccess
  {
