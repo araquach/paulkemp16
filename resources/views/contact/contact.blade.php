@@ -18,12 +18,6 @@
     <section id="locmap">
     <a id="map"></a>
     <h2>Contact Us</h2>
-    
-@if(Session::has('message'))
-    <div id="success">
-    {{{ Session::get('message') }}}
-    </div>
-@endif
 
     <h3>How to find us:</h3>
     <p><strong>Paul Kemp Hairdressing</strong> is located on the corner of <em>Sankey Street</em> and <em>Springfield Street</em> in Warrington Town Centre
@@ -56,6 +50,13 @@
 
 
 <div id="form">
+
+@if(Session::has('message'))
+    <div id="success">
+    {{{ Session::get('message') }}}
+    </div>
+@endif
+
 <h2>Enquiries &amp; Bookings</h2>
 <p>Please fill in as much information as possible in the form below. If you wish to make an appointment state the preferred date and time plus the service you require</p>
 <div class="form">
