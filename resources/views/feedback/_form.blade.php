@@ -33,7 +33,7 @@
         {!! Form::radio('intro', '1') !!}
         <p class="scale_label">Excellent</p>
         {!! Form::radio('intro', '2') !!}
-		{!! $errors->first('intro', '<div class="errorMessage">:message</div>') !!}
+	{!! $errors->first('intro', '<div class="errorMessage">:message</div>') !!}
 </div>
 
 <div class="row question">
@@ -48,7 +48,7 @@
         {!! Form::radio('consultation', '1') !!}
         <p class="scale_label">Excellent</p>
         {!! Form::radio('consultation', '2') !!}
-		{!! $errors->first('consultation', '<div class="errorMessage">:message</div>') !!}
+	{!! $errors->first('consultation', '<div class="errorMessage">:message</div>') !!}
 </div>
 
 <div class="row question">
@@ -63,7 +63,7 @@
         {!! Form::radio('styling_area', '1') !!}
         <p class="scale_label">Excellent</p>
         {!! Form::radio('styling_area', '2') !!}
-		{!! $errors->first('styling_area', '<div class="errorMessage">:message</div>') !!}
+	{!! $errors->first('styling_area', '<div class="errorMessage">:message</div>') !!}
 </div>
 
 <div class="row question">
@@ -78,7 +78,7 @@
         {!! Form::radio('stylist_appearance', '1') !!}
         <p class="scale_label">Excellent</p>
         {!! Form::radio('stylist_appearance', '2') !!}
-		{!! $errors->first('stylist_appearance', '<div class="errorMessage">:message</div>') !!}
+	{!! $errors->first('stylist_appearance', '<div class="errorMessage">:message</div>') !!}
 </div>
 
 <div class="row question">
@@ -93,7 +93,7 @@
         {!! Form::radio('prod_advice', '1') !!}
         <p class="scale_label">Excellent</p>
         {!! Form::radio('prod_advice', '2') !!}
-		{!! $errors->first('prod_advice', '<div class="errorMessage">:message</div>') !!}
+	{!! $errors->first('prod_advice', '<div class="errorMessage">:message</div>') !!}
 </div>
 
 <div class="row question">
@@ -108,7 +108,7 @@
         {!! Form::radio('styling_advice', '1') !!}
         <p class="scale_label">Excellent</p>
         {!! Form::radio('styling_advice', '2') !!}
-		{!! $errors->first('styling_advice', '<div class="errorMessage">:message</div>') !!}
+	{!! $errors->first('styling_advice', '<div class="errorMessage">:message</div>') !!}
 </div>
 
 <div class="row question group">
@@ -174,7 +174,7 @@
 
 <div class="row question">
         {!! Form::label('extra', 'Do you have any extra comments you would like to make?') !!}
-        {!! Form::textArea('extra') !!}
+        {!! Form::textArea('extra', old('extra')) !!}
 		{!! $errors->first('extra', '<div class="errorMessage">:message</div>') !!}
 </div>
 

@@ -5,9 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Feedback;
 use App\FeedbackClient;
-use App\FeedbackRequest;
+use App\Http\Requests\FeedbackFormRequest;
 use Mail;
-use App\Http\Requests;
 
 class FeedbackController extends Controller
 {
@@ -45,7 +44,7 @@ class FeedbackController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(FeedbackFormRequest $request)
     {
         $input = $request->all();
         
