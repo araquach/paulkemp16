@@ -52,8 +52,6 @@ class StylistController extends Controller {
 	    Stylist::create($input);
 	    
 	    $applicant = $this->stylist->get()->last();
-	
-	   // $url = action('StylistController@show', [$stylist->id]);
 	    
 	    Mail::send('emails.recruit.stylist', compact('applicant'), function($message)
    		{
@@ -62,7 +60,7 @@ class StylistController extends Controller {
        		$message->subject('New PK Stylist Application');
 
        		$message->to('adam@jakatasalon.co.uk');
-    		// $message->to('jimmy@jakatasalon.co.uk');
+    		$message->to('jimmy@jakatasalon.co.uk');
    		});
 
     	return redirect()->back()->with('message', 'Thanks for your application! If a position is available we will contact you soon.');
