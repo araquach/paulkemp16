@@ -4,3 +4,5 @@
 <p>Email Address: {{ $applicant->email }}</p>
 <p>Mobile Number: {{ $applicant->mobile }}</p>
 <p>Phone Number: {{ $applicant->phone }}</p>
+
+{{ action('StylistController@show', ['id' => $applicant->id]) }}
