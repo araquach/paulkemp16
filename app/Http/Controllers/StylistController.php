@@ -51,13 +51,18 @@ class StylistController extends Controller {
 		
 	    Stylist::create($input);
 	    
-	    Mail::send('emails.recruit', $input, function($message)
+	    $applicant = $this->stylist->get()->last();
+	
+	   // $url = action('StylistController@show', [$stylist->id]);
+	    
+	    Mail::send('emails.recruit.stylist', compact('applicant'), function($message)
    		{
-       		$message->from('adam@jakatasalon.co.uk', 'Jakata');
+       		$message->from('bookings@paulkemphairdressing.com', 'PK');
        		
-       		$message->subject('New Stylist Application');
+       		$message->subject('New PK Stylist Application');
 
        		$message->to('adam@jakatasalon.co.uk');
+    		// $message->to('jimmy@jakatasalon.co.uk');
    		});
 
     	return redirect()->back()->with('message', 'Thanks for your application! If a position is available we will contact you soon.');

@@ -1,4 +1,4 @@
-<p>There is a new job application for Jakata</p>
+<p>There is a new job application for PK</p>
 
 <p>First Name: {{ $first_name }}</p>
 <p>Second Name: {{ $second_name }}</p>

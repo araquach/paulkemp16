@@ -29,6 +29,7 @@ class StylistFormRequest extends Request {
 			'second_name' => 'required',
 			'address1' => 'required',
 			'address2' => '',
+			'town' => 'required',
 			'postcode' => 'required',
 			'email' => 'required | email',
 			'phone' => '',
