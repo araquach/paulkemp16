@@ -30,9 +30,11 @@ class ContactFormRequest extends Request {
 			'mobile' => 'required',
 			'body' => 'required',
 		];
-		
-		$messages = [
-    	    
+	}
+	
+	public function messages()
+	{
+		return [
     	    'first_name.required' => 'Please enter your first name',
     	    'second_name.required' => 'Please enter your second name',
     	    'email.required' => 'Please enter your email address',
@@ -41,9 +43,6 @@ class ContactFormRequest extends Request {
     	    'email_confirm.same' => 'Please ensure you have entered your email address correctly',
     	    'mobile.required' => 'Please enter your mobile number',
     	    'body.required' => 'Your message cannot be blank',
-    	];
+		];
 	}
-	
-	
-
 }
