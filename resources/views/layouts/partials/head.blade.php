@@ -28,12 +28,8 @@
 	/>
 	
 	<script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
-	<script type="text/javascript" src="{{ URL::asset('scripts/mobile-nav.js') }}"></script>
-	
-	<script type="text/javascript" src="{{ URL::asset('scripts/mootools_core.js') }}"></script>
-	<script type="text/javascript" src="{{ URL::asset('scripts/mootools-more.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('scripts/mootools.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('scripts/modernizr.js') }}"></script>
-	<script type="text/javascript" src="{{ URL::asset('scripts/selectivizr-min.js') }}"></script>
 
 	<title>{{ $title or 'Paul Kemp Hairdressingg - Hairdressers in Warrington' }}</title>
 
