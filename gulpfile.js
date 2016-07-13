@@ -12,15 +12,9 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.styles([
-        'normalize.css',
-        'pkstyles.css',
-        'form.css'
+    mix.sass([
+        'app.scss'
     ], 'public/css/app.css');
-    
-    mix.styles([
-        'mobile.css'
-    ], 'public/css/mob.css');
      
     mix.scripts([
         'jquery.js',
@@ -40,7 +34,6 @@ elixir(function(mix) {
     ], 'public/scripts/modernizr.js');
     
     mix.version([
-        'public/css/app.css',
-        'public/css/mob.css'
+        'public/css/app.css'
     ]);
 });

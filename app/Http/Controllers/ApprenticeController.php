@@ -61,7 +61,6 @@ class ApprenticeController extends Controller {
        		$message->subject('New PK Apprentice Application');
 
        		$message->to('adam@jakatasalon.co.uk');
-       		$message->to('jimmy@jakatasalon.co.uk');
    		});
 
     	return redirect()->back()->with('message', 'Thanks for your application! If a position is available we will contact you soon.');
