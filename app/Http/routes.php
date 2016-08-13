@@ -25,6 +25,8 @@ Route::get('/tash', 'PagesController@tash');
 Route::get('/jo', 'PagesController@jo');
 Route::get('/kate', 'PagesController@kate');
 
+Route::get('/admin', 'AdminController@index');
+
 
 Route::get('contact', 
   ['as' => 'contact', 'uses' => 'ContactController@create']);

@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
   "css/app.css": "css/app-a7ab6dcc5b.css",
+=======
+  "css/app.css": "css/app-bde8d79652.css",
+>>>>>>> dev
   "css/mob.css": "css/mob-217fe41b72.css"
 }

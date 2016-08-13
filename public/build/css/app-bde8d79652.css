@@ -761,9 +761,6 @@ li.active a {
 /* @group Admin */
 
 #admin {
-<<<<<<< HEAD
-	
-=======
 	width: 890px;
 	height: auto;
 	padding-top: 130px;
@@ -778,7 +775,6 @@ li.active a {
 #admin .form input, #admin .form textarea, #admin .form select {
 	margin-left: 0;
 	padding: 10px;
->>>>>>> dev
 }
 
 #admin_copy {
