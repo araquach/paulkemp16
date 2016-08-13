@@ -261,7 +261,20 @@ li.active a {
 /* @group Admin */
 
 #admin {
-	
+	width: 890px;
+	height: auto;
+	padding-top: 130px;
+	padding-bottom: 188px;
+	padding-left: 60px;
+}
+
+#admin .form label {
+	margin-left: 0;
+}
+
+#admin .form input, #admin .form textarea, #admin .form select {
+	margin-left: 0;
+	padding: 10px;
 }
 
 #admin_copy {
