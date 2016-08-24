@@ -27,7 +27,7 @@
 
 		{!! Form::hidden('id') !!}
 		
-		{!! Form::hidden('date') !!}
+		{!! Form::hidden('salon_id', '2') !!}
 
 	<div class="row">
 		{!! Form::label('first_name', 'First Name') !!}
