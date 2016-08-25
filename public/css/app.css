@@ -2886,6 +2886,11 @@ section#recruitment h1 {
 	line-height: 1.3em;
 }
 
+#application .form label {
+	width: 400px;
+	line-height: 1.6em;
+}
+
 .no-rgba #application {
 	background: #fff;
 }
