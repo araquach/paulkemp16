@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Carbon\Carbon;
 
 class StylistsTableSeeder extends Seeder
 {
@@ -46,7 +47,9 @@ class StylistsTableSeeder extends Seeder
             'awards' => '',
             'about_you' => 'I love hairdressing. I\'m a very bubbly individual',
             'why_hairdressing' => 'Hairdressing is well suited to me',
-            'why_pk' => 'Jakata is undoubtably the best salon in Warrington',
+            'why_us' => 'Jakata is undoubtably the best salon in Warrington',
+            'salon_id' => '1',
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
         
         DB::table('stylists')->insert([
@@ -84,7 +87,9 @@ class StylistsTableSeeder extends Seeder
             'awards' => '2',
             'about_you' => 'I\'m pretty dull to be honest with you',
             'why_hairdressing' => 'I chose hairdressing as a carreer because it makes me happy inside',
-            'why_pk' => 'Jakata never ceases to amaze me with it\'s innovatiove approach to everything!',
+            'why_us' => 'Jakata never ceases to amaze me with it\'s innovatiove approach to everything!',
+            'salon_id' => '1',
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
         
     }
