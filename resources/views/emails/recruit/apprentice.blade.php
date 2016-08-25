@@ -5,4 +5,4 @@
 <p>Mobile Number: {{ $applicant->mobile }}</p>
 <p>Phone Number: {{ $applicant->phone }}</p>
 
-{{ action('ApprenticeController@show', ['id' => $applicant->id]) }}
+<a href="http://www.jakatasalon.co.uk/apprentice/{{ $applicant->id }}">More information here ></a>
