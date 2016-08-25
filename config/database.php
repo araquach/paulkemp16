@@ -65,6 +65,20 @@ return [
             'strict' => false,
             'engine' => null,
         ],
+        
+        'mysqljak' => [
+            'driver' => 'mysql',
+            'host' => env('DB_HOST_JAK', 'localhost'),
+            'port' => env('DB_PORT_JAK', '3306'),
+            'database' => env('DB_DATABASE_JAK', 'forge'),
+            'username' => env('DB_USERNAME_JAK', 'forge'),
+            'password' => env('DB_PASSWORD_JAK', ''),
+            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix' => '',
+            'strict' => false,
+            'engine' => null,
+        ],
 
         'pgsql' => [
             'driver' => 'pgsql',

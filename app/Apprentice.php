@@ -7,4 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Apprentice extends Model
 {
     protected $guarded = ['id'];
+    
+    protected $connection = 'mysqljak';
 }
