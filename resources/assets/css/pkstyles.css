@@ -2386,9 +2386,8 @@ section#recruitment h1 {
 	line-height: 1.3em;
 }
 
-#application .form label {
-	width: 400px;
-	line-height: 1.6em;
+#application .form {
+	width: 450px;
 }
 
 .no-rgba #application {
@@ -2422,10 +2421,6 @@ section#recruitment h1 {
 .application {
 	margin-left: 40px;
 	margin-right: 40px;
-}
-
-p.application {
-	margin-right: 300px;
 }
 
 .applink a {
