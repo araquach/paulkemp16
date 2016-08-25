@@ -298,9 +298,9 @@
 	</div>
 
 	<div class="row">
-		{!! Form::label('why_pk', 'Why do you want to join the Paul Kemp Hairdressing Team?') !!}
-		{!! Form::textarea('why_pk', old('why_pk')) !!}
-		{!! $errors->first('why_pk', '<div class="errorMessage">:message</div>') !!}
+		{!! Form::label('why_us', 'Why do you want to join the Paul Kemp Hairdressing Team?') !!}
+		{!! Form::textarea('why_us', old('why_us')) !!}
+		{!! $errors->first('why_us', '<div class="errorMessage">:message</div>') !!}
 	</div>
 
 	<div class="row buttons">
