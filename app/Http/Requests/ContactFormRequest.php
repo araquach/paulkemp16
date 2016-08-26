@@ -14,6 +14,12 @@ class ContactFormRequest extends Request {
 	{
 		return true;
 	}
+	
+	protected function getRedirectUrl()
+    {
+        $url = $this->redirector->getUrlGenerator();
+        return $url->previous() . '#contact-form_es_';
+    }
 
 	/**
 	 * Get the validation rules that apply to the request.
