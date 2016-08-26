@@ -1622,7 +1622,7 @@ section#recruitment h1 {
 
 #adex .adexBox {
 	float: left;
-	width: 150px;
+	width: 90%;
 	margin-right: 0;
 	margin-bottom: 15px;
 	
@@ -1636,9 +1636,10 @@ section#recruitment h1 {
 	margin-left: 0;
 }
 
-#adex input {
+.adexBox input {
 	float: right;
 	margin: 0;
+	width: auto;
 }
 
 /* @end */
@@ -1648,6 +1649,10 @@ section#recruitment h1 {
 #application {
 	background: none;
 	padding: 20px;
+}
+
+#application .form {
+	width: auto;
 }
 
 #content h1 {
@@ -1705,6 +1710,10 @@ p.application {
 	color: rgb(55,34,24);
 }
 
+#application ul {
+	padding: 0;
+}
+
 #application .form label {
     margin-left: 0;
 }
@@ -1719,7 +1728,7 @@ p.application {
 #application .form select {
  	margin: 0;
  	padding-right: 20px;
- 	width: 90%;
+ 	width: auto;
 }
 
 #application .form textarea {
