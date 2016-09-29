@@ -91,27 +91,11 @@
 		</section>
 	</a>
 
-	<a href="{{ URL::to('caleb') }}">
-		<section id="caleb">
-			<h3>{{ Html::image('images/staff/caleb.jpg', 'Caleb Barrie') }} Caleb Barrie - Stylist</h3>
-			<p>Caleb is a diverse stylist with a real passion for hairdressing. He's a recent addition to the team. He’s highly skilled in all aspects of hairdressing but loves high-fashion colouring and big, bouncy blow dry’s.</p>
-			<p class="teamprice">Average Cut &amp; Colour price with Caleb : &pound;96*</p>
-		</section>
-	</a>
-
 	<a href="{{ URL::to('tash') }}">
 		<section id="tash">
 			<h3>{{ Html::image('images/staff/tash.jpg', 'Tash Bailey') }} Tash Bailey - Stylist</h3>
 			<p>Tash's passion for hairdressing is apparent from the minute you meet her. She loves creative colouring and cutting plus she's highly skilled in styling hair.</p>
 			<p class="teamprice">Average Cut &amp; Colour price with Tash : &pound;76*</p>
-		</section>
-	</a>
-
-	<a href="{{ URL::to('ashley') }}">
-		<section id="ashley">
-			<h3>{{ Html::image('images/staff/ashley.jpg', 'Ashley Tennant') }} Ashley Tennant - Graduate Stylist</h3>
-			<p>Ashley recently qualified and is now a Gradutae stylist within the team. She is developing at an extremely fast rate and will be moving up the ranks quickly.</p>
-			<p class="teamprice">Average Cut &amp; Colour price with Ashley : &pound;55*</p>
 		</section>
 	</a>
 
