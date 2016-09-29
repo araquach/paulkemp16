@@ -221,6 +221,10 @@
 		{!! $errors->first('why_us', '<div class="errorMessage">:message</div>') !!}
 	</div>
 	
+	{!! Form::hidden('contact_status', '0') !!}
+	
+	{!! Form::hidden('quality', '0') !!}
+	
 	<div class="row buttons">
 	{!! Form::submit('Send') !!}
 	</div>
