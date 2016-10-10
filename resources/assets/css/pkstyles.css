@@ -2997,54 +2997,54 @@ iframe#f345250fd8.fb_ltr {
 
 /* @group limited offer */
 
-#limited {
+#special_offer {
 	width: auto;
 	background: url('/images/limitedoffer/Katharina_104.jpg') no-repeat right 0px #f5f5f5;
 	height: 800px;
 }
 
-#limitedmale {
+#special_offer_male {
 	width: auto;
 	background: url('/images/limitedoffer/White_Hot_Male.jpg') no-repeat right 50px #f5f5f5;
 	height: 800px;
 }
 
-#limited_copy {
+#special_offer_copy {
 	width: 430px;
 	padding: 50px;
 	font-size: 1.4em;
 }
 
-#limited_copy h1 {
+#special_offer_copy h1 {
 	font-size: 1.6em;
 	margin-left: 0;
 	line-height: 1.5em;
 	margin-top: 0;
 }
 
-#limited_copy p.big {
+#special_offer_copy p.big {
 	font-size: 2em;
 	margin-bottom: .3em;
 }
 
-#limited_copy p.small {
+#special_offer_copy p.small {
 	margin: 0;
 	margin-bottom: 2em;
 	margin-bottom: 1em;
 }
 
-#limited_copy strong {
+#special_offer_copy strong {
 	font-size: 1.2em;
 	line-height: 1.5em;
 	font-weight: bolder;
 }
 
-#limited_copy small {
+#special_offer_copy small {
 	font-size: .6em;
 	margin: 0;
 }
 
-#limited_copy .form label {
+#special_offer_copy .form label {
   color: rgb(55, 34, 24);
   display: block;
   font: .7em "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
@@ -3052,14 +3052,14 @@ iframe#f345250fd8.fb_ltr {
   margin-left: 0;
 }
 
-#limited_copy .form input, 
-#limited_copy .form textarea, 
-#limited_copy .form select {
+#special_offer_copy .form input, 
+#special_offer_copy .form textarea, 
+#special_offer_copy .form select {
   margin: 0.2em 0 1em 0;
   padding: 5px;
 }
 
-#limited_copy .form .errorSummary {
+#special_offer_copy .form .errorSummary {
   position: absolute;
   top: 350px;
   left: 45px;
@@ -3073,7 +3073,7 @@ iframe#f345250fd8.fb_ltr {
   padding: 5px;
 }
 
-#limited_copy p.big {
+#special_offer_copy p.big {
 	font: 1.5em Georgia, "Times New Roman", Times, serif;
 	line-height: 1.5em;
 	margin-bottom: 10px;
@@ -3090,12 +3090,12 @@ div.form .errorSummary ul li {
   padding: 0;	
 }
 
-#limited_copy .form .errorSummary p {
+#special_offer_copy .form .errorSummary p {
   display: none;
 }
 
-#limited .limitedSuccess,
-#limitedmale .limitedSuccess {
+#special_offer .limitedSuccess,
+#special_offer_male .limitedSuccess {
 	width: 400px;
 	font-size: 1.4em;
 	margin-left: 50px;
