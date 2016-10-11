@@ -36,7 +36,7 @@
         
         <h1><strong>Special Offer for<br> {{ $client->first_name }} {{ $client->last_name }}</strong></h1>
 
-        <p>We've not seen you in the salon<br> for a while {{ $client->first_name }}, so we'd like to offer you</p> 
+        <p>We've not seen you in the salon<br> for a while {{ $client->first_name }}, so we'd like to give you this special offer:</p> 
         
         @if($client->stylist_level == 'G' & $client->gender == 'F')
         <p><strong><span class="big">&pound;50<br></span>Colour &amp; Cut package<br>on your next visit</strong></p>
