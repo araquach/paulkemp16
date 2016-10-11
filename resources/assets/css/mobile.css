@@ -3017,24 +3017,23 @@ span.error {
 
 /* @end */
 
-/* @group limited offer */
+/* @group special_offer */
 
-#limited,
-#limitedmale {
+#special_offer,
+#special_offer_male {
 	width: auto;
 	height: 100%;
-	padding-bottom: 0;
 	background-position: 0px 0px;
 }
 
-#limited_copy {
+#special_offer_copy {
 	background-color: rgba(255, 255, 255, 0.8);
 	width: auto;
 	padding: 20px;
 	font-size: 1em;
 }
 
-#limited_copy h1 {
+#special_offer_copy h1 {
 	font-size: 1.4em;
 	margin-left: 0;
 	width: auto;
@@ -3042,26 +3041,34 @@ span.error {
 	margin-top: 20px;
 }
 
-#limited_copy p.big {
+#special_offer_copy p.big {
 	font-size: 2em;
 	margin-bottom: .3em;
 }
 
-#limited_copy p.small {
+#special_offer_copy p.small {
 	font-size: 1.4em;
 	margin: 0;
 	margin-bottom: 2em;
 	margin-bottom: 1em;
 }
 
-#limited_copy strong {
+#special_offer_copy strong {
 	font-size: 1.2em;
 	font-weight: bolder;
 }
 
-#limited_copy small {
+#special_offer_copy small {
 	font-size: .6em;
 	margin: 0;
+}
+
+#offer-form {
+	border: 1px solid #555;
+	background: rgba(255,255,255,.6);
+	border-radius: 5px;
+	padding: 10px 10px 0 10px;
+	margin-bottom: 20px;
 }
 
 div.form .errorSummary {
@@ -3075,8 +3082,8 @@ div.form .errorSummary ul li {
   padding: 0;	
 }
 
-#limited .limitedSuccess,
-#limitedmale .limitedSuccess
+#special_offer .limitedSuccess,
+#special_offer_male .limitedSuccess
  {
 	width: auto;
 	font-size: 1.4em;
