@@ -54,11 +54,11 @@ return [
         
         'mysql_test' => [
             'driver' => 'mysql',
-            'host' => 'localhost',
-            'port' => '3306',
-            'database' => 'c9',
-            'username' => 'araquach',
-            'password' => '',
+            'host' => env('DB_PRAC_HOST'),
+            'port' => env('DB_PRAC_PORT'),
+            'database' => env('DB_PRAC_DB'),
+            'username' => env('DB_PRAC_USERNAME'),
+            'password' => env('DB_PRAC_USERNAME'),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
