@@ -12,7 +12,7 @@ class CreateOffersTable extends Migration
      */
     public function up()
     {
-        Schema::connection('mysql_test')->create('offers', function (Blueprint $table) {
+        Schema::create('offers', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('salon_id')->unsigned();
             $table->integer('client_id')->unsigned();

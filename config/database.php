@@ -52,19 +52,19 @@ return [
             'prefix' => '',
         ],
         
-        'mysql_test' => [
-            'driver' => 'mysql',
-            'host' => env('DB_PRAC_HOST'),
-            'port' => env('DB_PRAC_PORT'),
-            'database' => env('DB_PRAC_DB'),
-            'username' => env('DB_PRAC_USERNAME'),
-            'password' => env('DB_PRAC_USERNAME'),
-            'charset' => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix' => '',
-            'strict' => false,
-            'engine' => null,
-        ],
+        // 'mysql_test' => [
+        //     'driver' => 'mysql',
+        //     'host' => env('DB_PRAC_HOST'),
+        //     'port' => env('DB_PRAC_PORT'),
+        //     'database' => env('DB_PRAC_DB'),
+        //     'username' => env('DB_PRAC_USERNAME'),
+        //     'password' => env('DB_PRAC_USERNAME'),
+        //     'charset' => 'utf8',
+        //     'collation' => 'utf8_unicode_ci',
+        //     'prefix' => '',
+        //     'strict' => false,
+        //     'engine' => null,
+        // ],
 
         'mysql' => [
             'driver' => 'mysql',
