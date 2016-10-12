@@ -3598,9 +3598,9 @@ div.form .errorSummary ul li {
   display: none;
 }
 
-#special_offer ..applicationSuccess,
-#special_offer_male ..applicationSuccess,
-#special_offer_generic ..applicationSuccess
+#special_offer .applicationSuccess,
+#special_offer_male .applicationSuccess,
+#special_offer_generic .applicationSuccess
 {
 	width: 400px;
 	font-size: 1.5em;
