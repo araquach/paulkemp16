@@ -3599,12 +3599,16 @@ div.form .errorSummary ul li {
 }
 
 #special_offer .limitedSuccess,
-#special_offer_male .limitedSuccess {
+#special_offer_male .limitedSuccess,
+#special_offer_generic .limitedSuccess
+{
 	width: 400px;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	margin-left: 50px;
 	padding-top: 100px;
 	line-height: 1.5em;
+	height: 100px;
+	border-bottom: 1px solid rgb(55,34,24);
 }
 
 /* @end */
