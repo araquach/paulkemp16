@@ -3083,8 +3083,9 @@ div.form .errorSummary ul li {
   padding: 0;	
 }
 
-#special_offer .limitedSuccess,
-#special_offer_male .limitedSuccess
+#special_offer .applicationSuccess,
+#special_offer_male .applicationSuccess,
+#special_offer_generic .applicationSuccess
  {
 	width: auto;
 	font-size: 1.4em;
