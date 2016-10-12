@@ -54,7 +54,7 @@
         <p><strong><span class="big">&pound;15<br></span>Colour &amp; Cut package<br>on your next visit</strong></p>
         
         @elseif($client->stylist_level == 'SS' & $client->gender == 'M')
-        <p><strong><span class="big">&pound;15<br></span>Colour &amp; Cut package<br>on your next visit</strong></p>
+        <p><strong><span class="big">&pound;20<br></span>Colour &amp; Cut package<br>on your next visit</strong></p>
         
         @else
         <p><strong><span class="big">&pound;30% off<br></span>your next visit</strong></p>
