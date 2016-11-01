@@ -14,15 +14,15 @@
 
 @if($offer->gender == 'F')
 
-<div id="special_offer">
+<div id="special_offer2">
     
 @elseif($offer->gender == 'M')
 
-<div id="special_offer_male">
+<div id="special_offer2_male">
 
 @else()
 
-<div id="special_offer_generic">
+<div id="special_offer2_generic">
 
 @endif
 
