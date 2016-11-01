@@ -3512,6 +3512,21 @@ iframe#f345250fd8.fb_ltr {
 	background: url('/images/special_offer/offer_generic.jpg') no-repeat right 0px #f5f5f5;
 }
 
+#special_offer2 {
+	width: auto;
+	background: url('/images/special_offer/offer2_female.jpg') no-repeat right 0px #f5f5f5;
+}
+
+#special_offer2_male {
+	width: auto;
+	background: url('/images/special_offer/offer2_male.jpg') no-repeat right 0px #f5f5f5;
+}
+
+#special_offer2_generic {
+	width: auto;
+	background: url('/images/special_offer/offer2_generic.jpg') no-repeat right 0px #f5f5f5;
+}
+
 #special_offer_copy {
 	width: 430px;
 	padding: 50px;
