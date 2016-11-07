@@ -3,11 +3,11 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	// 'description' => 'Half Price Colour and Cut for new clients throughout November',
+	'description' => 'Half Price Colour with every Cut & Style for new clients throughout November',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'Offers',
-	// 'ogdescription' => 'Half Price Colour and Cut for new clients throughout November',
-	// 'ogimage' => url('/') . '/images/offer/june16_meta.jpg',
+	'ogdescription' => 'Half Price Colour with every Cut & Style for new clients throughout November',
+	'ogimage' => url('/') . '/images/offer/june16_meta.jpg',
 	'title' => 'Paul Kemp Hairdressing - Offers - Hairdressers in Warrington'
 	])
 	
