@@ -35,7 +35,7 @@
 					<li>{!! link_to('team', 'Team') !!}</li>
 					<li>{!! link_to('news', 'News') !!}</li>
 					<li>{!! link_to('recruitment', 'Recruitment') !!}</li>
-					<li>{!! link_to('men', 'Men') !!}</li>
+					<!--<li>{!! link_to('men', 'Men') !!}</li>-->
 					<li>{!! link_to('prices', 'Prices') !!}</li>
 					<li>{!! link_to('contact', 'Contact') !!}</li>
 				</ul>
