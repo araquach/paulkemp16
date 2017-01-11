@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
+	'description' => 'Colour and Cut packages for new clients this New Year',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
-	'ogtitle' => 'Offers',
-	'ogdescription' => '',
+	'ogtitle' => 'New Year Offers',
+	'ogdescription' => 'Colour and Cut packages for new clients this New Year',
 	'ogimage' => url('/') . '/images/offer/june16_meta.jpg',
 	'title' => 'Paul Kemp Hairdressing - Offers - Hairdressers in Warrington'
 	])
@@ -19,11 +19,11 @@
 
 <section id="offersMain">
 
-<!--<h2>Offers</h2>-->
+<h2>New Year Offers</h2>
 
-@include('pages.offers.no_offer')
+@include('pages.offers.cut_col')
 
-<!--<div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>-->
+<div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
 </section> <!--end offersMain-->
 
