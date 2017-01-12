@@ -1,6 +1,7 @@
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "css/app.css": "css/app-834e56a21e.css",
 =======
   "css/app.css": "css/app-6996ffd91b.css",
@@ -8,5 +9,8 @@
 =======
   "css/app.css": "css/app-6996ffd91b.css",
 >>>>>>> origin/master
+=======
+  "css/app.css": "css/app-c04787477d.css",
+>>>>>>> parent of 800c253... Added new offers image
   "css/mob.css": "css/mob-c5ec3d6e15.css"
 }
