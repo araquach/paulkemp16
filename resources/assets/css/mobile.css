@@ -665,7 +665,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	float: left;
 }
 
-#ashley {
+#louise {
 	position: relative;
 	left: 0;
 	top: 0;
@@ -675,15 +675,15 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	padding: 10px;
 }
 
-#ashley img {
+#louise img {
 	float: none;
 }
 
-#ashley p {
+#louise p {
 	font-size: 0.8em;
 }
 
-#ashley h3 img {
+#louise h3 img {
 	margin-top: 0px;
 	float: left;
 }
