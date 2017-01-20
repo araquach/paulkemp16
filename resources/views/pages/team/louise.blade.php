@@ -26,8 +26,8 @@
 	<section id="team_ind_copy">
 	<h2>Louise Bailey</h2>
 	<p>Louise recently joined the team from working in a busy Grappenhall salon.</p> 
-	<p>She's an extremely skillfull men's hairdresser and also talented at womens cutting and styling</p>
-	<p>She's eager to grow her client base quickly - she's got some fantastic offers on for a limited time</p>
+	<p>She's an extremely skillfull men's hairdresser and also talented at womens cutting and styling.</p>
+	<p>She's eager to grow her client base quickly - she's got some fantastic offers on for a limited time!</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Louise : &pound;55*</p>
 	
 	<div id="feedback_feed_ind">
