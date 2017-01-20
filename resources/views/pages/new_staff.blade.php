@@ -19,7 +19,7 @@
 	
 	<section id="new_copy">
 	
-	<h2>Welcoming Louise to the PK team</h2>
+	<h2>Welcoming Louise Bailey to the PK team</h2>
 	<p></p>
 	<p></p>
 	<p></p>
