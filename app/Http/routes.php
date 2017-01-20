@@ -25,6 +25,7 @@ Route::get('/caleb', 'PagesController@caleb');
 Route::get('/tash', 'PagesController@tash');
 Route::get('/jo', 'PagesController@jo');
 Route::get('/kate', 'PagesController@kate');
+Route::get('/louise', 'PagesController@louise');
 
 Route::get('/admin', 'AdminController@index');
 

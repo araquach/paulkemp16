@@ -98,6 +98,14 @@
 			<p class="teamprice">Average Cut &amp; Colour price with Tash : &pound;76*</p>
 		</section>
 	</a>
+	
+	<a href="{{ URL::to('louise') }}">
+		<section id="louise">
+			<h3>{{ Html::image('images/staff/louise.jpg', 'Louise Bailey') }} Louise Bailey - Graduate Stylist</h3>
+			<p></p>
+			<p class="teamprice">Average Cut &amp; Colour price with Tash : &pound;55*</p>
+		</section>
+	</a>
 
 </section>
 

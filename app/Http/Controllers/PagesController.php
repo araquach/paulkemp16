@@ -202,5 +202,17 @@ class PagesController extends Controller {
 		
 		return view('pages.team.tash', compact('feedbacks'));
 	}
+	
+	public function louise()
+	{
+		$feedbacks = FeedbackClient::with('feedback')->where('stylist', '=', 'Louise Bailey')
+			->whereHas('feedback', function($query)
+			{
+				$query->where('publish', '=', '1');
+			}
+			)->orderByRaw("RAND()")->get();
+		
+		return view('pages.team.louise', compact('feedbacks'));
+	}
 
 }

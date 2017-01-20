@@ -21,14 +21,14 @@
 <script type="text/javascript" src="{{ URL::asset('scripts/feedback-feed-ind.js') }}"></script>
 
 <section id="team_ind">
-	<div id="team_jo" class="team_pic"></div>
+	<div id="team_louise" class="team_pic"></div>
 	
 	<section id="team_ind_copy">
 	<h2>Louise Bailey</h2>
 	<p></p> 
 	<p></p>
 	<p></p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Louise : &pound;*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Louise : &pound;55*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>
