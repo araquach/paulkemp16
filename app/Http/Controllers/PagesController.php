@@ -90,6 +90,11 @@ class PagesController extends Controller {
 		return view('pages.team');
 	}
 	
+	public function newstaff()
+	{
+		return view('pages.new_staff');
+	}
+	
 	public function ashley()
 	{
 		$feedbacks = FeedbackClient::with('feedback')->where('stylist', '=', 'Ashley Tennant')

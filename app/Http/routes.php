@@ -15,6 +15,7 @@ Route::get('/apprenticeprices', 'PagesController@apprenticePrices');
 Route::get('/salon', 'PagesController@salon');
 Route::get('/kebelo', 'PagesController@kebelo');
 Route::get('/team', 'PagesController@team');
+Route::get('/newstaff', 'PagesController@newstaff');
 Route::get('/ashley', 'PagesController@ashley');
 Route::get('/michelle', 'PagesController@michelle');
 Route::get('/leon', 'PagesController@leon');
