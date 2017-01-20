@@ -102,7 +102,7 @@
 	<a href="{{ URL::to('louise') }}">
 		<section id="louise">
 			<h3>{{ Html::image('images/staff/louise.jpg', 'Louise Bailey') }} Louise Bailey - Graduate Stylist</h3>
-			<p></p>
+			<p>Louise recently joined the team from working in a busy salon in Grappenhall. She's a fantastic men's stylist plus is talented in cutting and styling womens hair.</p>
 			<p class="teamprice">Average Cut &amp; Colour price with Tash : &pound;55*</p>
 		</section>
 	</a>
