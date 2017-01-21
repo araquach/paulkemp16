@@ -14,15 +14,15 @@
 
 @if($offer->gender == 'F')
 
-<div id="special_offer2">
+<div id="special_offer">
     
 @elseif($offer->gender == 'M')
 
-<div id="special_offer2_male">
+<div id="special_offer_male">
 
 @else()
 
-<div id="special_offer2_generic">
+<div id="special_offer_generic">
 
 @endif
 
@@ -34,19 +34,19 @@
     
     <div id="special_offer_copy">
         
-        <h1><strong>An even better offer for {{ $offer->first_name }} {{ $offer->last_name }}</strong></h1>
+        <h1><strong>Special Offer for<br> {{ $offer->first_name }} {{ $offer->last_name }}</strong></h1>
 
-        <p>We recently sent you an offer {{ $offer->first_name }}, and because we value your custom so much we'd like to give you an even better one!</p> 
+        <p>We've not seen you in the salon<br> for a while {{ $offer->first_name }}, so we'd like to give you this special offer:</p> 
         
-        <p><strong>{!! getOffer2($offer->stylist_level, $offer->gender) !!}<br>on your next visit</strong></p>
-    
+        <p><strong>{!! getOffer($offer->stylist_level, $offer->gender) !!}<br>on your next visit</strong></p>
+        
         <small>weekdays only - not with any other offer - offer not transferable</small>
         
-        <p>Just quote: <strong>1216{{ $offer->stylist_level }}{{ $offer->gender }}</strong> when booking</p>
+        <p>Just quote: <strong>1116{{ $offer->stylist_level }}{{ $offer->gender }}</strong> when booking</p>
         
         @include('offer._form')
         
-        <p>Offer Ends: 9th December 2016</p> 
+        <p>Offer Ends: 30th November 2016</p> 
         
         <small>Not with any other offer. Not transferable. Weekdays only</small>
         
