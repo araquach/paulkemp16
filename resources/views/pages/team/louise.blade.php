@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
+	'description' => 'Louise recently joined the team from working in a busy Grappenhall salon. She\'s an extremely skillfull men\'s hairdresser and also talented at womens cutting and styling. She's eager to grow her client base quickly - she\'s got some fantastic offers on for a limited time!',
+	'keywords' => 'Louise Bailey, new stylist, graduate stylist, new team member, hairdressing, hairstyling',
 	'ogtitle' => 'Louise Bailey',
-	'ogdescription' => '',
+	'ogdescription' => 'Louise recently joined the team from working in a busy Grappenhall salon. She\'s an extremely skillfull men\'s hairdresser and also talented at womens cutting and styling. She's eager to grow her client base quickly - she\'s got some fantastic offers on for a limited time!',
 	'ogimage' => url('/') . '/images/staff/louise_og.jpg',
 	'title' => 'Paul Kemp Hairdressing - Louise'
 	])

@@ -3,10 +3,14 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => 'Welcoming Louise',
-	'ogdescription' => '',
+	'description' => 'We are pleased to introduce our latest addition to the team, Louise Bailey. She joined us in November and is quickly establishing herself.
+	 Louise is a stylist with two years experience and since qualifying worked in a busy salon in Grappenhall where she specialised in men\'s hairdressing, before moving over to join the PK team.
+	 She is also highly skilled in women\'s hairdressing, particularily cutting and styling and is now in the process of some intensive colour training to get her colouring skills up to the high standard of the rest of the team.',
+	'keywords' => 'Louise Bailey, new team member, Paul Kemp Stylist, graduate stylist',
+	'ogtitle' => 'Welcoming Louise to the PK team',
+	'ogdescription' => 'We are pleased to introduce our latest addition to the team, Louise Bailey. She joined us in November and is quickly establishing herself.
+	 Louise is a stylist with two years experience and since qualifying worked in a busy salon in Grappenhall where she specialised in men\'s hairdressing, before moving over to join the PK team.
+	 She is also highly skilled in women\'s hairdressing, particularily cutting and styling and is now in the process of some intensive colour training to get her colouring skills up to the high standard of the rest of the team.',
 	'ogimage' => url('/') . '/images/ogimage/louise.jpg',
 	'title' => 'Paul Kemp Hairdressing - New Staff - Hairdressers in Warrington'
 	])
@@ -22,7 +26,7 @@
 	<h2>Welcoming Louise Bailey to the PK team</h2>
 	<p>We are pleased to introduce our latest addition to the team, Louise Bailey. She joined us in November and is quickly establishing herself.</p>
 	<p>Louise is a stylist with two years experience and since qualifying worked in a busy salon in Grappenhall where she specialised in men's hairdressing, before moving over to join the PK team.</p>
-	<p>Louise is also highly skilled in women's hairdressing, particularily cutting and styling and is now in the process of some intensive colour training to get her colouring skills up to the high standard of the rest of the team.</p>
+	<p>She is also highly skilled in women's hairdressing, particularily cutting and styling and is now in the process of some intensive colour training to get her colouring skills up to the high standard of the rest of the team.</p>
 	<p>To ease Louise into the team we've introduced her at Graduate stylist level but she will very quickly be moved up to Stylist level within the next few months. 
 	<strong>Now is a great time to book in with her as you won't find a better price for such a skilled stylist - plus we've launched some special offers so you'd be mad not to book in!</strong></p>
 	<p class="so_med"><strong>Special offers for Louise</strong></p>
