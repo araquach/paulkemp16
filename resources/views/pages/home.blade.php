@@ -42,10 +42,10 @@
 </aside>
 </a>
 
-<a href="{{ URL::to('kebelo') }}">
+<a href="{{ URL::to('newstaff') }}">
 <aside id="news2">
-<h3 class="newsheader">Introducing <br>Kebelo</h3>
-<p class="newspara">Smoother, shinier, more manageable hair can be yours</p>
+<h3 class="newsheader">Introducing <br>Louise</h3>
+<p class="newspara">a fantastic new stylist joins the team</p>
 <p class="newscenter"><strong>Find out more here &gt;</strong></p>
 </aside>
 </a>
