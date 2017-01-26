@@ -2734,7 +2734,7 @@ span.error {
 /* @group New */
 
 #new {
-	background: url('/images/newstaff/louise_mob.jpg') no-repeat center 110px #f5f5f5;
+	background: url('/images/newstaff/louise_mob.jpg') no-repeat center 150px #f5f5f5;
 	width: auto;
 	height: 100%;
 	float: none;
@@ -2754,7 +2754,7 @@ span.error {
 }
 
 #new_copy p:first-of-type {
-	margin-top: 400px;
+	margin-top: 450px;
 }
 
 #new h2 {
@@ -3070,6 +3070,10 @@ span.error {
 	border-radius: 5px;
 	padding: 10px 10px 0 10px;
 	margin-bottom: 20px;
+}
+
+#offer-form p:first-of-type {
+	margin-top: 0;
 }
 
 div.form .errorSummary {
