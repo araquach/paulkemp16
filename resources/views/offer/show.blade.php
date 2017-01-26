@@ -22,7 +22,7 @@
 	
 	<section id="new_copy">
 	
-	<h2>Hi {{ $offer->first_name }}, we'd like to introduce you to out latest stylist...</h2>
+	<h2>Hi {{ $offer->first_name }}, we'd like to introduce you to our latest stylist...</h2>
 	<p>Louise Bailey joined us in November and is quickly establishing herself within the PK team.</p>
 	<p>She has over two years experience and since qualifying worked in a busy salon in Grappenhall where she specialised in men's hairdressing, before moving over to join the PK team.</p>
 	<p>She is also highly skilled in women's hairdressing, particularily cutting and styling and is now in the process of some intensive colour training to get her colouring skills up to the high standard of the rest of the team.</p>
