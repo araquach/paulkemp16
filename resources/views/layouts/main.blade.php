@@ -30,12 +30,12 @@
 			<nav>
 				<ul>
 					<li>{!! link_to('/', 'Home') !!}</li>
-					<li>{!! link_to('offers', 'Offers') !!}</li>
+					<!--<li>{!! link_to('offers', 'Offers') !!}</li>-->
 					<li>{!! link_to('salon', 'The Salon') !!}</li>
 					<li>{!! link_to('team', 'Team') !!}</li>
 					<li>{!! link_to('news', 'News') !!}</li>
 					<li>{!! link_to('recruitment', 'Recruitment') !!}</li>
-					<!--<li>{!! link_to('men', 'Men') !!}</li>-->
+					<li>{!! link_to('men', 'Men') !!}</li>
 					<li>{!! link_to('prices', 'Prices') !!}</li>
 					<li>{!! link_to('contact', 'Contact') !!}</li>
 				</ul>
