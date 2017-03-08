@@ -877,15 +877,12 @@ li.active a {
 	-moz-box-shadow: 1px 4px 15px rgb(55,34,24);
 	-webkit-box-shadow: 1px 4px 15px rgb(55,34,24);
 	box-shadow: 1px 4px 15px rgb(55,34,24);
-	transition
-	
-	
 }
 
 #news1 {
 	left: 20px;
 	top: 1100px;
-	background: url(/images/home_news/offer_green.jpg) no-repeat, rgb(55,34,24);
+	background: url(/images/home_news/new_blonde_me.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
