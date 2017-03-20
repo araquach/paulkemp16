@@ -21,6 +21,16 @@ elixir(function(mix) {
     mix.styles([
         'mobile.css'
     ], 'public/css/mob.css');
+    
+    mix.styles([
+        'normalize.css',
+        'prospect.css',
+        'form.css'
+     ], 'public/css/prospect.css');
+     
+     mix.styles([
+        'pros_mob.css'
+     ], 'public/css/pros_mob.css');
      
     mix.scripts([
         'jquery.js',
@@ -41,6 +51,8 @@ elixir(function(mix) {
     
     mix.version([
         'public/css/app.css',
-        'public/css/mob.css'
+        'public/css/mob.css',
+        'public/css/prospect.css',
+        'public/css/pros_mob.css'
     ]);
 });

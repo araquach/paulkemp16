@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 Route::get('/', 'PagesController@index');
 Route::get('/details', 'PagesController@details');
 Route::get('/news', 'PagesController@news');
@@ -29,6 +26,11 @@ Route::get('/louise', 'PagesController@louise');
 
 Route::get('/admin', 'AdminController@index');
 
+Route::get('/freeproducts', 'ProspectController@freeproducts');
+Route::get('/freeproducts/man', 'ProspectController@freeproducts');
+Route::get('/freeproducts/create', 'ProspectController@create');
+Route::get('/freeproducts/man/create', 'ProspectController@create');
+Route::post('prospect/store', 'ProspectController@store');
 
 Route::get('contact', 
   ['as' => 'contact', 'uses' => 'ContactController@create']);
@@ -36,8 +38,6 @@ Route::post('sendEmail',
   ['as' => 'sendEmail', 'uses' => 'ContactController@sendEmail']);
 
 
-
-  
 Route::resource('apprentice', 'ApprenticeController');
 Route::resource('stylist', 'StylistController');
 
