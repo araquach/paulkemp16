@@ -132,7 +132,7 @@
     </div>
     
     <div class="row regular">
-        {!! Form::label('regular', 'Click here if you have been to Paul Kemp HAirdressing before') !!}
+        {!! Form::label('regular', 'Click here if you have been to Paul Kemp Hairdressing before') !!}
         {!! Form::checkbox('regular') !!}
         {!! $errors->first('regular', '<div class="errorMessage">:message</div>') !!}
     </div>
