@@ -5,7 +5,14 @@
 
 @show
 
-<body>
+@if(url()->current() === url('freeproducts/man'))
+	<body class="man">
+@elseif(url()->current() === url('freeproducts/man/create'))
+	<body class="man">
+@else
+	<body>
+@endif
+
 
 <div class="container" id="page">
 
@@ -20,7 +27,7 @@
 	
 	<section id="prospect-info">
 	
-	@if( url()->current() === url('freeproducts/man') )
+	@if(url()->current() === url('freeproducts/man'))
     	<!--need to get mens product images-->
     	<section id="prospect-image-man"></section> 
     @else

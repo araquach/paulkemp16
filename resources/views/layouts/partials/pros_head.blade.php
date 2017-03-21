@@ -22,6 +22,9 @@
   		ga('create', 'UA-2487518-2', 'auto');
   		ga('send', 'pageview');
 	</script>
+	{{-- Adobe Typekit Fonts --}}
+	<script src="https://use.typekit.net/bbx0zuv.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 	<link rel="stylesheet" type="text/css" href="{{ elixir('css/prospect.css') }}" />
 	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ elixir('css/pros_mob.css') }}" />
