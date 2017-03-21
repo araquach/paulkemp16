@@ -28,8 +28,9 @@
 	<section id="prospect-info">
 	
 	@if(url()->current() === url('freeproducts/man'))
-    	<!--need to get mens product images-->
     	<section id="prospect-image-man"></section> 
+    @elseif(url()->current() === url('freeproducts/man/create'))
+    	<section id="prospect-image-man"></section>
     @else
     	<section id="prospect-image"></section>
     @endif
