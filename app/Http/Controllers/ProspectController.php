@@ -40,7 +40,9 @@ class ProspectController extends Controller
     
     public function freeproducts()
     {
-       return view('prospect.freeproducts');
+       // return view('prospect.freeproducts');
+       
+       return "Hello";
     }
     
     /**
