@@ -30,7 +30,7 @@ window.addEvent('domready', function(){
 <a id="NewBlondMe" class="anchor"></a>
 <section class="visible">
 {{ Html::image('images/news_images/new_blonde_me_1.jpg', 'New BlondeMe') }}
-<h3>New Bombshell for Blondes</h3>
+<h3>New Bombshell for Blondies</h3>
 <p><strong>The revamp of the iconic Schwarzkopf 'BlondMe' range has finally launched with some dramatic changes that are sure to make you stand out from the crowd!</strong></p>
 <p>Powered by a brand new advanced bonding system built into the colouring products, lightening and lifting hair has never been easier or less damaging.</p>
 <p class="reveal">Read more &gt;</p>
