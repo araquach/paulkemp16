@@ -60,6 +60,7 @@ header h2 {
 	width: auto;
 	height: 100px;
 	margin: auto;
+	margin-top: 20px;
 	background:  url('/images/logos/pk_logo.png') no-repeat center center;
 	background-size: 80%;
 }
@@ -76,17 +77,17 @@ header h2 {
 	margin-top: 0;
 }
 
-#prospect-image {
-	width: auto;
-	height: 250px;
-	background: #FFF url('/images/prospect/prospect_main.jpg') no-repeat center center;
-	background-size: cover;
-}
-
 #prospect-image-man {
 	width: auto;
 	height: 250px;
 	background: #FFF url('/images/prospect/man_pic.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+#prospect-image {
+	width: auto;
+	height: 250px;
+	background: #FFF url('/images/prospect/prospect_woman_pic.jpg') no-repeat center center;
 	background-size: cover;
 }
 
