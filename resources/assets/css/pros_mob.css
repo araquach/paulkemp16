@@ -87,7 +87,7 @@ header h2 {
 #prospect-image {
 	width: auto;
 	height: 250px;
-	background: #FFF url('/images/prospect/prospect_woman_pic.jpg') no-repeat center center;
+	background: #FFF url('/images/prospect/woman_pic.jpg') no-repeat center center;
 	background-size: cover;
 }
 
