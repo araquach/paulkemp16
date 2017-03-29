@@ -51,3 +51,69 @@ function getOffer2($level, $gender)
             return '<span class="big">&pound;30% off</span><br> your next visit<br><em>PLUS:</em><br>a FREE product with each service you have';
     }
 }
+
+function getStylists($cut, $colour, $gender)
+{
+        if($gender == 'F')
+        {
+            $total = $cut + $colour;
+        
+            if($total < 2)
+            {
+                return "Layla Relf";
+            }
+            
+            elseif($total >= 2 && $total < 4)
+            {
+                return "Laura Minett &amp; Matt Lane";
+            }
+            
+            elseif($total >= 4 && $total < 6)
+            {
+                return "Laura Hall &amp; Vikki Rowland";
+            }
+            
+            elseif($total >= 6  && $total < 6)
+            {
+                return "Natalie Doxey &amp; Jimmy Sharpe";
+            }
+            
+            else
+            {
+                return "Caleb Barrie";
+            }
+        }
+        
+        elseif($gender == 'M')
+        {
+            if($cut <= 1)
+            {
+                return "Layla Relf - m";
+            }
+            
+            elseif($cut > 1 && $cut <= 3)
+            {
+                return "Laura Minett &amp; Matt Lane - m";
+            }
+            
+            elseif($cut > 3 && $cut <= 5)
+            {
+                return "Laura Minett &amp; Matt Lane - m";
+            }
+            
+            elseif($cut > 5 && $cut <= 6)
+            {
+                return "Laura Hall &amp; Natalie Doxey - m";
+            }
+            
+            else
+            {
+                return "Caleb Barrie - m";
+            }
+        }
+}
+
+function getTreatment($texture, $condition)
+{
+    if($texture == '')
+}
