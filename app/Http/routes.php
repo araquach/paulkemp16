@@ -32,6 +32,12 @@ Route::get('/freeproducts/create', 'ProspectController@create');
 Route::get('/freeproducts/man/create', 'ProspectController@create');
 Route::post('prospect/store', 'ProspectController@store');
 
+Route::get('/prospect/emailmale', 'ProspectController@emailMale');
+Route::get('/prospect/emailmale2', 'ProspectController@emailMale2');
+Route::get('/prospect/emailfemale', 'ProspectController@emailFemale');
+Route::get('/prospect/emailfemale2', 'ProspectController@emailFemale2');
+Route::get('/prospect/test', 'ProspectController@test');
+
 Route::get('contact', 
   ['as' => 'contact', 'uses' => 'ContactController@create']);
 Route::post('sendEmail', 
