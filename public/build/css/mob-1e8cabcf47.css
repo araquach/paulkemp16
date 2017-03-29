@@ -1691,6 +1691,7 @@ section#recruitment h1 {
 }
 
 p.application {
+	width: auto;
 	margin-right: 0;
 }
 
