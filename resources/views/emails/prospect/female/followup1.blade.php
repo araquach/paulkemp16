@@ -1,5 +1,6 @@
-@extends('emails.prospect.template.large_2image')
+{{-- New prospect female 1 --}}
 
+@extends('emails.prospect.template.large_2image')
 
 @section('background_colour')
     #dce1e9
@@ -9,13 +10,17 @@
     
 @stop
     
-<!--Image 1200px x 400px-->
+<!--Image 600px x 300px-->
 @section('hero_image')
-   {{ asset('images/prospect/email/email_header.jpg') }}
+   http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/email_header.jpg
 @stop
 
 @section('section1')
-    <span style="font-size: 20px;">Hi Adam,</span>
+    <span style="font-size: 20px;">@if(App::isLocal())
+                                        Hi Adam, 
+                                    @else 
+                                        Hi {{ $prospect->first_name }}, 
+                                    @endif</span>
     <br><br>
     <strong>Thanks for applying for your FREE products</strong>
     <br><br>
@@ -24,12 +29,12 @@
 
 <!--Image 200px wide-->
 @section('image_left')
-    http://placehold.it/200
+    http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/man_pic.jpg
 @stop
 
 <!--Image 200px wide-->
 @section('image_right')
-    http://placehold.it/200
+    http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/men_products.jpg
 @stop
 
 @section('section2')
@@ -41,8 +46,17 @@
 @stop
 
 @section('section3')
-    Based on the information you gave, we think Matt Lane & Laura Minnett would be great stylists for you to try. 
-    We're sending out a voucher along with your products so you can  experience a FREE Blow Dry and Smoothing treatment with either of them. 
+    Based on the information you gave, we think @if(App::isLocal())
+                                        {!! getStylists($prospect->cut_price, $prospect->colour_price, $prospect->gender) !!}, 
+                                    @else 
+                                        {!! getStylists($cut_price, $colour_price, $gender) !!}, 
+                                    @endif 
+    would be great stylists for you to try. 
+    We're sending out a voucher along with your products so you can  experience a FREE Blow Dry and @if(App::isLocal())
+                                        {!! getTreatment($prospect->texture, $prospect->colour_price, $prospect->gender) !!}, 
+                                    @else 
+                                        {!! getTreatment($cut_price, $colour_price, $gender) !!}, 
+                                    @endif treatment with either of them. 
     <br><br>
     <strong>I'm sure once you've experienced Jakata you won't want to go anywhere else!</strong>
 @stop
