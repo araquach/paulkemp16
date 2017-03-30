@@ -56,59 +56,64 @@ function getStylists($cut, $colour, $gender)
 {
         if($gender == 'F')
         {
-            $total = $cut + $colour;
+            if($colour == 0)
+            {
+                $colour = $cut;
+            }
+            
+            $total = ($cut + $colour) / 2;
         
-            if($total < 2)
+            if($total < 3)
             {
-                return "Layla Relf";
+                return "Abbie Clarke";
             }
             
-            elseif($total >= 2 && $total < 4)
+            if($total >= 3 && $total < 4)
             {
-                return "Laura Minett &amp; Matt Lane";
+                return "Kate O Halloran, Tash Bailey &amp; Louise Bailey";
             }
             
-            elseif($total >= 4 && $total < 6)
+            if($total >= 4 && $total < 5)
             {
-                return "Laura Hall &amp; Vikki Rowland";
+                return "Leon Pritchard, Jo Mahoney &amp; Michelle Railton";
             }
             
-            elseif($total >= 6  && $total < 6)
+            if($total >= 5)
             {
-                return "Natalie Doxey &amp; Jimmy Sharpe";
+                return "Kellie Reedy &amp; Izzy Lamb";
             }
             
             else
             {
-                return "Caleb Barrie";
+                return "Kate O Halloran, Tash Bailey &amp; Louise Bailey";
             }
         }
         
         elseif($gender == 'M')
         {
-            if($cut <= 1)
+            if($cut < 3)
             {
-                return "Layla Relf - m";
+                return "Abbie Clarke";
             }
             
-            elseif($cut > 1 && $cut <= 3)
+            elseif($cut >= 3 && $cut < 4)
             {
-                return "Laura Minett &amp; Matt Lane - m";
+                return "Kate O Halloran, Tash Bailey &amp; Louise Bailey";
             }
             
-            elseif($cut > 3 && $cut <= 5)
+            elseif($cut >= 4 && $cut < 5)
             {
-                return "Laura Minett &amp; Matt Lane - m";
+                return "Leon Pritchard, Jo Mahoney &amp; Michelle Railton";
             }
             
-            elseif($cut > 5 && $cut <= 6)
+            elseif($cut >= 5)
             {
-                return "Laura Hall &amp; Natalie Doxey - m";
+                return "Kellie Reedy &amp; Izzy Lamb";
             }
             
             else
             {
-                return "Caleb Barrie - m";
+                return "Kate O Halloran, Tash Bailey &amp; Louise Bailey";
             }
         }
 }

@@ -47,15 +47,15 @@
 
 @section('section3')
     Based on the information you gave, we think @if(App::isLocal())
-                                        {!! getStylists(1, 2, 'F') !!}, 
+                                        {!! getStylists(1, 2, 'F') !!}
                                     @else 
-                                        {!! getStylists($cut_price, $colour_price, $gender) !!}, 
+                                        {!! getStylists($cut_price, $colour_price, $gender) !!}
                                     @endif 
     would be great stylists for you to try. 
     We're sending out a voucher along with your products so you can  experience a FREE Blow Dry and @if(App::isLocal())
-                                        moisture
+                                        {{ $getTreatment('fine', 'oily') }}
                                     @else 
-                                        {!! getTreatment($cut_price, $colour_price, $gender) !!}, 
+                                        {!! getTreatment($cut_spend, $colour_spend, $gender) !!}
                                     @endif treatment with either of them. 
     <br><br>
     <strong>I'm sure once you've experienced Jakata you won't want to go anywhere else!</strong>
