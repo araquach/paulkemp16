@@ -115,5 +115,44 @@ function getStylists($cut, $colour, $gender)
 
 function getTreatment($texture, $condition)
 {
-    if($texture == '')
+    switch([$texture, $condition]) {
+        case ['fine', 'dry']:
+            return "Moisture";
+            break;
+        case ['fine', 'normal']:
+            return "Volumising";
+            break;
+        case ['fine', 'oily']:
+            return "Deep Cleansing";
+            break;
+        case ['fine', 'overprocessed']:
+            return "Repair Rescue";
+            break;
+        case ['normal', 'dry']:
+            return "Moisture";
+            break;
+        case ['normal', 'normal']:
+            return "Relaxing";
+            break;
+        case ['normal', 'oily']:
+            return "Deep cleansing";
+            break;
+        case ['normal', 'overprocessed']:
+            return "Fibre Force";
+            break;
+        case ['coarse', 'dry']:
+            return "Intense Moisture";
+            break;
+        case ['coarse', 'normal']:
+            return "Smoothing";
+            break;
+        case ['coarse', 'oily']:
+            return "Deep cleansing";
+            break;
+        case ['coarse', 'overprocessed']:
+            return "Fibre Force";
+            break;
+        default:
+            return "";
+    }
 }

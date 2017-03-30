@@ -29,12 +29,12 @@
 
 <!--Image 200px wide-->
 @section('image_left')
-    http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/man_pic.jpg
+    http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/female_pic.jpg
 @stop
 
 <!--Image 200px wide-->
 @section('image_right')
-    http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/men_products.jpg
+    http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/female_products.jpg
 @stop
 
 @section('section2')
@@ -47,13 +47,13 @@
 
 @section('section3')
     Based on the information you gave, we think @if(App::isLocal())
-                                        {!! getStylists($prospect->cut_price, $prospect->colour_price, $prospect->gender) !!}, 
+                                        {!! getStylists(1, 2, 'F') !!}, 
                                     @else 
                                         {!! getStylists($cut_price, $colour_price, $gender) !!}, 
                                     @endif 
     would be great stylists for you to try. 
     We're sending out a voucher along with your products so you can  experience a FREE Blow Dry and @if(App::isLocal())
-                                        {!! getTreatment($prospect->texture, $prospect->colour_price, $prospect->gender) !!}, 
+                                        moisture
                                     @else 
                                         {!! getTreatment($cut_price, $colour_price, $gender) !!}, 
                                     @endif treatment with either of them. 
