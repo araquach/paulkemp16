@@ -28,7 +28,7 @@
 @stop
 
 @section('section2')
-    As you've never been to Jakata before we'd really like you to experience the salon for yourself. 
+    As you've never been to Paul Kemp Hairdressing before we'd really like you to experience the salon for yourself. 
     We have a team of ten talented, friendly staff ready to look after you, all highly skilled in men's hairdressing. <br>
     We've won numerous awards and you only have to look at our customer testimonials and Facebook reviews to see how highly rated we are.
     <br><br>
@@ -37,12 +37,12 @@
 
 <!--Image 200px wide-->
 @section('image_left')
-    http://placehold.it/200
+    http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/man_pic.jpg
 @stop
 
 <!--Image 200px wide-->
 @section('image_right')
-    http://placehold.it/200
+    http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/men_products.jpg
 @stop
 
 @section('section3')
@@ -54,13 +54,13 @@
     would be great stylists for you to try. <br>
     We're sending out a voucher along with your products to give you<br> <strong>50% off a Cut & Style</strong> with them. 
     <br><br>
-    <strong>I'm sure once you've experienced Jakata you won't want to go anywhere else!</strong>
+    <strong>I'm sure once you've experienced Paul Kemp Hairdressing you won't want to go anywhere else!</strong>
 @stop
 
 @section('section4')
     Thanks again and we look forward to seeing you soon!
     <br><br>
-    The JAKATA team
+    The Paul Kemp Hairdressing team
 @stop
 
 @section('footer_colour')

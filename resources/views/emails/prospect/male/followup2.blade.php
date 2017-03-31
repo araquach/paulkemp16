@@ -33,11 +33,11 @@
                                     @endif </strong> 
     that you can take advantage of over the coming months. 
     <br><br>
-    Just call <strong>01925 242960</strong> to book in.
+    Just call <strong>01925 444488</strong> to book in.
     <br><br>
     <strong>We look forward to seeing you soon in the salon soon.</strong>
     <br><br>
-    <strong>The Jakata Team</strong>
+    <strong>The Paul Kemp Hairdressing salon Team</strong>
     
 @stop
 

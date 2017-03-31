@@ -28,7 +28,7 @@
 @stop
 
 @section('section2')
-    As you've never been to Jakata before we'd love you to experience the salon for yourself. We have a team of ten talented, friendly staff ready to look after you. 
+    As you've never been to Paul Kemp Hairdressing before we'd love you to experience the salon for yourself. We have a team of ten talented, friendly staff ready to look after you. 
     We've won numerous hairdressing awards and you only have to look at our customer testimonials and Facebook reviews to see how highly rated we are.
     <br><br>
     Based on the information you gave, we think <strong> @if(App::isLocal())
@@ -43,32 +43,32 @@
                                         {!! getTreatment($cut_spend, $colour_spend) !!}
                                     @endif 
     treatment </strong>with them. 
-    <strong>I'm sure once you've experienced Jakata you won't want to go anywhere else!</strong>
+    <strong>I'm sure once you've experienced Paul Kemp Hairdressing you won't want to go anywhere else!</strong>
 @stop
 
 <!--Image 200px wide-->
 @section('image2')
-    http://placehold.it/200
+    http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/female_pic.jpg
 @stop
 
 @section('section3')
-    Matt Lane
+    !!! Some Text here !!!
 @stop
 
 <!--Image 200px wide-->
 @section('image3')
-    http://placehold.it/200
+    http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/female_products.jpg
 @stop
 
 @section('section4')
-    Laura Minnett
+    !!! Some Text here !!!
 @stop
 
 <!--bottom panel text-->
 @section('section5')
     Thanks again and we look forward to seeing you soon!
     <br><br>
-    <span style="font-size: 20px;">The JAKATA team</span>
+    <span style="font-size: 20px;">The Paul Kemp Hairdressing team</span>
 @stop
 
 @section('footer_colour')
