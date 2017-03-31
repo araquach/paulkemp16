@@ -42,7 +42,7 @@
     <br><br>We have a team of ten talented, friendly staff ready to look after you.
     We've won numerous hairdressing awards and you only have to look at our customer testimonials and Facebook reviews to see how highly rated we are.
     <br><br>
-    <a href="https://www.facebook.com/JakataSalon/">Jakata Facebook page</a>
+    <a href="https://www.facebook.com/PaulKempHairdressing">Paul Kemp Hairdressing Facebook page</a>
 @stop
 
 @section('section3')

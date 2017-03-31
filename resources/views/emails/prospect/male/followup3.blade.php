@@ -32,7 +32,7 @@
     We have a team of ten talented, friendly staff ready to look after you, all highly skilled in men's hairdressing. <br>
     We've won numerous awards and you only have to look at our customer testimonials and Facebook reviews to see how highly rated we are.
     <br><br>
-    -- Facebook link --
+    <a href="https://www.facebook.com/PaulKempHairdressing">Paul Kemp Hairdressing Facebook page</a>
 @stop
 
 <!--Image 200px wide-->
