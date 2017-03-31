@@ -12,7 +12,7 @@
     
 <!--Image 600px x 300px-->
 @section('hero_image')
-   http://2183bb2632b00d8aa0b3-40e51394fe766397114262205a4ab22d.r37.cf5.rackcdn.com/email_header.jpg
+   http://0f8f6b9addcd2082b20a-a5dcc640caa66d050a2badccb70574e9.r41.cf5.rackcdn.com/email_header_1.jpg
 @stop
 
 @section('section1')
