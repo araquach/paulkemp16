@@ -16,10 +16,10 @@
 @stop
 
 @section('section1')
-    <span style="font-size: 20px;">@if(App::isLocal())
-                                        Hi Adam, 
+    <span style="font-size: 20px;">Hi @if(App::isLocal())
+                                        Adam, 
                                     @else 
-                                        Hi {{ $prospect->first_name }}, 
+                                        {{ $prospect->first_name }}, 
                                     @endif</span>
     <br><br>
     <strong>Thanks for applying for your FREE products</strong>
@@ -46,17 +46,18 @@
 @stop
 
 @section('section3')
-    Based on the information you gave, we think @if(App::isLocal())
+    Based on the information you gave, we think <strong> @if(App::isLocal())
                                         {!! getStylists(1, 2, 'F') !!}
                                     @else 
                                         {!! getStylists($cut_price, $colour_price, $gender) !!}
-                                    @endif 
+                                    @endif </strong>
     would be great stylists for you to try. 
-    We're sending out a voucher along with your products so you can  experience a FREE Blow Dry and @if(App::isLocal())
-                                        {{ $getTreatment('fine', 'oily') }}
+    We're sending out a voucher along with your products so you can  experience a <strong>FREE Blow Dry and @if(App::isLocal())
+                                        {{ getTreatment('fine', 'dry') }}
                                     @else 
-                                        {!! getTreatment($cut_spend, $colour_spend, $gender) !!}
-                                    @endif treatment with either of them. 
+                                        {!! getTreatment($cut_spend, $colour_spend) !!}
+                                    @endif 
+    treatment</strong> with them. 
     <br><br>
     <strong>I'm sure once you've experienced Jakata you won't want to go anywhere else!</strong>
 @stop

@@ -17,7 +17,11 @@
 @stop
 
 @section('section1')
-    <span style="font-size: 20px;">Hi {{ $first_name }},</span>
+    <span style="font-size: 20px;">Hi @if(App::isLocal())
+                                        Adam, 
+                                    @else 
+                                        {{ $prospect->first_name }}, 
+                                    @endif</span>
     <br><br>
     <strong>Thanks for applying for your FREE products,</strong>
     we've selected a range that's ideal for your hair texture and condition. We'll let you know when they're on the way to you.
@@ -27,17 +31,18 @@
     As you've never been to Jakata before we'd love you to experience the salon for yourself. We have a team of ten talented, friendly staff ready to look after you. 
     We've won numerous hairdressing awards and you only have to look at our customer testimonials and Facebook reviews to see how highly rated we are.
     <br><br>
-    Based on the information you gave, we think @if(App::isLocal())
-                                        {!! getStylists($prospect->cut_price, $prospect->colour_price, $prospect->gender) !!}, 
+    Based on the information you gave, we think <strong> @if(App::isLocal())
+                                        {!! getStylists(1, 2, 'F') !!}
                                     @else 
-                                        {!! getStylists($cut_price, $colour_price, $gender) !!}, 
-                                    @endif 
+                                        {!! getStylists($cut_price, $colour_price, $gender) !!}
+                                    @endif </strong>
     would be great stylists for you to try. 
-    We're sending out a voucher along with your products so you can  experience a FREE Blow Dry and @if(App::isLocal())
-                                        {!! getTreatment($prospect->texture, $prospect->colour_price, $prospect->gender) !!}, 
+    We're sending out a voucher along with your products so you can  experience a <strong>FREE Blow Dry and @if(App::isLocal())
+                                        {{ getTreatment('fine', 'dry') }}
                                     @else 
-                                        {!! getTreatment($cut_price, $colour_price, $gender) !!}, 
-                                    @endif treatment with either of them. 
+                                        {!! getTreatment($cut_spend, $colour_spend) !!}
+                                    @endif 
+    treatment </strong>with them. 
     <strong>I'm sure once you've experienced Jakata you won't want to go anywhere else!</strong>
 @stop
 

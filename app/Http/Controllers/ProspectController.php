@@ -114,7 +114,7 @@ class ProspectController extends Controller
         //
     }
     
-    public function emailFemale()
+    public function emailFemale1()
     {
         // $prospect = Prospect::findOrFail(1);
         
@@ -126,7 +126,12 @@ class ProspectController extends Controller
         return view('emails.prospect.female.followup2');
     }
     
-    public function emailMale()
+    public function emailFemale3()
+    {
+        return view('emails.prospect.female.followup3');
+    }
+    
+    public function emailMale1()
     {
         // $prospect = Prospect::findOrFail(1);
         
@@ -136,5 +141,10 @@ class ProspectController extends Controller
     public function emailMale2()
     {
         return view('emails.prospect.male.followup2');
+    }
+    
+    public function emailMale3()
+    {
+        return view('emails.prospect.male.followup3');
     }
 }

@@ -16,7 +16,11 @@
 @stop
 
 @section('section1')
-    <span style="font-size: 20px;">Hi Adam,</span>
+    <span style="font-size: 20px;">Hi @if(App::isLocal())
+                                        Adam, 
+                                    @else 
+                                        {{ $prospect->first_name }}, 
+                                    @endif</span>
     <br><br>
     <strong>Thanks for applying for your FREE products.</strong>
     <br><br>
@@ -42,8 +46,13 @@
 @stop
 
 @section('section3')
-    Based on the information you gave, we think -- Matt Lane & Laura Minnett -- would be great stylists for you to try. <br>
-    We're sending out a voucher along with your products to give you<br> <strong>50% off a Cut & Style</strong> with either of them. 
+    Based on the information you gave, we think <strong> @if(App::isLocal())
+                                        {!! getStylists(1, 2, 'F') !!}
+                                    @else 
+                                        {!! getStylists($cut_price, $colour_price, $gender) !!}
+                                    @endif </strong>
+    would be great stylists for you to try. <br>
+    We're sending out a voucher along with your products to give you<br> <strong>50% off a Cut & Style</strong> with them. 
     <br><br>
     <strong>I'm sure once you've experienced Jakata you won't want to go anywhere else!</strong>
 @stop

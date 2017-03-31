@@ -17,12 +17,21 @@
 @stop
 
 @section('section1')
-    <span style="font-size: 20px;">Hi {{-- $first_name --}},</span>
+    <span style="font-size: 20px;">Hi @if(App::isLocal())
+                                        Adam, 
+                                    @else 
+                                        {{ $prospect->first_name }}, 
+                                    @endif</span>
     <br><br>
     <br><span style ="font-size: 20px; line-height: 30px;">Just to let you know, your products have been sent in the post to you. They should be with you soon!</span><br>
     <strong></strong>
     <br>
-    We've included a voucher for a FREE Blow-dry and  -- Smoothing Conditioning treatment -- that you can take advantage of over the coming months. 
+    We've included a voucher for a  <strong>FREE Blow-dry and  @if(App::isLocal())
+                                        {{ getTreatment('fine', 'dry') }}
+                                    @else 
+                                        {!! getTreatment($cut_spend, $colour_spend) !!}
+                                    @endif 
+    treatment</strong> that you can take advantage of over the coming months. 
     <br><br>
     Just call <strong>01925 242960</strong> to book in.
 @stop

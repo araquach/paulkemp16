@@ -16,13 +16,22 @@
 @stop
 
 @section('section1')
-    <span style="font-size: 20px;">Hi Adam,</span>
+    <span style="font-size: 20px;">Hi @if(App::isLocal())
+                                        Adam, 
+                                    @else 
+                                        {{ $prospect->first_name }}, 
+                                    @endif</span>
     <br><br>
     <span style ="font-size: 20px; line-height: 30px;">Just to let you know, your products have been sent in the post to you. They should be with you soon.</span>
 @stop
 
 @section('section2')
-    We've included a voucher for <strong>50% off</strong> with either -- Matt Lane or Laura Minnett -- that you can take advantage of over the coming months. 
+    We've included a voucher for <strong>50% off</strong> with either <strong> @if(App::isLocal())
+                                        {!! getStylists(1, 2, 'F') !!}
+                                    @else 
+                                        {!! getStylists($cut_price, $colour_price, $gender) !!}
+                                    @endif </strong> 
+    that you can take advantage of over the coming months. 
     <br><br>
     Just call <strong>01925 242960</strong> to book in.
     <br><br>
