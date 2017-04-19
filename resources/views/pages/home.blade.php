@@ -50,10 +50,10 @@
 </aside>
 </a>
 
-<a href="{{ URL::to('news') }}#FibrePlex">
+<a href="{{ URL::to('news') }}#EL17">
 <aside id="news3">
-<h3 class="newsheader">FibrePlex<br>Is Here</h3>
-<p class="newspara">Lighten, lift, colour without compromise</p>
+<h3 class="newsheader">Essential Looks<br>In-Salon Competition</h3>
+<p class="newspara">See the fantastic results of this years entries</p>
 <p class="newscenter"><strong>Find out more here &gt;</strong></p>
 </aside>
 </a>

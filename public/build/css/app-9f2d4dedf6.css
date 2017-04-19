@@ -923,14 +923,14 @@ li.active a {
 #news3 {
 	left: 492px;
 	top: 1100px;
-	background: url(/images/home_news/fibreplex.jpg) no-repeat, rgb(55,34,24);
+	background: url(/images/home_news/el_2017.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news3 {
-	background: url(/images/home_news/fibreplex.jpg) no-repeat rgb(55,34,24);
+	background: url(/images/home_news/el_2017.jpg) no-repeat rgb(55,34,24);
 }
 
 #news3:hover {
