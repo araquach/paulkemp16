@@ -5,9 +5,10 @@
 @include('layouts.partials.head', [
 	'description' => 'All the latest news from the Paul Kemp Hairdressing Team',
 	'keywords' => 'Paul Kemp Hairdressing news, PK news stories',
-	'ogtitle' => 'PK News',
-	'ogdescription' => 'All the latest news from the Paul Kemp Hairdressing Team',
-	'ogimage' => url('/') . '/images/ogimage/myimage.png',
+	'ogtitle' => 'Essential Looks 2017 - in-salon competition',
+	'ogdescription' => 'Every season Schwarzkopf launches their latest \'Essential Looks\' collections. Three sets of looks that are inspired by the upcoming trends in Paris, Milan, New York and London.
+	We run an internal competition to coincide with the launch of the collections, to get our team members to interpret their favourite Essential Look.',
+	'ogimage' => url('/') . '/images/news_images/el_group_shot_meta.jpg',
 	'title' => 'Paul Kemp Hairdressing - PK News - Hairdressers in Warrington'
 	])
 	
