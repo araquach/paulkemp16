@@ -37,7 +37,7 @@ window.addEvent('domready', function(){
 </section> <!--end .visible-->
 <section class="hidden">
 <h4>The Competitors</h4>
-<p>Stylists from both <strong>Jakata</strong> and sister salon <strong>Paul Kemp Hairdressing</strong> took part in the challenge, all coming up with their own unique take on their favourite look from this season.</p>
+<p>Stylists from both <strong>Paul Kemp Hairdressing</strong> and sister salon <strong>Jakata</strong> took part in the challenge, all coming up with their own unique take on their favourite look from this season.</p>
 {{ Html::image('images/news_images/el_the_teams_big.jpg', 'The Stylists', ['class' => 'news-image']) }}
 <h4>Abbi Clarke (PK)</h4>
 {{ Html::image('images/news_images/el_abbi.jpg', 'Abbi\'s entry', ['class' => 'news-image']) }}
