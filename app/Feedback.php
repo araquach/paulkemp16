@@ -10,6 +10,8 @@ class Feedback extends Model
     
     protected $dates = ['created_at', 'updated_at'];
     
+    protected $table = 'feedbacks_pk';
+    
     public function client()
     {
         return $this->belongsTo('App\FeedbackClient');

@@ -12,8 +12,6 @@ class Offer extends Model
     
     protected $dates = ['created_at', 'updated_at'];
     
-    protected $connection = 'mysqljak';
-    
     // protected $connection = 'mysql_test';
     
     public function getFirstNameAttribute($value)

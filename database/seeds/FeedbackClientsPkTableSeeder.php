@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class FeedbackClientsTableSeeder extends Seeder
+class FeedbackClientsPkTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,7 +11,7 @@ class FeedbackClientsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('feedback_clients')->insert([
+        DB::table('feedback_clients_pk')->insert([
             'iris_id' => '1',
             'stylist' => 'Izzy Lamb',
             'first_name' => 'Patricia',
@@ -19,7 +19,7 @@ class FeedbackClientsTableSeeder extends Seeder
             'mobile' => '0798567373682',
         ]);
         
-        DB::table('feedback_clients')->insert([
+        DB::table('feedback_clients_pk')->insert([
             'iris_id' => '2',
             'stylist' => 'Jo Mahoney',
             'first_name' => 'Sarah',
@@ -27,7 +27,7 @@ class FeedbackClientsTableSeeder extends Seeder
             'mobile' => '07985667545672',
         ]);
         
-        DB::table('feedback_clients')->insert([
+        DB::table('feedback_clients_pk')->insert([
             'iris_id' => '3',
             'stylist' => 'Michelle Railton',
             'first_name' => 'Helen',
@@ -35,7 +35,7 @@ class FeedbackClientsTableSeeder extends Seeder
             'mobile' => '079846764673682',
         ]);
         
-        DB::table('feedback_clients')->insert([
+        DB::table('feedback_clients_pk')->insert([
             'id' => '1456',
             'iris_id' => '4',
             'stylist' => 'Michelle Railton',

@@ -34,6 +34,6 @@ class CreateOffersTable extends Migration
      */
     public function down()
     {
-        Schema::connection('mysql_test')->drop('offers');
+        Schema::drop('offers');
     }
 }

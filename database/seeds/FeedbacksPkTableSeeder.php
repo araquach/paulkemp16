@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use Carbon\Carbon;
 
-class FeedbacksTableSeeder extends Seeder
+class FeedbacksPkTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,7 +12,7 @@ class FeedbacksTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('feedbacks')->insert([
+        DB::table('feedbacks_pk')->insert([
             'intro' => '1',
             'consultation' => '2',
             'styling_area' => '1',
@@ -35,7 +35,7 @@ class FeedbacksTableSeeder extends Seeder
             'salon_id' => '2',
         ]);
         
-        DB::table('feedbacks')->insert([
+        DB::table('feedbacks_pk')->insert([
             'intro' => '1',
             'consultation' => '2',
             'styling_area' => '1',
@@ -58,7 +58,7 @@ class FeedbacksTableSeeder extends Seeder
             'salon_id' => '2',
         ]);
         
-        DB::table('feedbacks')->insert([
+        DB::table('feedbacks_pk')->insert([
             'intro' => '1',
             'consultation' => '2',
             'styling_area' => '1',
@@ -81,7 +81,7 @@ class FeedbacksTableSeeder extends Seeder
             'salon_id' => '1',
         ]);
         
-        DB::table('feedbacks')->insert([
+        DB::table('feedbacks_pk')->insert([
             'intro' => '1',
             'consultation' => '2',
             'styling_area' => '1',
