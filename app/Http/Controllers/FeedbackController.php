@@ -58,7 +58,7 @@ class FeedbackController extends Controller
 		
 		Mail::send('sms.feedback', $recipient, function($message) use ($recipient)
    		{
-       		$message->from('bookings@paulkemphairdressing.com', 'PK');
+       		$message->from('enquiries@jakatasalon.co.uk', 'PaulKempHair');
        		
        		$message->subject('Thanks for filling out the form');
 
