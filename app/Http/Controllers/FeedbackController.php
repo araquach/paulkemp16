@@ -49,6 +49,21 @@ class FeedbackController extends Controller
         $input = $request->all();
         
 		Feedback::create($input);
+		
+		$recipient = Feedback::with('client')->first();
+		
+		$recipient = $recipient->client->toArray();
+		
+		// dd($recipient);
+		
+		Mail::send('sms.feedback', $recipient, function($message) use ($recipient)
+   		{
+       		$message->from('bookings@paulkemphairdressing.com', 'PK');
+       		
+       		$message->subject('Thanks for filling out the form');
+
+       		$message->to($recipient['mobile'] . '@mail2txt160id.net');
+   		});
 	    
 	    return redirect()->back()->with('message', 'Thank you for your feedback, it\'s really appreciated. Your voucher is on it\'s way plus you have been entered into our next prize draw for the chance to win some great prizes. See you in the salon soon!');
     }
