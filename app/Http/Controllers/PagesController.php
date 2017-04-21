@@ -157,7 +157,7 @@ class PagesController extends Controller {
 	
 	public function jo()
 	{
-		$feedbacks = FeedbackClient::with('feedback')->where('stylist', '=', 'Jo Mahoney')
+		$feedbacks = FeedbackClient::with('feedback')->where('stylist', '=', 'Jo Birchall')
 			->whereHas('feedback', function($query)
 			{
 				$query->where('publish', '=', '1');
@@ -165,18 +165,6 @@ class PagesController extends Controller {
 			)->orderByRaw("RAND()")->get();
 		
 		return view('pages.team.jo', compact('feedbacks'));
-	}
-	
-	public function caleb()
-	{
-		$feedbacks = FeedbackClient::with('feedback')->where('stylist', '=', 'Caleb Barrie')
-			->whereHas('feedback', function($query)
-			{
-				$query->where('publish', '=', '1');
-			}
-			)->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.caleb', compact('feedbacks'));
 	}
 	
 	public function michelle()

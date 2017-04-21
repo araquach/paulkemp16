@@ -18,7 +18,6 @@ Route::get('/michelle', 'PagesController@michelle');
 Route::get('/leon', 'PagesController@leon');
 Route::get('/kel', 'PagesController@kel');
 Route::get('/izzy', 'PagesController@izzy');
-Route::get('/caleb', 'PagesController@caleb');
 Route::get('/tash', 'PagesController@tash');
 Route::get('/jo', 'PagesController@jo');
 Route::get('/kate', 'PagesController@kate');

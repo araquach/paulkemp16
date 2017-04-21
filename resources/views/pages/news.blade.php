@@ -44,7 +44,7 @@ window.addEvent('domready', function(){
 {{ Html::image('images/news_images/el_abbi.jpg', 'Abbi\'s entry', ['class' => 'news-image']) }}
 <h4>Caleb Barrie (Jakata)</h4>
 {{ Html::image('images/news_images/el_caleb.jpg', 'Caleb\'s entry', ['class' => 'news-image']) }}
-<h4>Jo Mahoney (PK)</h4>
+<h4>Jo Birchall (PK)</h4>
 {{ Html::image('images/news_images/el_jo.jpg', 'Jo\'s entry', ['class' => 'news-image']) }}
 <h4>Kate O'Halleran (PK)</h4>
 {{ Html::image('images/news_images/el_kate.jpg', 'Kate\'s entry', ['class' => 'news-image']) }}

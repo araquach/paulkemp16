@@ -6,8 +6,8 @@
 	'description' => 'Jo is a fantastic stylist with many years experience, she\'s a real long standing asset to the team. 
 	Her down to earth nature instantly puts you at ease and her hairdressing skills really shine. 
 	She loves doing men and women\'s hair. Book well in advance - she\'s a very busy stylist.',
-	'keywords' => 'Jo Mahoney, Joanne Mahoney, Paul Kemp Hairdressing stylists, hairdressers, PK',
-	'ogtitle' => 'Jo Mahoney',
+	'keywords' => 'Jo Birchall, Joanne Mahoney, Paul Kemp Hairdressing stylists, hairdressers, PK',
+	'ogtitle' => 'Jo Birchall',
 	'ogdescription' => 'Jo is a fantastic stylist with many years experience, she\'s a real long standing asset to the team. 
 	Her down to earth nature instantly puts you at ease and her hairdressing skills really shine. 
 	She loves doing men and women\'s hair. Book well in advance - she\'s a very busy stylist.',
@@ -28,7 +28,7 @@
 	<div id="team_jo" class="team_pic"></div>
 	
 	<section id="team_ind_copy">
-	<h2>Jo Mahoney</h2>
+	<h2>Jo Birchall</h2>
 	<p>Jo is a fantastic stylist with many years experience, she's a real long standing asset to the team.</p> 
 	<p>Her down to earth nature instantly puts you at ease and her hairdressing skills really shine.</p>
 	<p>She loves doing men and women's hair. Book well in advance - she's a very busy stylist. </p>

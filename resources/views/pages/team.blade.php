@@ -50,7 +50,7 @@
 
 	<a href="{{ URL::to('jo') }}">
 		<section id="jo">
-			<h3>{{ Html::image('images/staff/jo.jpg', 'Jo Mahoney') }} Jo Mahoney - Senior Stylist</h3>
+			<h3>{{ Html::image('images/staff/jo.jpg', 'Jo Birchall') }} Jo Birchall - Senior Stylist</h3>
 			<p>Jo is a fantastic stylist with many years experience, she's a real long standing asset to the team. Her down to earth nature instantly puts you at ease and her hairdressing skills really shine. She loves doing men and women's hair. Book well in advance
 				- she's a very busy stylist. </p>
 			<p class="teamprice">Average Cut &amp; Colour price with Jo : &pound;114*</p>
