@@ -19,8 +19,6 @@
 
 <div class="row">
         {{ Form::hidden('client_id', $client->id) }}
-        
-        {!! Form::hidden('salon_id', '2') !!}
 </div>
 	
 <div class="row question">
