@@ -56,14 +56,14 @@ class FeedbackController extends Controller
 		
 		// dd($recipient);
 		
-		Mail::send('sms.feedback', $recipient, function($message) use ($recipient)
+		Mail::send(['text' => 'sms.feedback'], $recipient, function($message) use ($recipient)
    		{
        		$message->from('adam@jakatasalon.co.uk');
        		
        		$message->subject('PaulKempHair');
 
-       		// $message->to($recipient['mobile'] . '.2187@smsid.textapp.net');
-       		$message->to('araquach@yahoo.co.uk');
+       		$message->to($recipient['mobile'] . '.2187@smsid.textapp.net');
+       		// $message->to('araquach@yahoo.co.uk');
    		});
 	    
 	    return redirect()->back()->with('message', 'Thank you for your feedback, it\'s really appreciated. Your voucher is on it\'s way plus you have been entered into our next prize draw for the chance to win some great prizes. See you in the salon soon!');
