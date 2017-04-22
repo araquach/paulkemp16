@@ -52,9 +52,9 @@ class FeedbackController extends Controller
 		
 		$recipient = Feedback::with('client')->orderBy('id', 'DESC')->first();
 		
-		// $recipient = $recipient->client->toArray();
+		$recipient = $recipient->client->toArray();
 		
-		dd($recipient);
+		// dd($recipient);
 		
 		Mail::send('sms.feedback', $recipient, function($message) use ($recipient)
    		{
