@@ -50,7 +50,7 @@ class FeedbackController extends Controller
         
 		Feedback::create($input);
 		
-		$recipient = Feedback::with('client')->first();
+		$recipient = Feedback::with('client')->orderBy('id', 'DESC')->first();
 		
 		// $recipient = $recipient->client->toArray();
 		
