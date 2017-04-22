@@ -35,6 +35,7 @@ class FeedbackFormRequest extends Request
             'end_result' => 'required',
             'extra' => '',
             'extra_edit' => '',
+            'client_id' => 'unique'
         ];
     }
     
@@ -49,7 +50,8 @@ class FeedbackFormRequest extends Request
             'styling_advice.required' => 'Please rate the styling advice given',
             'value_for_money.required' => 'Please rate value for money',
             'whole_experience.required' => 'Please rate your whole experience',
-            'end_result.required' => 'Please rate the end result'
+            'end_result.required' => 'Please rate the end result',
+            'client_id.unique' => 'Sorry - You can only enter once'
         ];
     }
 }
