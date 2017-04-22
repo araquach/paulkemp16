@@ -35,7 +35,7 @@ class FeedbackFormRequest extends Request
             'end_result' => 'required',
             'extra' => '',
             'extra_edit' => '',
-            'client_id' => 'unique:feedbacks_pk,user_id'
+            'client_id' => 'unique:feedbacks_pk,client_id'
         ];
     }
     
