@@ -62,8 +62,8 @@ class FeedbackController extends Controller
        		
        		$message->subject('PaulKempHair');
 
-       		$message->to($recipient['mobile'] . '.2187@smsid.textapp.net');
-       		// $message->to('adam@jakatasalon.co.uk');
+       		// $message->to($recipient['mobile'] . '.2187@smsid.textapp.net');
+       		$message->to('araquach@yahoo.co.uk');
    		});
 	    
 	    return redirect()->back()->with('message', 'Thank you for your feedback, it\'s really appreciated. Your voucher is on it\'s way plus you have been entered into our next prize draw for the chance to win some great prizes. See you in the salon soon!');
