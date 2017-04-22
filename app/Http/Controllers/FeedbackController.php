@@ -62,7 +62,7 @@ class FeedbackController extends Controller
        		
        		$message->subject('PaulKempHair');
 
-       		$message->to($recipient['mobile'] . '@smsid.textapp.net');
+       		$message->to($recipient['mobile'] . '.2187@smsid.textapp.net');
        		// $message->to('adam@jakatasalon.co.uk');
    		});
 	    
