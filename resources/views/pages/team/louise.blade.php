@@ -42,7 +42,7 @@
 	<a href="{{ URL::to('team') }}#jo">Click here to see the full team &gt;</a>
 	
 	<div id="fb-like">
-		<div class="fb-like" data-href="http://www.paulkemphairdressing.com/louise" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+		<div class="fb-like" data-href="http://www.paulkemphairdressing.com/louise" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 	</div>
 	
 </section> <!--team_ind_copy-->
