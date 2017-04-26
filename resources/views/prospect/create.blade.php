@@ -19,7 +19,7 @@
 <h2>Claim Your <span class="red">FREE</span> Products</h2>
 	
 @if(Session::has('message'))
-	<div class="ProspectSuccess">
+	<div id="success" class="ProspectSuccess">
 	<p>{{{ Session::get('message') }}}</p>
 	{!! link_to('/', 'Visit our website to find out more about us!') !!}
 	</div>

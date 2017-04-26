@@ -23,7 +23,7 @@ plus there will be some special incentives on the day! <span class="red"><br>(in
 <p><strong>Just fill in the form below and we'll be in touch!</strong></p>
 	
 @if(Session::has('message'))
-	<div class="ProspectSuccess">
+	<div id="success" class="ProspectSuccess">
 	<p>{{{ Session::get('message') }}}</p>
 	{!! link_to('/', 'Visit our website to find out more about us!') !!}
 	</div>
