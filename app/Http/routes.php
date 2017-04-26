@@ -31,6 +31,10 @@ Route::get('/freeproducts/create', 'ProspectController@create');
 Route::get('/freeproducts/man/create', 'ProspectController@create');
 Route::post('prospect/store', 'ProspectController@store');
 
+Route::get('/taster', 'ProspectController@taster');
+Route::get('/taster/create', 'ProspectController@tasterCreate');
+Route::post('/taster/store', 'ProspectController@tasterStore');
+
 Route::get('/prospect/emailmale1', 'ProspectController@emailMale1');
 Route::get('/prospect/emailmale2', 'ProspectController@emailMale2');
 Route::get('/prospect/emailmale3', 'ProspectController@emailMale3');

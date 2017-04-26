@@ -70,51 +70,48 @@ class ProspectController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Show the form for creating a new consultation prospect.
      *
-     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    
+    public function taster()
     {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
+        return view('prospect.taster');
     }
     
-    public function emailFemale1()
+    /**
+     * Show the form for creating a new prospect.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    
+    public function tasterCreate()
+    {
+        return view('prospect.tasterCreate');
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function tasterStore(ProspectFormRequest $request)
+    {
+        $input = $request->all();
+        
+        Prospect::create($input);
+        
+        return redirect()->back()->with('message', 'Thank You! One of our team will contact you soon!');
+    }
+    
+    
+    /**
+     * Email template previews
+     */
+    
+     public function emailFemale1()
     {
         // $prospect = Prospect::findOrFail(1);
         
