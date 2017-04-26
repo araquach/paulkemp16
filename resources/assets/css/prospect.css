@@ -167,6 +167,10 @@ a.link {
 	margin: 40px 0 100px 0;
 }
 
+a.link:hover {
+	opacity: .7;
+}
+
 a.to-site {
 	background-color: none;
 	text-decoration: none;
@@ -176,10 +180,6 @@ a.to-site {
 }
 
 a.to-site:hover {
-	opacity: .7;
-}
-
-a.link:hover {
 	opacity: .7;
 }
 
