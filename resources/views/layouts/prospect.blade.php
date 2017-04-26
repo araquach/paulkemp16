@@ -37,7 +37,7 @@
 
 	<p><strong>Paul Kemp Hairdressing</strong> offers an ultra relaxing atmosphere, first class customer service, alongside the highest level of hairdressing expertise.</p>
     <p>Our talented team are trained to the highest level in cutting, colouring and styling hair, with specialists in technical colour, hair straightening &amp; hair extensions.</p>
-    <p><em>The salon has built up a strong reputation for creating stunning, fashionable looks tailored to suit you, and your lifestyle, so you can just sit back, relax and enjoy!</p>
+    <p><em>The salon has built up a strong reputation for creating stunning, fashionable looks tailored to suit you, and your lifestyle, so you can just sit back, relax and enjoy!</em></p>
 	
 	<section id="address_info">
 	<p>83 Sankey Street, Warrington</p>
