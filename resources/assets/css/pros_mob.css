@@ -65,6 +65,10 @@ header h2 {
 	background-size: 80%;
 }
 
+#address_info {
+	display: none;
+}
+
 #prospect {
 	width: auto;
 	margin: auto;
@@ -115,12 +119,14 @@ header h2 {
 }
 
 #prospect-entry {
-	float: none;
+	float: left;
+	clear: left;
 	position: relative;
 	width: auto;
 	padding: 20px;
 	border-left: none;
 	min-height: 0;
+	margin-top: 0;
 }
 
 #prospect-entry h2 {
@@ -148,6 +154,10 @@ header h2 {
 
 #prospect-entry p:last-of-type {
 	margin-bottom: 0;
+}
+
+#prospect-entry h2 {
+	margin: 10px 0;
 }
 
 .form h2 {
