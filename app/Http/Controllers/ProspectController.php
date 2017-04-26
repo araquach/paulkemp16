@@ -66,7 +66,8 @@ class ProspectController extends Controller
         
         Prospect::create($input);
         
-        return redirect()->back()->with('message', 'Thanks for applying - you will recieve your products soon!');
+        // return redirect()->back()->with('message', 'Thanks for applying - you will recieve your products soon!');
+        return redirect()->to(app('url')->previous(). '#ProspectSuccess')->with('message', 'Thanks for applying - you will receive your products soon!');
     }
 
     /**
@@ -103,7 +104,8 @@ class ProspectController extends Controller
         
         Prospect::create($input);
         
-        return redirect()->back()->with('message', 'Thank You! One of our team will contact you soon!');
+        // return redirect()->back()->with('message', 'Thank You! One of our team will contact you soon!');
+        return redirect()->to(app('url')->previous(). '#ProspectSuccess')->with('message', 'Thanks for applying - you will receive your products soon!');
     }
     
     

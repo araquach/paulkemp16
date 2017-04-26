@@ -20,7 +20,7 @@
 	
 @if(Session::has('message'))
 	<div class="ProspectSuccess">
-	{{{ Session::get('message') }}}<br>
+	<p>{{{ Session::get('message') }}}</p>
 	{!! link_to('/', 'Visit our website to find out more about us!') !!}
 	</div>
 @else
