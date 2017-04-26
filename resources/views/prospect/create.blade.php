@@ -21,7 +21,7 @@
 @if(Session::has('message'))
 	<div id="success" class="ProspectSuccess">
 	<p>{{{ Session::get('message') }}}</p>
-	{!! link_to('/', 'Visit our website to find out more about us!') !!}
+	<a href="URL::to('/')" class="link">Visit our website to find out more about us!</a>
 	</div>
 @else
 
