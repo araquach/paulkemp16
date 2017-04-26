@@ -104,7 +104,6 @@ class ProspectController extends Controller
         
         Prospect::create($input);
         
-        // return redirect()->back()->with('message', 'Thank You! One of our team will contact you soon!');
         return redirect()->to(app('url')->previous(). '#success')->with('message', 'Thanks for applying - you will receive your products soon!');
     }
     

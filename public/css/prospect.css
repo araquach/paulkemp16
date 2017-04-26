@@ -627,6 +627,7 @@ header h2 {
 	position: relative;
 	width: 400px;
 	padding: 40px;
+	padding-bottom: 80px;
 	border-left: 3px solid rgb(55,34,24);
 	min-height: 900px;
 	margin-top: -200px;
