@@ -560,6 +560,14 @@ p {
 	font-size: 1.2em;
 }
 
+ul {
+	padding: 0 0 0 1em;
+}
+
+ul li {
+	line-height: 1.4em;
+}
+
 header {
 	width: 500px;
 	margin-top: 30px;
