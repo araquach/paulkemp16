@@ -25,7 +25,7 @@ plus there will be some special incentives on the day! <span class="red"><br>(in
 @if(Session::has('message'))
 	<div id="success" class="ProspectSuccess">
 	<p>{{{ Session::get('message') }}}</p>
-	<a href="URL::to('/')" class="link">Visit our website to find out more about us!</a>
+	{!! link_to('/', 'Visit our website to find out more about us!', ['class' => 'to-site']) !!}
 	</div>
 @else
 

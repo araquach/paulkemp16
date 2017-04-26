@@ -667,6 +667,18 @@ a.link {
 	margin: 40px 0 100px 0;
 }
 
+a.to-site {
+	background-color: none;
+	text-decoration: none;
+	color: rgb(55, 34, 24);
+	font-size: 1.2em;
+	opacity: 1;
+}
+
+a.to-site:hover {
+	opacity: .7;
+}
+
 a.link:hover {
 	opacity: .7;
 }
