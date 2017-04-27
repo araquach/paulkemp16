@@ -24,7 +24,7 @@
 		<p>Simply book in with us for our</p>
 		<h1 class="red">New Client Taster Package</h1>
 		
-		<section id="prospect-offer-image"></section>
+		<section id="taster-image"></section>
 		
 		<p>Here's what's involved:</p>
 		<ul class ="consultation-list">
