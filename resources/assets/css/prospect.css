@@ -256,6 +256,27 @@ input#regular {
 	margin-right: 30px;
 }
 
+div.form .errorSummary {
+	margin: 30px 0;
+}
+
+div.form .errorSummary p {
+	margin: 0 !important;
+	margin-bottom: 10px !important;
+}
+
+div.form .errorSummary ul {
+	padding: 0;
+}
+
+div.form .errorSummary ul li {
+	line-height: 1.5em;
+}
+
+div.form .errorMessage {
+	margin-left: 0;
+}
+
 .ProspectSuccess {
 	font-size: 1.4em;
 }

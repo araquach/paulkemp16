@@ -24,8 +24,9 @@ elixir(function(mix) {
     
     mix.styles([
         'normalize.css',
-        'prospect.css',
-        'form.css'
+        'form.css',
+        'prospect.css'
+        
      ], 'public/css/prospect.css');
      
      mix.styles([
