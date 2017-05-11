@@ -25,6 +25,24 @@ Route::get('/louise', 'PagesController@louise');
 
 Route::get('/admin', 'AdminController@index');
 
+Route::get('/prospect/emailmale1', 'ProspectController@emailMale1');
+Route::get('/prospect/emailmale2', 'ProspectController@emailMale2');
+Route::get('/prospect/emailmale3', 'ProspectController@emailMale3');
+Route::get('/prospect/emailfemale1', 'ProspectController@emailFemale1');
+Route::get('/prospect/emailfemale2', 'ProspectController@emailFemale2');
+Route::get('/prospect/emailfemale3', 'ProspectController@emailFemale3');
+Route::get('/prospect/test', 'ProspectController@test');
+
+Route::get('/prospect/admin', 'ProspectController@admin');
+Route::patch('prospect/{prospect}', 'ProspectController@update');
+Route::get('prospect/{prospect}/note', 'ProspectController@createNote');
+Route::post('prospect/note', 'ProspectController@storeNote');
+
+Route::get('/prospect/taster', 'ProspectController@tasterIndex');
+Route::get('/prospect/freeproducts', 'ProspectController@freeproductsIndex');
+Route::get('/prospect/freeproducts/{prospect}', 'ProspectController@freeproductsShow' );
+Route::get('/prospect/taster/{prospect}', ['as' => 'prospect.show', 'uses' => 'ProspectController@tasterShow']);
+
 Route::get('/freeproducts', 'ProspectController@freeproducts');
 Route::get('/freeproducts/man', 'ProspectController@freeproducts');
 Route::get('/freeproducts/create', 'ProspectController@create');
@@ -34,14 +52,6 @@ Route::post('prospect/store', 'ProspectController@store');
 Route::get('/taster', 'ProspectController@taster');
 Route::get('/taster/create', 'ProspectController@tasterCreate');
 Route::post('/taster/store', 'ProspectController@tasterStore');
-
-Route::get('/prospect/emailmale1', 'ProspectController@emailMale1');
-Route::get('/prospect/emailmale2', 'ProspectController@emailMale2');
-Route::get('/prospect/emailmale3', 'ProspectController@emailMale3');
-Route::get('/prospect/emailfemale1', 'ProspectController@emailFemale1');
-Route::get('/prospect/emailfemale2', 'ProspectController@emailFemale2');
-Route::get('/prospect/emailfemale3', 'ProspectController@emailFemale3');
-Route::get('/prospect/test', 'ProspectController@test');
 
 Route::get('contact', 
   ['as' => 'contact', 'uses' => 'ContactController@create']);
