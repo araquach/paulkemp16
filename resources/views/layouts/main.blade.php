@@ -14,13 +14,11 @@
 			<h1>Paul Kemp Hairdressing</h1>
 			<h2>Hairdressers in Warrington</h2>
 
-			@if(Auth::user())
-			
-			<nav>
+			@if(Request::is('prospect/*'))
+			<nav class="group">
 				<ul>
-					<li>{!! link_to('/admin', 'Menu') !!}</li>
-					<li>{!! link_to('/stylist', 'Stylists') !!}</li>
-					<li>{!! link_to('/apprentice', 'Apprentices') !!}</li>
+					<li>{!! link_to('prospect/taster', 'Taster Package applicants') !!}</li>
+					<li>{!! link_to('prospect/freeproducts', 'Free Product applicants') !!}</li>
 					<li>{!! link_to('/logout', 'Logout') !!}</li>
 				</ul>
 			</nav>
