@@ -11,4 +11,9 @@ class Prospect extends Model
     protected $dates = ['created_at', 'updated_at'];
     
     protected $table = 'prospects_pk';
+    
+    public function notes()
+    {
+        return $this->hasMany('App\ProspectNote')->orderBy('id', 'desc');
+    }
 }

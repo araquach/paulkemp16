@@ -10,6 +10,8 @@ class ProspectNote extends Model
     
     protected $dates = ['created_at', 'updated_at'];
     
+    protected $table = 'prospect_notes_pk';
+    
     public function prospect()
     {
         return $this->belongsTo('App\Prospect');
