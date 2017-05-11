@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Prospect;
+use App\ProspectNote;
 use Illuminate\Http\Request;
 use App\Http\Requests\ProspectFormRequest;
 use Mail;
@@ -20,27 +21,103 @@ class ProspectController extends Controller
 	}
     
     /**
+     * Display the prospect admin page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    
+    public function admin()
+    {
+        return view('prospect.admin.index');
+    }
+    
+    /**
+     * Display a list of taster applicants.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    
+    public function tasterIndex()
+    {
+        $prospects = Prospect::where('prospect_type', '2')->orderBy('created_at', 'desc')->get();
+        
+        return view('prospect.admin.taster.index', compact('prospects'));
+    }
+    
+    /**
+     * Display the specified resource.
+     *
+     * @param  \App\Prospect  $prospect
+     * @return \Illuminate\Http\Response
+     */
+    
+    public function tasterShow(Prospect $prospect)
+    {
+        return view('prospect.admin.taster.show', compact('prospect'));
+    }
+    
+    /**
+     * Display a list of free product applicants.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    
+    public function freeproductsIndex()
+    {
+        $prospects = Prospect::where('prospect_type', '1')->orderBy('created_at', 'desc')->get();
+        
+        return view('prospect.admin.freeproducts.index', compact('prospects'));
+    }
+    
+    /**
+     * Display the specified resource.
+     *
+     * @param  \App\Prospect  $prospect
+     * @return \Illuminate\Http\Response
+     */
+    
+    public function freeproductsShow(Prospect $prospect)
+    {
+        return view('prospect.admin.freeproducts.show', compact('prospect'));
+    }
+    
+    
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
+    
     public function index()
     {
         $prospects = $this->prospect->get();
 		
 		return view('prospect.index', compact('prospects'));
     }
+    
+    /**
+	 * Update the specified resource in storage.
+	 *
+	 * @param  int  $id
+	 * @return Response
+	 */
+	public function update(Request $request, Prospect $prospect)
+	{
+		$prospect->update($request->all());
+		
+		return redirect()->back()->with('message', 'Contact status updated');
+	}
 
     
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating a new prospect.
      *
      * @return \Illuminate\Http\Response
      */
     
     public function freeproducts()
     {
-       return view('prospect.freeproducts');
+        return view('prospect.freeproducts');
     }
     
     /**
@@ -66,10 +143,11 @@ class ProspectController extends Controller
         
         Prospect::create($input);
         
-        // return redirect()->back()->with('message', 'Thanks for applying - you will recieve your products soon!');
         return redirect()->to(app('url')->previous(). '#success')->with('message', 'Thanks for applying - you will receive your products soon!');
     }
-
+    
+    
+    
     /**
      * Show the form for creating a new consultation prospect.
      *
@@ -91,6 +169,33 @@ class ProspectController extends Controller
     {
         return view('prospect.tasterCreate');
     }
+    
+    /**
+	 * 
+	 * Display the note form
+	 * 
+	 * @return Response
+	 */
+    public function createNote(Prospect $prospect, ProspectNote $note)
+    {
+        return view('prospect.admin.note_create', compact('prospect', 'note'));
+    }
+    
+    /**
+	 * Store a newly created note.
+	 *
+	 * @return Response
+	 */
+    public function storeNote(Request $request, Prospect $prospect, ProspectNote $note)
+    {
+        $input = $request->all();
+        
+        ProspectNote::create($input);
+        
+        $id = ProspectNote::orderBy('id', 'desc')->firstOrFail();
+        
+        return redirect()->route('prospect.show', ['id' => $id->prospect_id]);
+    }
 
     /**
      * Store a newly created resource in storage.
@@ -104,45 +209,70 @@ class ProspectController extends Controller
         
         Prospect::create($input);
         
+        $recipient = Prospect::orderBy('id', 'desc')->firstOrFail()->toArray();
+        
+        Mail::send('emails.prospect.taster.followup1', $recipient, function($message) use ($recipient)
+   		{
+       		$message->from('booking@jakatasalon.co.uk', 'Jakata');
+			$message->to($recipient['email']);
+       		$message->subject('New Client Taster Package');
+   		});
+   		
+   		Mail::send('emails.prospect.taster.to_reception', $recipient, function($message) use ($recipient)
+   		{
+       		$message->from('booking@jakatasalon.co.uk', 'Jakata');
+			$message->to('jimmy@jakatasalon.co.uk');
+       		$message->subject('Taster Package Applicant');
+   		});
+        
         return redirect()->to(app('url')->previous(). '#success')->with('message', 'Thanks for applying - you will receive your products soon!');
     }
-    
+
     
     /**
-     * Email template previews
+     * Show the email templates
      */
     
-     public function emailFemale1()
+    public function emailFemale()
     {
-        // $prospect = Prospect::findOrFail(1);
+        $prospect = Prospect::where('gender', 'F')->firstOrFail();
         
-        return view('emails.prospect.female.followup1');
+        return view('emails.prospect.taster.followup1', compact('prospect'));
     }
     
     public function emailFemale2()
     {
-        return view('emails.prospect.female.followup2');
+        $prospect = Prospect::where('gender', 'F')->firstOrFail();
+        
+        return view('emails.prospect.new.female.followup2', compact('prospect'));
     }
     
     public function emailFemale3()
     {
-        return view('emails.prospect.female.followup3');
+        $prospect = Prospect::where('gender', 'F')->firstOrFail();
+        
+        return view('emails.prospect.new.female.followup3', compact('prospect'));
     }
     
-    public function emailMale1()
+    public function emailMale()
     {
-        // $prospect = Prospect::findOrFail(1);
+        $prospect = Prospect::where('gender', 'M')->firstOrFail();
         
-        return view('emails.prospect.male.followup1');
+        return view('emails.prospect.new.male.followup1', compact('prospect'));
     }
     
     public function emailMale2()
     {
-        return view('emails.prospect.male.followup2');
+        $prospect = Prospect::where('gender', 'M')->firstOrFail();
+        
+        return view('emails.prospect.new.male.followup2', compact('prospect'));
     }
     
     public function emailMale3()
     {
-        return view('emails.prospect.male.followup3');
+        $prospect = Prospect::where('gender', 'M')->firstOrFail();
+        
+        return view('emails.prospect.new.male.followup3', compact('prospect'));
     }
+    
 }
