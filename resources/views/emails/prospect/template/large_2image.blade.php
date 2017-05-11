@@ -222,7 +222,7 @@
                                     <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="right" style="margin: auto;">
                                         <tr>
                                             <td style="border-radius: 3px; background: #222222; text-align: center;" class="button-td">
-                                                <a href="http://www.jakatasalon.co.uk/contact" style="background: #222222; border: 15px solid #222222; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;" class="button-a">
+                                                <a href="http://www.paulkemphairdressing.com/contact" style="background: #222222; border: 15px solid #222222; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;" class="button-a">
                                                     <span style="color:#ffffff;" class="button-link">&nbsp;&nbsp;&nbsp;&nbsp;Contact Us&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                                 </a>
                                             </td>
