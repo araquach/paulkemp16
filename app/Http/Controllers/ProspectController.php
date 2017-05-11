@@ -15,9 +15,7 @@ class ProspectController extends Controller
 {
     public function __construct(Prospect $prospect)
 	{
-		$this->middleware('auth', ['except' => ['freeproducts', 'create', 'store', 'taster', 'tasterCreate', 'tasterStore']]);
-		
-		$this->prospect = $prospect;
+	    $this->prospect = $prospect;
 	}
     
     /**
