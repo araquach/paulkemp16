@@ -46,23 +46,23 @@
 		    'action' => ['ProspectController@update', $prospect->id],
 		]) !!}
 			
-			<div class="form">
-				<div class="row">
-					{!! Form::label('contact_status', 'Contact Status') !!}
-					{!! Form::select('contact_status', array(
-						'0' => '--Please Select--',
-						'Left Message' => 'Left Message',
-						'Call back' => 'Need to call back',
-						'Booked' => 'Booked Taster Package',
-						'Not Interested' => 'Not Interested',
-						)) !!}
-					{!! $errors->first('contact_status', '<div class="errorMessage">:message</div>') !!}
-				</div>
-				
-				<div class="row buttons">
-				{!! Form::submit('Submit') !!}
-				</div>
+		<div class="form">
+			<div class="row">
+				{!! Form::label('contact_status', 'Contact Status') !!}
+				{!! Form::select('contact_status', array(
+					'0' => '--Please Select--',
+					'Left Message' => 'Left Message',
+					'Call back' => 'Need to call back',
+					'Booked' => 'Booked Taster Package',
+					'Not Interested' => 'Not Interested',
+					)) !!}
+				{!! $errors->first('contact_status', '<div class="errorMessage">:message</div>') !!}
 			</div>
+			
+			<div class="row buttons">
+			{!! Form::submit('Submit') !!}
+			</div>
+		</div>
 		
 		{!! Form::close() !!}
 		
