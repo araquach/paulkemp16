@@ -33,7 +33,7 @@ class ProspectFormRequest extends Request
             'id' => '',
             'first_name' => 'required',
             'last_name' => 'required',
-            'email' => 'required | email | unique:prospects',
+            'email' => 'required | email | unique:prospects_pk',
             'mobile' => 'required | unique:prospects',
             'address1' => 'required',
             'address2' => '',
