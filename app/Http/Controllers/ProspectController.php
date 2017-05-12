@@ -219,7 +219,7 @@ class ProspectController extends Controller
    		Mail::send('emails.prospect.taster.to_reception', $recipient, function($message) use ($recipient)
    		{
        		$message->from('booking@paulkemphairdressing.com', 'Paul Kemp Hairdressing');
-			$message->to('adam@jakatasalon.co.uk');
+			$message->to('bookings@paulkemphairdressing.com');
        		$message->subject('Taster Package Applicant');
    		});
         
