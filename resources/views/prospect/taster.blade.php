@@ -3,14 +3,14 @@
 @section('head')
 
 @include('layouts.partials.pros_head', [
-	'description' => 'Choosing a new salon and stylist can be a daunting prospect. We can make it really easy for you\!
+	'description' => 'Choosing a new salon and stylist can be a daunting prospect. We can make it really easy for you!
 	Try our New Client Taster Package - it\'s FREE
-	You\'ll get to experience the salon and meet our fantastic team. We\'ll discuss all your hair needs, advise you on styling, products and let you know the best route to achieving the hairstyle you\'ve always wanted\!',
+	You\'ll get to experience the salon and meet our fantastic team. We\'ll discuss all your hair needs, advise you on styling, products and let you know the best route to achieving the hairstyle you\'ve always wanted!',
 	'keywords' => 'Paul Kemp Hairdressing, taster package, new clients, offers',
 	'ogtitle' => 'Your route to hair perfection',
-	'ogdescription' => 'Choosing a new salon and stylist can be a daunting prospect. We can make it really easy for you\!
+	'ogdescription' => 'Choosing a new salon and stylist can be a daunting prospect. We can make it really easy for you!
 	Try our New Client Taster Package - it\'s FREE
-	You\'ll get to experience the salon and meet our fantastic team. We\'ll discuss all your hair needs, advise you on styling, products and let you know the best route to achieving the hairstyle you\'ve always wanted\!',
+	You\'ll get to experience the salon and meet our fantastic team. We\'ll discuss all your hair needs, advise you on styling, products and let you know the best route to achieving the hairstyle you\'ve always wanted!',
 	'ogimage' => url('/') . '/images/prospect/taster_og.jpg',
 	'title' => 'New Client Taster Package'
 	])
