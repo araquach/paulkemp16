@@ -12,6 +12,10 @@
 
 <script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
 
+<script>fbq('track', 'CompleteRegistration');</script>
+
+
+
 <section id="prospect">
 
 <section id="prospect-entry">
