@@ -12,11 +12,11 @@ class Blog extends Model
     
     public function pics()
     {
-        return $this->hasMany('App\BlogPic')->orderBy('id', 'desc');
+        return $this->hasMany('App\BlogPic')->orderBy('id', 'asc');
     }
     
     public function paras()
     {
-        return $this->hasMany('App\BlogPara')->orderBy('id', 'desc');
+        return $this->hasMany('App\BlogPara')->orderBy('id', 'asc');
     }
 }

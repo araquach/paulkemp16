@@ -12,7 +12,7 @@ class CreateBlogParasTable extends Migration
      */
     public function up()
     {
-        Schema::create('blogparas', function (Blueprint $table) {
+        Schema::create('blog_paras', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('blog_id');
             $table->text('para');
@@ -27,6 +27,6 @@ class CreateBlogParasTable extends Migration
      */
     public function down()
     {
-        Schema::drop('blogparas');
+        Schema::drop('blog_paras');
     }
 }

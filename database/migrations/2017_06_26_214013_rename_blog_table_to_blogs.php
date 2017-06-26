@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBlogPicsTable extends Migration
+class RenameBlogTableToBlogs extends Migration
 {
     /**
      * Run the migrations.
@@ -12,12 +12,7 @@ class CreateBlogPicsTable extends Migration
      */
     public function up()
     {
-        Schema::create('blog_pics', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('blog_id');
-            $table->string('image_url');
-            $table->timestamps();
-        });
+        Schema::rename('blog', 'blogs');
     }
 
     /**
@@ -27,6 +22,6 @@ class CreateBlogPicsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('blog_pics');
+        Schema::rename('blogs', 'blog');
     }
 }
