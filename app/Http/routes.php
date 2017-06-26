@@ -23,6 +23,16 @@ Route::get('/jo', 'PagesController@jo');
 Route::get('/kate', 'PagesController@kate');
 Route::get('/louise', 'PagesController@louise');
 
+Route::get('/news/index', 'NewsController@index');
+Route::get('/news/el17', 'NewsController@news1');
+Route::get('/news/newblondeme', 'NewsController@news2');
+Route::get('/news/3', 'NewsController@news3');
+Route::get('/news/4', 'NewsController@news4');
+Route::get('/news/5', 'NewsController@news5');
+Route::get('/news/6', 'NewsController@news6');
+Route::get('/news/7', 'NewsController@news7');
+Route::get('/news/8', 'NewsController@news8');
+
 Route::get('/admin', 'AdminController@index');
 
 Route::get('/prospect/emailmale1', 'ProspectController@emailMale1');
