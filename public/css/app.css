@@ -502,8 +502,6 @@ table {
 	http://www.paulkemphairdressing.com/css/pkstyles.css */
 
 
-
-@charset "UTF-8";
 /* CSS Document */
 
 /* @group CSS Reset */
@@ -1691,8 +1689,69 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 /* @end */
 
-/* @end */
 
+
+/* @group Blog */
+
+#blog {
+	width: 800px;
+	margin: 30px auto;
+}
+
+#blog article {
+	margin: 20px 0;
+	border-top: 1.5px solid rgb(55,34,24);
+	padding-top: 30px;
+	position: relative;
+	min-height: 200px;
+	float:left;
+	clear: left;
+}
+
+.blog-pic {
+	float: left;
+	width: 300px;
+}
+
+.blog-pic img {
+	float: left;
+	clear: left;
+	margin-bottom: 30px;
+}
+
+.blog-copy {
+	float: right;
+	width: 500px;
+}
+
+.blog-copy p:first-of-type {
+	font-size: 1.2em;
+}
+
+#blog a {
+	color: rgb(55,34,24);
+	font-size: 1.5em;
+	display: block;
+	width: auto;
+	margin-top: 40px;
+}
+
+#blog a:hover {
+	opacity: .7;
+}
+
+.author,
+time {
+	font-family: 'PT Sans', sans-serif;
+	font-size: .8em;
+	opacity: .8;
+}
+
+#blog article:first-of-type {
+	border: none;
+}
+
+/* @end */
 
 /* @group News */
 
@@ -1706,8 +1765,8 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #accordion article.article {
-	margin: 20px 0 ;
-	border-top: 1.5px solid; rgb(55,34,24);
+	margin: 20px 0;
+	border-top: 1.5px solid rgb(55,34,24);
 	padding-top: 30px;
 	position: relative;
 }
@@ -1737,15 +1796,6 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 a.anchor {
 	position: absolute;
 	top: -100px;
-}
-
-.author {
-	font-family: 'PT Sans', sans-serif;
-	font-size: .8em;
-	opacity: .8;
-	position: absolute;
-	left: 200px;
-
 }
 
 

@@ -3,11 +3,11 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '{{ $blog->description }}',
+	'description' => '',
 	'keywords' => 'Paul Kemp Hairdressing news, PK news stories',
-	'ogtitle' => '{{ $blog->title }}',
-	'ogdescription' => '{{ $blog->description }}',
-	'ogimage' => '{{ $blog->fbimage }}',
+	'ogtitle' => '',
+	'ogdescription' => '',
+	'ogimage' => '',
 	'title' => 'Paul Kemp Hairdressing - PK News - Hairdressers in Warrington'
 	])
 @stop
@@ -17,19 +17,18 @@
 <section id="blog">
     
     @foreach($blogs as $blog)
-        <article class="article">
-            
-            @foreach($blog->pics as $pic)
-                {{ $pic->image_url }}
-            @endforeach
-            
-            <h3>{{ $blog->title }}</h3>
-            
-            @foreach($blog->paras as $para)
-                {{ $para->para }}
-            @endforeach
-            
-            <a href="{{ $blog->link }}" class="reveal">Read more &gt;</p>
+        <article>
+            <div class="blog-pic">
+                <img src="{{ $blog->pics()->first()->image_url }}" alt="{{--$blog->pics()->first()->alt--}}">
+            </div>
+            <div class="blog-copy">
+                <h2>{{ $blog->title }}</h2>
+                
+                <p>{{ $blog->paras()->first()->para }}</p>
+                <p><a href="{{ URL::to('blog') }}/{{ $blog->slug }}">Read more &gt;</a></p>
+                <p class="author">Published by {{ $blog->author }}</p>
+                <time datetime="{{ $blog->created_at }}">{{ $blog->created_at->format('d/m/Y') }}</time>
+            </div>
         </article>
     @endforeach
     
