@@ -7,7 +7,7 @@
 	'keywords' => 'Paul Kemp Hairdressing news, PK news stories',
 	'ogtitle' => addslashes($blog->title),
 	'ogdescription' => addslashes($blog->paras->first()->para),
-	'ogimage' => $blog->fbimage,
+	'ogimage' => $blog->meta_image,
 	'title' => 'Paul Kemp Hairdressing -' . addslashes($blog->title) . '- Hairdressers in Warrington'
 	])
 @stop
@@ -19,7 +19,7 @@
     <article>
         <div class="blog-pic">
             @foreach($blog->pics as $pic)
-                <img src="{{ $pic->image_url }}" alt="{{--$pic->alt--}}">
+                <img src="{{ $pic->image_url }}" alt="{{ $pic->alt }}">
             @endforeach
         </div>
         <div class="blog-copy">

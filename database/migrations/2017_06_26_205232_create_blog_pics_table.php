@@ -16,6 +16,7 @@ class CreateBlogPicsTable extends Migration
             $table->increments('id');
             $table->integer('blog_id');
             $table->string('image_url');
+            $table->string('alt');
             $table->timestamps();
         });
     }
