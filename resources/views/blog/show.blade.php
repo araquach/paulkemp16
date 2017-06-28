@@ -3,12 +3,12 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => $blog->paras()->first(),
+	'description' => addslashes($blog->paras()->first()),
 	'keywords' => 'Paul Kemp Hairdressing news, PK news stories',
-	'ogtitle' => $blog->title,
-	'ogdescription' => $blog->paras->first()->para,
+	'ogtitle' => addslashes($blog->title),
+	'ogdescription' => addslashes($blog->paras->first()->para),
 	'ogimage' => $blog->fbimage,
-	'title' => 'Paul Kemp Hairdressing -' . $blog->title . '- Hairdressers in Warrington'
+	'title' => 'Paul Kemp Hairdressing -' . addslashes($blog->title) . '- Hairdressers in Warrington'
 	])
 @stop
 
