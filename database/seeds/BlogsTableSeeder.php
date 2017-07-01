@@ -28,7 +28,7 @@ class BlogsTableSeeder extends Seeder
             'slug' => 'blog-post-two',
             'author' => 'Jimmy',
             'meta_image' => 'http://via.placeholder.com/1000x600',
-            'publish' => 2,
+            'publish' => 1,
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
         
@@ -38,7 +38,7 @@ class BlogsTableSeeder extends Seeder
             'slug' => 'blog-post-three',
             'author' => 'Nat',
             'meta_image' => 'http://via.placeholder.com/1000x600',
-            'publish' => 2,
+            'publish' => 1,
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
     }

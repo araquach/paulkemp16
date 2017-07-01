@@ -6,7 +6,7 @@
 	'description' => addslashes($blog->paras()->first()->para),
 	'keywords' => 'Paul Kemp Hairdressing news, PK news stories',
 	'ogtitle' => addslashes($blog->title),
-	'ogdescription' => addslashes($blog->paras->first()->para),
+	'ogdescription' => addslashes($blog->paras()->first()->para),
 	'ogimage' => $blog->meta_image,
 	'title' => 'Paul Kemp Hairdressing -' . addslashes($blog->title) . '- Hairdressers in Warrington'
 	])
