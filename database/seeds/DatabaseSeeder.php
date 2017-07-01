@@ -18,7 +18,6 @@ class DatabaseSeeder extends Seeder
          $this->call(FeedbackClientsPkTableSeeder::class);
          $this->call(OffersTableSeeder::class);
          $this->call(BlogsTableSeeder::class);
-         $this->call(BlogPicsTableSeeder::class);
          $this->call(BlogParasTableSeeder::class);
     }
 }

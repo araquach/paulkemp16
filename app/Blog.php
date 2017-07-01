@@ -10,9 +10,9 @@ class Blog extends Model
     
     protected $dates = ['created_at', 'updated_at'];
     
-    public function pics()
+    public function getRouteKeyName()
     {
-        return $this->hasMany('App\BlogPic')->orderBy('id', 'asc');
+        return 'slug';
     }
     
     public function paras()

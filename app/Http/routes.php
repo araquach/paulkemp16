@@ -85,6 +85,6 @@ Route::patch('offer/{client}',
   ['as' => 'offerUpdate', 'uses' => 'OfferController@update']);
   
 Route::get('/blog', 'BlogController@index');
-Route::get('/blog/{blog}', 'BlogController@show');
+Route::get('/blog/{slug}', 'BlogController@show');
   
 Route::auth();
