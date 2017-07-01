@@ -1210,22 +1210,28 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 .blog-pic {
 	float: left;
-	width: 300px;
-}
-
-.blog-pic img {
-	float: left;
 	clear: left;
+	width: 300px;
 	margin-bottom: 30px;
 }
 
-.blog-copy {
-	float: right;
+#blog p,
+#blog h3,
+#blog time {
+	margin: 0;
+	margin-bottom: 1.5em;
 	width: 500px;
+	margin-left: 300px;
 }
 
-.blog-copy p:first-of-type {
+#blog p:first-of-type {
 	font-size: 1.2em;
+}
+
+#blog img.large-image {
+	margin-left: 300px;
+	display: block;
+	margin-bottom: 30px;
 }
 
 #blog a {
