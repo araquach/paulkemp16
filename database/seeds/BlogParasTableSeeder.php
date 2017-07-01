@@ -65,5 +65,16 @@ class BlogParasTableSeeder extends Seeder
             'para_pic_alt' => '',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
+        
+        DB::table('blog_paras')->insert([
+            'id' => 7,
+            'blog_id' => 2,
+            'para' => 'Paragraph one of Blog Two',
+            'para_pic' => 'http://via.placeholder.com/250x150',
+            'para_pic_alt' => 'Pic for para 1 blog 2',
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        
+        
     }
 }

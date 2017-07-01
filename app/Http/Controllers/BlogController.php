@@ -17,7 +17,7 @@ class BlogController extends Controller
     
     public function index()
     {
-        $blogs = Blog::where('publish', 1)->with('paras')->get();
+        $blogs = Blog::where('publish', 2)->with('paras')->get();
         
         return view('blog.index', compact('blogs'));
     }
