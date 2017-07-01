@@ -3,7 +3,7 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => addslashes($blog->paras()->first()),
+	'description' => addslashes($blog->paras()->first()->para),
 	'keywords' => 'Paul Kemp Hairdressing news, PK news stories',
 	'ogtitle' => addslashes($blog->title),
 	'ogdescription' => addslashes($blog->paras->first()->para),
@@ -28,6 +28,8 @@
                 <h3>{{ removeTag($para->para) }}</h3>
             @elseif(starts_with($para->para, '*IMG'))
                 <img src="{{ removeTag($para->para) }}" img class="large-image">
+            @elseif(starts_with($para->para, '*LNK'))
+                <a href="{{ removeTag($para->para) }}">
             @else
                 <p>{{ $para->para }}</p>
             @endif
