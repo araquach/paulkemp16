@@ -161,3 +161,8 @@ function getTreatment($texture, $condition)
             return "";
     }
 }
+
+function removeTag($string)
+{
+    return $removed = substr(strstr($string," "), 1);
+}
