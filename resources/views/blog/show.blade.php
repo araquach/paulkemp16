@@ -3,12 +3,12 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => addslashes($blog->paras()->first()->para),
+	'description' => $blog->paras()->first()->para,
 	'keywords' => 'Paul Kemp Hairdressing news, PK news stories',
-	'ogtitle' => addslashes($blog->title),
-	'ogdescription' => addslashes($blog->paras()->first()->para),
+	'ogtitle' => $blog->title,
+	'ogdescription' => $blog->paras()->first()->para,
 	'ogimage' => $blog->meta_image,
-	'title' => 'Paul Kemp Hairdressing -' . addslashes($blog->title) . '- Hairdressers in Warrington'
+	'title' => 'Paul Kemp Hairdressing -' . $blog->title . '- Hairdressers in Warrington'
 	])
 @stop
 
@@ -24,15 +24,7 @@
                 <img src="{{ $para->para_pic }}" alt="{{ $para->para_pic_alt }}">
             </div>
         
-            @if(starts_with($para->para, '*H1'))
-                <h3>{{ removeTag($para->para) }}</h3>
-            @elseif(starts_with($para->para, '*IMG'))
-                <img src="{{ removeTag($para->para) }}" img class="large-image">
-            @elseif(starts_with($para->para, '*LNK'))
-                <a href="{{ removeTag($para->para) }}">
-            @else
-                <p>{{ $para->para }}</p>
-            @endif
+            {!! addTag($para->para) !!}
             
         @endforeach
         <p><a href="{{ URL::to('blog') }}">Back to all the blogs &gt;</a></p>
