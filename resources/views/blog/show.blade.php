@@ -29,7 +29,7 @@
         @endforeach
         <p><a href="{{ URL::to('blog') }}">Back to all the blogs &gt;</a></p>
         <p class="author">Published by {{ $blog->author }}</p>
-        <time datetime="{{ $blog->created_at }}">{{ $blog->created_at->format('d/m/Y') }}</time>
+        <time datetime="{{ $blog->created_at }}">{{ $blog->created_at->format('d F Y') }}</time>
     </article>
 
 </section>
