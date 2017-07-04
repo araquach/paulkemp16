@@ -790,6 +790,74 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 /* @end */
 
+/* @group Blog */
+
+#blog {
+	width: auto;
+	margin: auto;
+	float: none;
+	background-color: #f5f5f6;
+	padding: 10px;
+	height: 100%;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#blog p,
+#blog h1,
+#blog h2,
+#blog h3,
+#blog a,
+#blog img,
+#blog img.large-image,
+#blog small,
+#blog time {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	width: auto;
+}
+
+#blog article {
+	width: auto;
+	margin: auto;
+	margin-bottom: 10px;
+	border: 1px solid rgb(55,34,24);
+	padding: 30px;
+	position: relative;
+	min-height: 200px;
+	float: none;
+}
+
+.blog-pic {
+	float: none;
+	width: auto;
+}
+
+.blog-pic {
+	float: none;
+	width: auto;
+}
+
+.blog-pic img {
+	float: none;
+	width: auto;
+	margin-bottom: 30px;
+}
+
+.blog-copy {
+	float: none;
+	width: auto;
+}
+
+.blog-copy p:first-of-type {
+	font-size: 1.2em;
+}
+
+#blog img.large-image {
+	width: 100%;
+}
+
 /* @end */
 
 /* @group News */
