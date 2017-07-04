@@ -30,7 +30,7 @@
             {!! addTag($para->para) !!}
             
         @endforeach
-        <p><a href="{{ URL::to('blog') }}">Back to all the blogs &gt;</a></p>
+        <p><a href="{{ URL::to('blog') }}#{{ $blog->slug }}">Back to all the blogs &gt;</a></p>
         <small>Published by {{ $blog->author }}</small>
         <time datetime="{{ $blog->created_at }}">{{ $blog->created_at->format('d F Y') }}</time>
     </article>
