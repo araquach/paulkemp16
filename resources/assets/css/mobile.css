@@ -814,8 +814,22 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #blog time {
 	margin: 0;
 	padding: 0;
-	margin-bottom: 10px;
 	width: auto;
+}
+
+#blog p {
+	font-size: .8em;
+	line-height: 1em;
+}
+
+#blog p:first-of-type {
+	font-size: 1em;
+}
+
+#blog h1,
+#blog h2,
+#blog h3  {
+	margin-bottom: 1.5em;
 }
 
 #blog article {
@@ -842,7 +856,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 .blog-pic img {
 	float: none;
 	width: auto;
-	margin-bottom: 30px;
+	margin-bottom: 1em;
 }
 
 .blog-copy {
@@ -851,11 +865,12 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 .blog-copy p:first-of-type {
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 #blog img.large-image {
 	width: 100%;
+	margin-bottom: 1em;
 }
 
 /* @end */
