@@ -1,6 +1,8 @@
 <?php namespace App\Http\Controllers;
 use App\Feedback;
 use App\FeedbackClient;
+use App\Blog;
+use App\BlogPara;
 
 class PagesController extends Controller {
 
@@ -31,8 +33,10 @@ class PagesController extends Controller {
 	public function index()
 	{
 		$feedbacks = Feedback::where('publish', '=', '1')->orderByRaw("RAND()")->get();
+		
+		$blogs = Blog::take(4)->where('publish', 2)->orWhere('publish', 3)->with('paras')->get();
 	
-		return view('pages.home', compact('feedbacks'));
+		return view('pages.home', compact('feedbacks', 'blogs'));
 	}
 	
 	public function details()
