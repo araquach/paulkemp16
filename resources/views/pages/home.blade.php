@@ -40,8 +40,8 @@
 				<aside class="home_news">
 					<div class="home_news_pic" style="background: url('{{ $blog->paras()->first()->para_pic }}') no-repeat center center rgba(249, 249, 250, 0.8); background-size: cover;"></div>
 					<div class="home_news_copy">
-						<h3 class="newsheader">{{ $blog->title }}</h3>
-						<p class="newspara">{{ limit_words($blog->paras()->first()->para) }}&hellip;</p>
+						<h3>{{ $blog->title }}</h3>
+						<p>{{ limit_words($blog->paras()->first()->para) }}&hellip;</p>
 					</div>
 				</aside>
 			</a>
