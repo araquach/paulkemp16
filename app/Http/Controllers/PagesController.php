@@ -34,7 +34,8 @@ class PagesController extends Controller {
 	{
 		$feedbacks = Feedback::where('publish', '=', '1')->orderByRaw("RAND()")->get();
 		
-		$blogs = Blog::take(4)->where('publish', 2)->orWhere('publish', 3)->with('paras')->get();
+		$blogs = Blog::take(4)->where('publish', 2)->orWhere('publish', 3)
+			->with('paras')->orderBy('created_at', 'desc')->get();
 	
 		return view('pages.home', compact('feedbacks', 'blogs'));
 	}
