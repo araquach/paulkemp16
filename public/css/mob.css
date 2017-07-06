@@ -809,6 +809,10 @@ li.active a {
 	width: 100%;
 }
 
+#blog #fb-like {
+	margin-left: 0;
+}
+
 /* @end */
 
 /* @group News */
