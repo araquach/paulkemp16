@@ -11,6 +11,9 @@
 	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/ogimage/home.jpg' }}">
 	<meta property="og:url" content="{{ url()->current() }}">
 	
+	<!-- Pintrest -->
+	<meta name="p:domain_verify" content="847aad26875d4681b6b0d5074f5e9deb"/>
+	
 	
 	<!--Google analytics -->
 	<script>
@@ -39,7 +42,7 @@
 	<!-- DO NOT MODIFY -->
 	<!-- End Facebook Pixel Code -->
 
-
+	
 
 	<link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}" />
 	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ elixir('css/mob.css') }}"
