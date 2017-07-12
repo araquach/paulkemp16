@@ -10,6 +10,7 @@ Route::get('/offers', 'PagesController@offers');
 Route::get('/prices', 'PagesController@prices');
 Route::get('/apprenticeprices', 'PagesController@apprenticePrices');
 Route::get('/salon', 'PagesController@salon');
+Route::get('/booking', 'PagesController@booking');
 Route::get('/kebelo', 'PagesController@kebelo');
 Route::get('/team', 'PagesController@team');
 Route::get('/newstaff', 'PagesController@newstaff');

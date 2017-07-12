@@ -2955,6 +2955,16 @@ span.error {
 
 /* @end */
 
+/* @group bookings */
+
+#bookings {
+	width: 850px;
+	background-color: #FFF;
+	padding: 50px;
+}
+
+/* @end */
+
 /* @group Recruitment */
 
 #recruitment {

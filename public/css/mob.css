@@ -1943,6 +1943,16 @@ span.error {
 
 /* @end */
 
+/* @group Feedback  */
+
+#bookings {
+	width: auto;
+	height: 100%;
+	background-color: #FFF;
+}
+
+/* @end */
+
 
 /* @group Feedback  */
 
