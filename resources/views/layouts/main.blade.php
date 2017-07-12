@@ -41,6 +41,10 @@
 			
 			@endif
 			
+			@if(!Request::is('booking'))
+				{!! link_to('booking', 'Book Now', ['class' => 'book-now']) !!}
+			@endif
+			
 		</header>
 
 		<div id="content">
