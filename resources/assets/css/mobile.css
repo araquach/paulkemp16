@@ -1952,6 +1952,10 @@ span.error {
 	padding: 0;
 }
 
+#bookings h1 {
+	margin: 10px;
+}
+
 a.book-now {
 	font-size: .8em;
 	font-weight: bolder;
