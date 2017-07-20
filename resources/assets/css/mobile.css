@@ -1949,6 +1949,7 @@ span.error {
 	width: auto;
 	height: 100%;
 	background-color: #FFF;
+	margin: 10px;
 }
 
 a.book-now {
