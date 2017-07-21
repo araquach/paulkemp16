@@ -105,6 +105,11 @@ class PagesController extends Controller {
 		return view('pages.new_staff');
 	}
 	
+	public function leaver()
+	{
+		return view('pages.leaver');
+	}
+	
 	public function ashley()
 	{
 		$feedbacks = FeedbackClient::with('feedback')->where('stylist', '=', 'Ashley Tennant')
