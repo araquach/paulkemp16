@@ -5,9 +5,9 @@
 @include('layouts.partials.head', [
 	'description' => 'Book your appointment online. Select your services, then select your stylist and preferred time.Please note - a skin test is required 48hrs before any colour service',
 	'keywords' => 'Paul Kemp Hairdressing, location, map, contact, book, bookings',
-	'ogtitle' => 'Contact Us',
+	'ogtitle' => 'Book an appointment',
 	'ogdescription' => 'Paul Kemp Hairdressing is located on the corner of Sankey Street and Springfield Street in Warrington Town Centre (opposite the Golden Gates)',
-	'title' => 'Paul Kemp Hairdressing - Contact Us - Hairdressers in Warrington'
+	'title' => 'Paul Kemp Hairdressing - Book an appointment - Hairdressers in Warrington'
 	])
 	
 @stop
