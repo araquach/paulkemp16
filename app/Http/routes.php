@@ -19,11 +19,10 @@ Route::get('/michelle', 'PagesController@michelle');
 Route::get('/leon', 'PagesController@leon');
 Route::get('/kel', 'PagesController@kel');
 Route::get('/izzy', 'PagesController@izzy');
-Route::get('/tash', 'PagesController@tash');
 Route::get('/jo', 'PagesController@jo');
 Route::get('/kate', 'PagesController@kate');
 Route::get('/louise', 'PagesController@louise');
-Route::get('/leaver', 'PagesController@leaver');
+Route::get('/tash', 'PagesController@leaver');
 
 Route::get('/news/index', 'NewsController@index');
 Route::get('/news/el17', 'NewsController@news1');
