@@ -28,6 +28,8 @@
         
         <p>offer applies to any PK stylist on your next visit</p> <p class="small">(one offer per person, not transferable, ends 30/09/17)</p>
         
+        <p><a href="{{ URL::to('booking') }}" class="offer">Book in with Matt or one of our stylists here ></a></p>
+        
         <p><em>Pictured: Matt Lane</em></p>
     
     </section> <!--end leavercopy-->
