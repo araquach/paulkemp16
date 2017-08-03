@@ -1016,7 +1016,7 @@ li.active a {
 }
 
 .home_news_copy {
-	width: 200px;
+	width: auto;
 	padding: 10px;
 	float: left;
 	clear: left;
@@ -1035,6 +1035,7 @@ li.active a {
 
 .home_news_copy h3 {
 	font-size: 1em;
+	line-height: 1.3em;
 }
 
 
