@@ -22,6 +22,7 @@ Route::get('/izzy', 'PagesController@izzy');
 Route::get('/jo', 'PagesController@jo');
 Route::get('/kate', 'PagesController@kate');
 Route::get('/louise', 'PagesController@louise');
+Route::get('/abi', 'PagesController@abi');
 Route::get('/tash', 'PagesController@leaver');
 
 Route::get('/news/index', 'NewsController@index');

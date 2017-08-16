@@ -194,18 +194,6 @@ class PagesController extends Controller {
 		return view('pages.team.michelle', compact('feedbacks'));
 	}
 	
-	public function tash()
-	{
-		$feedbacks = FeedbackClient::with('feedback')->where('stylist', '=', 'Natasha Bailey')
-			->whereHas('feedback', function($query)
-			{
-				$query->where('publish', '=', '1');
-			}
-			)->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.tash', compact('feedbacks'));
-	}
-	
 	public function louise()
 	{
 		$feedbacks = FeedbackClient::with('feedback')->where('stylist', '=', 'Louise Bailey')
@@ -216,6 +204,18 @@ class PagesController extends Controller {
 			)->orderByRaw("RAND()")->get();
 		
 		return view('pages.team.louise', compact('feedbacks'));
+	}
+	
+	public function abi()
+	{
+		$feedbacks = FeedbackClient::with('feedback')->where('stylist', '=', 'Abi Clarke')
+			->whereHas('feedback', function($query)
+			{
+				$query->where('publish', '=', '1');
+			}
+			)->orderByRaw("RAND()")->get();
+		
+		return view('pages.team.abi', compact('feedbacks'));
 	}
 
 }
