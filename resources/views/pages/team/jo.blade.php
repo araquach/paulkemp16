@@ -11,7 +11,7 @@
 	'ogdescription' => 'Jo is a fantastic stylist with many years experience, she\'s a real long standing asset to the team. 
 	Her down to earth nature instantly puts you at ease and her hairdressing skills really shine. 
 	She loves doing men and women\'s hair. Book well in advance - she\'s a very busy stylist.',
-	'ogimage' => url('/') . '/images/staff/jo_og.jpg',
+	'ogimage' => url('/') . '/images/staff/meta/jo.jpg',
 	'title' => 'Paul Kemp Hairdressing - Jo'
 	])
 	

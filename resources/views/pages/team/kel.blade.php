@@ -11,7 +11,7 @@
 	'ogdescription' => 'Salon manager Kelly has 14 years experience working in Warrington town centre. 
 	She is the team leader of the salon. 
 	She specialises in long hair styling and is also one of the extension experts within the salon.',
-	'ogimage' => url('/') . '/images/staff/kel_og.jpg',
+	'ogimage' => url('/') . '/images/staff/meta/kel.jpg',
 	'title' => 'Paul Kemp Hairdressing - Kellie'
 	])
 	

@@ -11,7 +11,7 @@
 	'ogdescription' => 'Izzy has quickly established herself as an extremely sought after stylist. 
 	Her natural flair with creating beautiful, wearable styles has built her a strong following. 
 	Izzy recently won the National Redken Style Innovator award. She is also a specialist in extensions.',
-	'ogimage' => url('/') . '/images/staff/izzy_og.jpg',
+	'ogimage' => url('/') . '/images/staff/meta/izzy.jpg',
 	'title' => 'Paul Kemp Hairdressing - Izzy'
 	])
 	

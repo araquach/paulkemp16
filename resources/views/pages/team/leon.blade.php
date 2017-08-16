@@ -9,7 +9,7 @@
 	'ogdescription' => 'Leon has quickly built up a strong reputation for his skills in cutting, colouring & styling hair. 
 	He\'s a big hit in the salon due to his friendly personality.
 	He has grown to be a pivotal member of the team and is fast expanding his ever growing client base.',
-	'ogimage' => url('/') . '/images/staff/leon_og.jpg',
+	'ogimage' => url('/') . '/images/staff/meta/leon.jpg',
 	'title' => 'Paul Kemp Hairdressing - Leon'
 	])
 	

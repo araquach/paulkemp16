@@ -9,7 +9,7 @@
 	'ogtitle' => 'Kate O\'Halloran',
 	'ogdescription' => 'Kate has the ability to put you instantly at ease and with her many years of experience she\'ll find a look that\'s perfect for you. 
 	Colouring, cutting and long hair styling are her specialities.',
-	'ogimage' => url('/') . '/images/staff/kate_og.jpg',
+	'ogimage' => url('/') . '/images/staff/meta/kate.jpg',
 	'title' => 'Paul Kemp Hairdressing - Kate'
 	])
 	
