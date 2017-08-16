@@ -7,7 +7,7 @@
 	'keywords' => 'Abi Clarke, Paul Kemp Hairdressing stylists, hairdressers, PK, graduate stylist, junior stylist',
 	'ogtitle' => 'Abi Clarke',
 	'ogdescription' => 'Abi joined the team as an apprentice and is on a fast track route to becoming the next PK stylist. She\'s currently taking on clients who require more basic levels of cutting & colouring',
-	'ogimage' => url('/') . '/images/staff/abi_og.jpg',
+	'ogimage' => url('/') . '/images/staff/meta/abi.jpg',
 	'title' => 'Paul Kemp Hairdressing - Abi'
 	])
 	
