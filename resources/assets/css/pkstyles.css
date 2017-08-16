@@ -1013,75 +1013,9 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	margin-top: 0px;
 }
 
-#caleb {
-	position:absolute;
-	left: 40px;
-	top: 1600px;
-	width: 400px;
-	height: 250px;
-	border-bottom: solid 3px #CCC;
-}
-
-#caleb img {
-	float: left;
-	margin: 10px 20px 0 10px;
-}
-
-#caleb p {
-	font-size: 0.8em;
-}
-
-#caleb h3 img {
-	margin-top: 0px;
-}
-
-#tash {
-	position:absolute;
-	left: 40px;
-	top: 1600px;
-	width: 400px;
-	height: 250px;
-	border-bottom: solid 3px #CCC;
-}
-
-#tash img {
-	float: left;
-	margin: 10px 20px 0 10px;
-}
-
-#tash p {
-	font-size: 0.8em;
-}
-
-#tash h3 img {
-	margin-top: 0px;
-}
-
-#abi {
-	position:absolute;
-	left: 40px;
-	top: 1600px;
-	width: 400px;
-	height: 250px;
-	border-bottom: solid 3px #CCC;
-}
-
-#abi img {
-	float: left;
-	margin: 10px 20px 0 10px;
-}
-
-#abi p {
-	font-size: 0.8em;
-}
-
-#abi h3 img {
-	margin-top: 0px;
-}
-
 #louise {
 	position:absolute;
-	left: 470px;
+	left: 40px;
 	top: 1600px;
 	width: 400px;
 	height: 250px;
@@ -1098,6 +1032,28 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #louise h3 img {
+	margin-top: 0px;
+}
+
+#abi {
+	position:absolute;
+	left: 470px;
+	top: 1600px;
+	width: 400px;
+	height: 250px;
+	border-bottom: solid 3px #CCC;
+}
+
+#abi img {
+	float: left;
+	margin: 10px 20px 0 10px;
+}
+
+#abi p {
+	font-size: 0.8em;
+}
+
+#abi h3 img {
 	margin-top: 0px;
 }
 

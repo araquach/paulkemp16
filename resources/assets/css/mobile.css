@@ -548,31 +548,6 @@ li.active a {
 	float: left;
 }
 
-
-#caleb {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#caleb img {
-	float: none;
-}
-
-#caleb p {
-	font-size: 0.8em;
-}
-
-#caleb h3 img {
-	margin-top: 0px;
-	float: left;
-}
-
-
 #shell {
 	position: relative;
 	left: 0;
@@ -596,30 +571,6 @@ li.active a {
 	float: left;
 }
 
-
-#tash {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#tash img {
-	float: none;
-}
-
-#tash p {
-	font-size: 0.8em;
-}
-
-#tash h3 img {
-	margin-top: 0px;
-	float: left;
-}
-
 #louise {
 	position: relative;
 	left: 0;
@@ -639,6 +590,29 @@ li.active a {
 }
 
 #louise h3 img {
+	margin-top: 0px;
+	float: left;
+}
+
+#abi {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#abi img {
+	float: none;
+}
+
+#abi p {
+	font-size: 0.8em;
+}
+
+#abi h3 img {
 	margin-top: 0px;
 	float: left;
 }
