@@ -1246,7 +1246,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	position: relative;
 	min-height: 200px;
 	background-color: #FFF;
-	float:left;
+	float: left;
 	clear: left;
 }
 
@@ -1283,6 +1283,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	margin-left: 300px;
 	display: block;
 	margin-bottom: 30px;
+	width: 520px;
 }
 
 #blog a {
