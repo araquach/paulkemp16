@@ -22,7 +22,7 @@
     <div id="feedback_feed">
       	<ul>
       	@foreach($reviews as $review)
-      	    <li>&quot;{{ $review->review }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ $remove_staff($review->staff) }} </span></li>
+      	    <li>&quot;{{ $review->review }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
       	@endforeach
       	</ul>
     </div> <!--#feedback_feed-->
