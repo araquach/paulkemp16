@@ -198,8 +198,28 @@ function addTag($string)
     }
 }
 
+function limit_news_words($string)
+{
+    $words = explode(" ",$string);
+    return implode(" ",array_splice($words,0,20));
+}
+
 function limit_words($string)
 {
     $words = explode(" ",$string);
     return implode(" ",array_splice($words,0,15));
+}
+
+function remove_client($string)
+{
+    $string = str_replace('Client: ', '', $string);
+    
+    return $string;
+}
+
+function remove_staff($string)
+{
+    $string = str_replace('Staff: ', '', $string);
+    
+    return $string;
 }

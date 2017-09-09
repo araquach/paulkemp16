@@ -33,9 +33,9 @@
 	
 	<div id="feedback_feed_ind">
   	<ul>
-  	@foreach($feedbacks as $feed)
-  	    <li>&quot;{{ $feed->feedback->extra_edit }}&quot;<br><span class="client">{{ $feed->first_name }} {{ $feed->last_name }} - hair by {{ $feed->stylist }} </span></li>
-  	@endforeach
+  		@foreach($reviews as $review)
+      	    <li>&quot;{{ $review->review }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ $remove_staff($review->staff) }} </span></li>
+      	@endforeach
   	</ul>
 	</div> <!--#feedback_feed-->
 	

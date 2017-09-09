@@ -21,8 +21,8 @@
     
     <div id="feedback_feed">
       	<ul>
-      	@foreach($feedbacks as $feed)
-      	    <li>&quot;{{ $feed->extra_edit }}&quot;<br><span class="client">{{ $feed->client->first_name }} {{ $feed->client->last_name }} - hair by {{ $feed->client->stylist }} </span></li>
+      	@foreach($reviews as $review)
+      	    <li>&quot;{{ $review->review }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ $remove_staff($review->staff) }} </span></li>
       	@endforeach
       	</ul>
     </div> <!--#feedback_feed-->
@@ -41,7 +41,7 @@
 					<div class="home_news_pic" style="background: url('{{ $blog->paras()->first()->para_pic }}') no-repeat center center rgba(249, 249, 250, 0.8); background-size: cover;"></div>
 					<div class="home_news_copy">
 						<h3>{{ $blog->title }}</h3>
-						<p>{{ limit_words($blog->paras()->first()->para) }}&hellip;</p>
+						<p>{{ limit_news_words($blog->paras()->first()->para) }}&hellip;</p>
 					</div>
 				</aside>
 			</a>
