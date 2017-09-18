@@ -111,6 +111,23 @@ class PagesController extends Controller {
 		return view('pages.leaver');
 	}
 	
+	public function reviews($stylist = 'all')
+	{
+		if($stylist == 'all')
+		{
+			$reviews = Review::where('salon', '2')
+			->orderByRaw("RAND()")->limit(9)->get();
+		}
+		else
+		{
+			$reviews = Review::where('salon', '2')
+			->where('staff', 'LIKE', '%'.$stylist.'%')
+			->orderByRaw("RAND()")->limit(9)->get();
+		}
+		
+		return view('pages.reviews', compact('reviews'));
+	}
+	
 	
 	public function kel()
 	{

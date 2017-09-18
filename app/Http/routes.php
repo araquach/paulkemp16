@@ -25,6 +25,8 @@ Route::get('/louise', 'PagesController@louise');
 Route::get('/abi', 'PagesController@abi');
 Route::get('/tash', 'PagesController@leaver');
 
+Route::get('/reviews/{stylist?}', 'PagesController@reviews');
+
 Route::get('/news/index', 'NewsController@index');
 Route::get('/news/el17', 'NewsController@news1');
 Route::get('/news/newblondeme', 'NewsController@news2');
