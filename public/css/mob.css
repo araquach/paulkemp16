@@ -305,7 +305,7 @@ li.active a {
 
 #feedback_feed {
 	width: auto;
-	height: 100px;
+	height: 140px;
 	text-align: left;
 	position: relative;
 	font-size: .8em;
@@ -330,6 +330,12 @@ li.active a {
 	font: .7em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
+#feedback_feed a {
+	color: rgb(55, 34, 24);
+	display: block;
+	padding-top: 20px;
+	font-size: 1.4em;
+}
 
 /* @end */
 
@@ -3417,6 +3423,47 @@ p.big {
 }
 
 /* @end */
+
+#reviews {
+	background: #f9f5f2 url('/images/reviews/') no-repeat right top;
+	width: auto;
+	float: left;
+	height: 100%;
+	padding: 10px;
+	padding-bottom: 50px;
+}
+
+#reviews h1 {
+	width: auto;
+	margin-top: 40px;
+}
+
+#reviews h3 {
+	margin-left: 0;
+}
+
+ul.stylist-filter {
+	width: auto;
+	float: left;
+	margin: 20px 0;
+	padding: 0;
+}
+
+.review {
+	float:left;
+	clear: left;
+	display: block;
+	width: auto;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 20px;
+	padding-top: 10px;
+	border: 1px solid #999;
+	border-radius: 10px;
+	max-width: 450px;
+	background-color: #FFF;
+	background-color: rgba(255,255,255,.7);
+}
 
 /* @group Footer */
 	

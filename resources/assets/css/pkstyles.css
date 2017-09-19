@@ -703,7 +703,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	font-size: 1em;
 	line-height: 1.3em;
 	right: 70px;
-	bottom: 830px;
+	bottom: 780px;
 	display: none;
 }
 
@@ -716,6 +716,13 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 #feedback_feed ul li .client {
 	font: .7em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#feedback_feed a {
+	display: block;
+	margin-top: 20px;
+	font-size: 1.3em;
+	color: rgb(55,34,24);
 }
 
 /* @end */
@@ -3781,7 +3788,7 @@ ul.stylist-filter li {
 	list-style-type: none;
 	text-align: center;
 	color: #FFF;
-	padding-top: 70px;
+	padding-top: 90px;
 	opacity: 1;
 	font-size: .7em;
 	line-height: 1.7em;
@@ -3793,47 +3800,47 @@ ul.stylist-filter li:hover {
 }
 
 ul.stylist-filter li.review-kellie {
-	background: #424259 url('/images/reviews/kellie.jpg') no-repeat center top;
+	background: rgb(55, 34, 24) url('/images/reviews/kel.jpg') no-repeat center top;
 	background-size: contain;
 }
 
 ul.stylist-filter li.review-izzy {
-	background: #424259 url('/images/reviews/izzy.jpg') no-repeat center top;
+	background: rgb(55, 34, 24) url('/images/reviews/izzy.jpg') no-repeat center top;
 	background-size: contain;contain
 }
 
 ul.stylist-filter li.review-jo {
-	background: #424259 url('/images/reviews/jo.jpg') no-repeat center top;
+	background: rgb(55, 34, 24) url('/images/reviews/jo.jpg') no-repeat center top;
 	background-size: contain;
 }
 
 ul.stylist-filter li.review-michelle {
-	background: #424259 url('/images/reviews/michelle.jpg') no-repeat center top;
+	background: rgb(55, 34, 24) url('/images/reviews/michelle_r.jpg') no-repeat center top;
 	background-size: contain;
 }
 
 ul.stylist-filter li.review-leon {
-	background: #424259 url('/images/reviews/leon.jpg') no-repeat center top;
+	background: rgb(55, 34, 24) url('/images/reviews/leon.jpg') no-repeat center top;
 	background-size: contain;
 }
 
 ul.stylist-filter li.review-kate {
-	background: #424259 url('/images/reviews/kate.jpg') no-repeat center top;
+	background: rgb(55, 34, 24) url('/images/reviews/kate.jpg') no-repeat center top;
 	background-size: contain;
 }
 
 ul.stylist-filter li.review-matt {
-	background: #424259 url('/images/reviews/matt.jpg') no-repeat center top;
+	background: rgb(55, 34, 24) url('/images/reviews/matt.jpg') no-repeat center top;
 	background-size: contain;
 }
 
 ul.stylist-filter li.review-louise {
-	background: #424259 url('/images/reviews/louise.jpg') no-repeat center top;
+	background: rgb(55, 34, 24) url('/images/reviews/louise.jpg') no-repeat center top;
 	background-size: contain;
 }
 
 ul.stylist-filter li.review-abi {
-	background: #424259 url('/images/reviews/abi.jpg') no-repeat center top;
+	background: rgb(55, 34, 24) url('/images/reviews/abi.jpg') no-repeat center top;
 	background-size: contain;
 }
 
