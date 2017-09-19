@@ -4248,6 +4248,113 @@ div.form .errorSummary ul li {
 
 /* @end */
 
+/* @group reviews */
+
+#reviews {
+	background: #FFF url('/images/reviews/reviews-background.jpg') no-repeat right top;
+	width: 870px;
+	float: left;
+	padding: 40px;
+}
+
+#reviews h1 {
+	margin: 20px 20px;
+}
+
+#reviews h3 {
+	margin: 0;
+	margin-left: 20px;
+}
+
+ul.stylist-filter {
+	width: 400px;
+	float: left;
+	margin: 20px;
+}
+
+ul.stylist-filter li {
+	width: 70px;
+	height: 20px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	list-style-type: none;
+	text-align: center;
+	color: #FFF;
+	padding-top: 70px;
+	opacity: 1;
+	font-size: .7em;
+	line-height: 1.7em;
+	border-radius: 10px;
+}
+
+ul.stylist-filter li:hover {
+	opacity: .6;
+}
+
+ul.stylist-filter li.review-kellie {
+	background: #424259 url('/images/reviews/kellie.jpg') no-repeat center top;
+	background-size: contain;
+}
+
+ul.stylist-filter li.review-izzy {
+	background: #424259 url('/images/reviews/izzy.jpg') no-repeat center top;
+	background-size: contain;contain
+}
+
+ul.stylist-filter li.review-jo {
+	background: #424259 url('/images/reviews/jo.jpg') no-repeat center top;
+	background-size: contain;
+}
+
+ul.stylist-filter li.review-michelle {
+	background: #424259 url('/images/reviews/michelle.jpg') no-repeat center top;
+	background-size: contain;
+}
+
+ul.stylist-filter li.review-leon {
+	background: #424259 url('/images/reviews/leon.jpg') no-repeat center top;
+	background-size: contain;
+}
+
+ul.stylist-filter li.review-kate {
+	background: #424259 url('/images/reviews/kate.jpg') no-repeat center top;
+	background-size: contain;
+}
+
+ul.stylist-filter li.review-matt {
+	background: #424259 url('/images/reviews/matt.jpg') no-repeat center top;
+	background-size: contain;
+}
+
+ul.stylist-filter li.review-louise {
+	background: #424259 url('/images/reviews/louise.jpg') no-repeat center top;
+	background-size: contain;
+}
+
+ul.stylist-filter li.review-abi {
+	background: #424259 url('/images/reviews/abi.jpg') no-repeat center top;
+	background-size: contain;
+}
+
+.review {
+	float:left;
+	clear: left;
+	width: auto;
+	margin-left: 20px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
+	padding-top: 10px;
+	border: 1px solid #999;
+	border-radius: 10px;
+	max-width: 450px;
+	background-color: #FFF;
+	background-color: rgba(255,255,255,.7);
+}
+
+/* @end */
+
 /* @group Footer */
 	
 footer {

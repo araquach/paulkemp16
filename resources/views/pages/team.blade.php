@@ -91,19 +91,19 @@
 		</section>
 	</a>
 	
-	<a href="{{ URL::to('abi') }}">
-		<section id="abi">
-			<h3>{{ Html::image('images/staff/abi.jpg', 'Abi Clarke') }} Abi Clarke - Junior Stylist</h3>
-			<p>Abi joined the team as an apprentice and is on a fast track route to becoming the next PK stylist. She's currently taking on clients who require more basic levels of cutting &amp; colouring.</p>
-			<p class="teamprice">Average Cut &amp; Colour price with Abi : &pound;35</p>
-		</section>
-	</a>
-	
 	<a href="{{ URL::to('louise') }}">
 		<section id="louise">
 			<h3>{{ Html::image('images/staff/louise.jpg', 'Louise Bailey') }} Louise Bailey - Graduate Stylist</h3>
 			<p>Louise recently joined the team from working in a busy salon in Grappenhall. She's a fantastic men's stylist plus is talented in cutting and styling womens hair.</p>
 			<p class="teamprice">Average Cut &amp; Colour price with Louise : &pound;55*</p>
+		</section>
+	</a>
+	
+	<a href="{{ URL::to('abi') }}">
+		<section id="abi">
+			<h3>{{ Html::image('images/staff/abi.jpg', 'Abi Clarke') }} Abi Clarke - Junior Stylist</h3>
+			<p>Abi joined the team as an apprentice and is on a fast track route to becoming the next PK stylist. She's currently taking on clients who require more basic levels of cutting &amp; colouring.</p>
+			<p class="teamprice">Average Cut &amp; Colour price with Abi : &pound;35</p>
 		</section>
 	</a>
 
