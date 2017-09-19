@@ -22,7 +22,7 @@
     <div id="feedback_feed">
       	<ul>
       	@foreach($reviews as $review)
-      	    <li>&quot;{{ $review->review }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
+      	    <li>&quot;{{ limit_words($review->review) }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
       	@endforeach
       	</ul>
       	<p><a href="{{ URL::to('reviews') }}">More reviews here</a></p>
