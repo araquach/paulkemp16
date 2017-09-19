@@ -207,7 +207,7 @@ function limit_news_words($string)
 function limit_words($string)
 {
     $words = explode(" ",$string);
-    return implode(" ",array_splice($words,0,15));
+    return implode(" ",array_splice($words,0,25));
 }
 
 function remove_client($string)
