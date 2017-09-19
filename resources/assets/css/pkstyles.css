@@ -3860,6 +3860,10 @@ ul.stylist-filter li.review-abi {
 	background-color: rgba(255,255,255,.7);
 }
 
+.review small {
+	font-size: .7em;
+}
+
 /* @end */
 
 /* @group Footer */
