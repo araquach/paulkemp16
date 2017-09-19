@@ -5,9 +5,9 @@
 @include('layouts.partials.head', [
 	'description' => 'See what some of our recent clients said about us',
 	'keywords' => 'Paul Kemp Hairdressing reviews, PK client reviews',
-	'ogtitle' => 'Recent Reviews',
+	'ogtitle' => 'See what some of our clients said about us...',
 	'ogdescription' => $reviews->first()->review,
-	'ogimage' => url('/') . '/images/news_images/',
+	'ogimage' => url('/') . '/images/reviews/reviews-meta.jpg',
 	'title' => 'Paul Kemp Hairdressing - Reviews - Hairdressers in Warrington'
 	])
 	
