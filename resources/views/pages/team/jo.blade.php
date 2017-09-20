@@ -42,7 +42,7 @@
   	</ul>
 	</div> <!--#feedback_feed-->
 	
-	<a href="{{ URL::to('reviews/jo') }}">More of Jo's reviews here</a>
+	<a href="{{ URL::to('reviews/jo') }}">More of Jo's reviews here &gt;</a>
 	
 	<br>
 	
