@@ -462,6 +462,29 @@ li.active a {
 	float: left;
 }
 
+#iz {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#iz img {
+	float: none;
+}
+
+#iz p{
+	font-size: 0.8em;
+}
+
+#iz h3 img{
+	margin-top: 0px;
+	float: left;
+}
+
 #jo {
 	position: relative;
 	left: 0;
@@ -485,7 +508,7 @@ li.active a {
 	float: left;
 }
 
-#iz {
+#shell {
 	position: relative;
 	left: 0;
 	top: 0;
@@ -495,15 +518,38 @@ li.active a {
 	padding: 10px;
 }
 
-#iz img {
-	float: none;
+#shell img {
+	float: left;
 }
 
-#iz p{
+#shell p {
 	font-size: 0.8em;
 }
 
-#iz h3 img{
+#shell h3 img {
+	mashellrgin-top: 0px;
+	float: left;
+}
+
+#leon {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#leon img {
+	float: left;
+}
+
+#leon p {
+	font-size: 0.8em;
+}
+
+#leon h3 img {
 	margin-top: 0px;
 	float: left;
 }
@@ -531,7 +577,7 @@ li.active a {
 	float: left;
 }
 
-#leon {
+#matt {
 	position: relative;
 	left: 0;
 	top: 0;
@@ -541,39 +587,16 @@ li.active a {
 	padding: 10px;
 }
 
-#leon img {
+#kate img {
 	float: left;
 }
 
-#leon p {
+#kate p {
 	font-size: 0.8em;
 }
 
-#leon h3 img {
+#kate h3 img {
 	margin-top: 0px;
-	float: left;
-}
-
-#shell {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#shell img {
-	float: left;
-}
-
-#shell p {
-	font-size: 0.8em;
-}
-
-#shell h3 img {
-	mashellrgin-top: 0px;
 	float: left;
 }
 
@@ -1950,7 +1973,7 @@ a.book-now {
 	line-height: 1.1em;
 	left: 0;
 	right: 0;
-	margin-top: -30px;
+	margin-top: -20px;
 	opacity: 1;
 	z-index: 1;
 }
