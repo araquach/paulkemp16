@@ -35,6 +35,7 @@
       	    <li>&quot;{{ $review->review }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
       	@endforeach
   	</ul>
+  	<a href="{{ URL::to('reviews/abi') }}">More of Abi's reviews here</a>
 	</div> <!--#feedback_feed-->
 	
 	<a href="{{ URL::to('team') }}#abi">Click here to see the full team &gt;</a>
