@@ -3,7 +3,7 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Louise recently joined the team from working in a busy Grappenhall salon. She\'s an extremely skillfull men\'s hairdresser and also talented at womens cutting and styling. She\'s eager to grow her client base quickly - she\'s got some fantastic offers on for a limited time!',
+	'description' => 'Louise recently joined the team from working in a busy Grappenhall salon. She\'s an extremely skillfull men\'s hairdresser and also talented at womens cutting and styling. She's already settled right into the PK team and has recently been promoted',
 	'keywords' => 'Louise Bailey, new stylist, graduate stylist, new team member, hairdressing, hairstyling',
 	'ogtitle' => 'Louise Bailey',
 	'ogdescription' => 'Louise recently joined the team from working in a busy Grappenhall salon. She\'s an extremely skillfull men\'s hairdresser and also talented at womens cutting and styling. She\'s eager to grow her client base quickly - she\'s got some fantastic offers on for a limited time!',
@@ -27,9 +27,9 @@
 	<h2>Louise Bailey</h2>
 	<p>Louise recently joined the team from working in a busy Grappenhall salon.</p> 
 	<p>She's an extremely skillfull men's hairdresser and also talented at womens cutting and styling.</p>
-	<p>She's eager to grow her client base quickly - she's got some fantastic offers on for a limited time!</p>
+	<p>.</p>
 	<p><a href="{{ URL::to('newstaff') }}"><strong>Click here to see the offers</strong></a></p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Louise : &pound;55*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Louise : &pound;75*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>

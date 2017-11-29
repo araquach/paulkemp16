@@ -14,17 +14,16 @@ Route::get('/booking', 'PagesController@booking');
 Route::get('/kebelo', 'PagesController@kebelo');
 Route::get('/team', 'PagesController@team');
 Route::get('/newstaff', 'PagesController@newstaff');
-Route::get('/ashley', 'PagesController@ashley');
-Route::get('/michelle', 'PagesController@michelle');
 Route::get('/leon', 'PagesController@leon');
 Route::get('/kel', 'PagesController@kel');
 Route::get('/izzy', 'PagesController@izzy');
 Route::get('/jo', 'PagesController@jo');
+Route::get('/michelle', 'PagesController@michelle');
+Route::get('/amy', 'PagesController@amy');
 Route::get('/kate', 'PagesController@kate');
 Route::get('/matt', 'PagesController@matt');
 Route::get('/louise', 'PagesController@louise');
 Route::get('/abi', 'PagesController@abi');
-Route::get('/tash', 'PagesController@leaver');
 
 Route::get('/reviews/{stylist?}', 'PagesController@reviews');
 

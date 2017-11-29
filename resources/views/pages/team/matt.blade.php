@@ -32,7 +32,7 @@
 	<p>Matt recently joined the team after moving over from sister salon Jakata. </p>
 	<p>He's a multi-talented stylist with a great flare for fashion colouring, cutting and styling.</p>
 	<p>He's a popular stylist so book ahead.</p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Matt : &pound;90*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Matt : &pound;95*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>
