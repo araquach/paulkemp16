@@ -670,7 +670,7 @@ li.active a {
 }
 
 p.review-link {
-	width: auto;
+	width: 100%;
 }
 
 .csstransitions .teamprice, .csstransitions .pteamprice {
