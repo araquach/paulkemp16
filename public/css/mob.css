@@ -425,7 +425,7 @@ li.active a {
 }
 
 #feedback_feed_ind {
-	width: auto;	
+	width: 100%;	
 }
 
 @media only screen 
@@ -667,10 +667,6 @@ li.active a {
 #abi h3 img {
 	margin-top: 0px;
 	float: left;
-}
-
-p.review-link {
-	width: 100%;
 }
 
 .csstransitions .teamprice, .csstransitions .pteamprice {
