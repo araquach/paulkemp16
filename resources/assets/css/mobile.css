@@ -669,6 +669,10 @@ li.active a {
 	float: left;
 }
 
+p.review-link {
+	width: auto;
+}
+
 .csstransitions .teamprice, .csstransitions .pteamprice {
 	-o-opacity: 1;
 	-moz-opacity: 1;
