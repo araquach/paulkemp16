@@ -99,14 +99,6 @@
 		</section>
 	</a>
 	
-	<a href="{{ URL::to('matt') }}">
-		<section id="matt">
-			<h3>{{ Html::image('images/staff/matt.jpg', 'Matt Lane') }} Matt Lane - Stylist</h3>
-			<p>Matt recently joined the team after moving over from sister salon Jakata. He's a multi-talented stylist with a great flare for fashion colouring, cutting and styling. He's a popular stylist so book ahead.</p>
-			<p class="teamprice">Average Cut &amp; Colour price with Matt : &pound;95*</p>
-		</section>
-	</a>
-	
 	<a href="{{ URL::to('louise') }}">
 		<section id="louise">
 			<h3>{{ Html::image('images/staff/louise.jpg', 'Louise Bailey') }} Louise Bailey - Graduate Stylist</h3>
