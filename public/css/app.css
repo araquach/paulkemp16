@@ -1551,28 +1551,6 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	border-bottom: solid 3px #CCC;
 }
 
-#matt img {
-	float: left;
-	margin: 10px 20px 0 10px;
-}
-
-#matt p {
-	font-size: 0.8em;
-}
-
-#matt h3 img {
-	margin-top: 0px;
-}
-
-#louise {
-	position:absolute;
-	left: 40px;
-	top: 1900px;
-	width: 400px;
-	height: 250px;
-	border-bottom: solid 3px #CCC;
-}
-
 #louise img {
 	float: left;
 	margin: 10px 20px 0 10px;
@@ -1588,7 +1566,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 #abi {
 	position:absolute;
-	left: 470px;
+	left: 40px;
 	top: 1900px;
 	width: 400px;
 	height: 250px;
