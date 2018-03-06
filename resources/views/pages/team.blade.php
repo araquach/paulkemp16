@@ -101,8 +101,8 @@
 	
 	<a href="{{ URL::to('louise') }}">
 		<section id="louise">
-			<h3>{{ Html::image('images/staff/louise.jpg', 'Louise Bailey') }} Louise Bailey - Graduate Stylist</h3>
-			<p>Louise recently joined the team from working in a busy salon in Grappenhall. She's a fantastic men's stylist plus is talented in cutting and styling womens hair.</p>
+			<h3>{{ Html::image('images/staff/louise.jpg', 'Louise Bailey') }} Louise Bailey - Stylist</h3>
+			<p>Louise is one of our more recent addition to the team but is already building up a very strong client base. She's a diverse stylist with strong cutting &amp colouring skills. Her background in men's hairdressing and barbering means she's a great choice for gent's too</p>
 			<p class="teamprice">Average Cut &amp; Colour price with Louise : &pound;75*</p>
 		</section>
 	</a>
