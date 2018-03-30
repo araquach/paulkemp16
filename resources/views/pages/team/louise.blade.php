@@ -28,7 +28,7 @@
 	<p>Louise is one of our more recent addition to the team but is already building up a very strong client base.</p> 
 	<p>She's a diverse stylist with strong cutting &amp colouring skills.</p>
 	<p>Her background in men's hairdressing and barbering means she's a great choice for gent's too</p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Louise : &pound;95*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Louise : &pound;107*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>

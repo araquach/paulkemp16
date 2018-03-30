@@ -30,7 +30,7 @@
 	<p>Amy is an extremely talented stylist with over 7 years experience including working in Australia.</p>
 	<p>She particularly loves colouring hair, especially using balayage techniques. She also loves creating soft waves and more natural, lived in looks.</p>
 	<p>She's already proving to be a popular stylist so ensure you book ahead!</p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Amy : &pound;95*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Amy : &pound;107*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>
